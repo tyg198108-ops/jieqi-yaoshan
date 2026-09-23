@@ -15,26 +15,50 @@ import os
 os.environ.setdefault('YS_API_ONLY', '1')
 os.environ.setdefault('YS_DB_PATH', '/tmp/yaoshan.db')
 
-from cloud_adapter import handle  # noqa: E402
-from main import app  # noqa: E402
+def _error_response(stage, exc):
+    """把启动/调用期错误转成 500 JSON 返回。
+
+    为什么必须做：云函数在 import 阶段崩溃时，网关只会给出笼统的
+    FUNCTIONS_INVOCATION_FAILED，远程排查等于瞎子摸象；把堆栈尾部直接
+    放进响应体，curl 一下就能看到缺了哪个包。
+    """
+    import traceback, json
+    tb = traceback.format_exc().strip().splitlines()[-12:]
+    body = json.dumps({
+        'detail': 'yaoshan-api %s 阶段错误: %s' % (stage, type(exc).__name__),
+        'error': str(exc)[:300],
+        'traceback_tail': tb,
+    }, ensure_ascii=False)
+    return {
+        'statusCode': 500,
+        'headers': {'Content-Type': 'application/json; charset=utf-8'},
+        'isBase64Encoded': False,
+        'body': body,
+    }
+
+
+try:
+    from cloud_adapter import handle  # noqa: E402
+    from main import app  # noqa: E402
+    _IMPORT_OK = True
+except Exception as _e:  # 缺依赖/路径问题时函数仍可部署，但每个请求返回诊断信息
+    _IMPORT_OK = False
+    _IMPORT_ERR = _e
+    handle = None
+    app = None
 
 
 def main(event, context=None):
     """云函数唯一入口。参数顺序和返回结构是网关规定的，不要改签名。"""
+    if not _IMPORT_OK:
+        return _error_response('启动(import)', _IMPORT_ERR)
     # 网关健康检查有时会带空 event，兜住避免 500
     if not event or not isinstance(event, dict):
         event = {'httpMethod': 'GET', 'path': '/api/health', 'headers': {}, 'queryString': ''}
     try:
         return handle(app, event)
     except Exception as e:
-        import traceback
-        traceback.print_exc()
-        return {
-            'statusCode': 500,
-            'headers': {'Content-Type': 'application/json; charset=utf-8'},
-            'isBase64Encoded': False,
-            'body': '{"detail":"云函数内部错误: %s"}' % type(e).__name__,
-        }
+        return _error_response('调用', e)
 
 
 if __name__ == '__main__':

@@ -66,8 +66,21 @@ def build_function():
     # 入口与依赖清单
     shutil.copy2(os.path.join(BACKEND, 'cloud_entry.py'), os.path.join(FN, 'index.py'))
     shutil.copy2(os.path.join(BACKEND, 'requirements_cloud.txt'), os.path.join(FN, 'requirements.txt'))
-    print(f'  云函数：{n1} 个 py + {n2} 个 json + index.py + requirements.txt')
-    return n1 + n2
+
+    # 依赖直接打进包里（_cloud_deps 为 manylinux2014/py39 预下载产物，见 _get_deps 命令）。
+    # 为什么不靠云端装：zip 上传的函数不保证触发在线安装依赖，缺包时表现是
+    # FUNCTIONS_INVOCATION_FAILED，远程很难排查；自带依赖一次解决。
+    n3 = 0
+    deps = os.path.join(ROOT, '_cloud_deps')
+    if os.path.isdir(deps):
+        def keep_dep(f, rel):
+            r = rel.replace('\\', '/')
+            return not (f.endswith(('.pyc', '.whl')) or '__pycache__' in r
+                        or r.startswith('bin/') or r.startswith('include/')
+                        or '/bin/' in r or '/include/' in r)
+        n3 = copy_tree(deps, FN, keep_dep)
+    print(f'  云函数：{n1} 个 py + {n2} 个 json + index.py + requirements.txt + {n3} 个依赖文件')
+    return n1 + n2 + n3
 
 
 def build_web():
