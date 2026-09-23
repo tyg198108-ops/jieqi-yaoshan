@@ -13,11 +13,10 @@ window.YS_CLOUD_CONFIG = {
   // 可以写单个字符串，也可以写数组 —— 会按顺序逐个试 /api/health，用第一个通的。
   // 不存在的域名解析会立刻失败，不会拖慢页面。
   apiBase: [
-    // 静态网站托管的默认域名。只有当你在「HTTP 访问服务」里把 /api/* 路径
-    // 挂到这个域名下时才通；没挂会是 404。
+    // HTTP 网关默认域名（2026-09-24 控制台实际显示的这个，真实有效）
+    'https://jieqi-yaoshan-d7gd6ypfscd10299f-1308818540.ap-shanghai.app.tcloudbase.com',
+    // 以下为备用候选，控制台若显示其他写法再调整；不存在的域名解析立刻失败，不拖慢页面
     'https://jieqi-yaoshan-d7gd6ypfscd10299f-1308818540.tcloudbaseapp.com',
-    // 「HTTP 访问服务」常见的两种默认域名写法，二选一，总有一个对。
-    // 开通后控制台显示哪个，就把另一条删掉。
     'https://jieqi-yaoshan-d7gd6ypfscd10299f.service.tcloudbase.com',
     'https://jieqi-yaoshan-d7gd6ypfscd10299f-1308818540.service.tcloudbase.com'
   ],
