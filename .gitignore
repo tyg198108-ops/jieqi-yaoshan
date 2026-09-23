@@ -42,3 +42,6 @@ dist/
 # SQLite 运行时产物
 *.db-shm
 *.db-wal
+
+# 云函数依赖的本地预下载目录（构建时打进 zip，不入库）
+_cloud_deps/
