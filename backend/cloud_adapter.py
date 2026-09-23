@@ -60,6 +60,9 @@ def _query_string(event):
     return urlencode(pairs, doseq=True).encode('utf-8') if pairs else b''
 
 
+_ROUTE_CACHE = {}
+
+
 def build_scope(event):
     ctx = event.get('requestContext') or {}
     method = (event.get('httpMethod') or ctx.get('httpMethod') or 'GET').upper()
@@ -158,12 +161,30 @@ def handle(app, event):
     最省心 —— 我们的请求量级下这点开销可以忽略。
     """
     scope = build_scope(event)
-    body = _decode_body(event)
+    req_body = _decode_body(event)
 
     # Starlette 没有 content-type 时会按空 body 处理 POST；写操作缺失会 400
     if not scope.pop('_content_type_present', False) and scope['method'] in ('POST', 'PUT', 'PATCH'):
-        if not body:
-            body = b''
         scope['headers'].append((b'content-type', b'application/json'))
 
-    return asyncio.run(_call_asgi(app, scope, body))
+    resp = asyncio.run(_call_asgi(app, scope, req_body))
+    if resp['statusCode'] != 404:
+        return resp
+
+    # ---- 404 兜底：网关传来的路径可能少了 /api 前缀 ----
+    # CloudBase 的 HTTP 网关配了 `/api/*` 之后，转发给云函数的 event.path
+    # 有可能是剥掉前缀的 `/health`。这种 404 跟"接口根本没写"长得一模一样，
+    # 远程很难判断到底是哪种，所以补一次反向尝试：带上 /api 再试，
+    # 或者反过来去掉 /api 再试。正常请求不会走到这里。
+    path = scope['path']
+    alt = path[len('/api'):] if path.startswith('/api') else '/api' + path
+    if not alt or alt == path:
+        return resp
+    alt_scope = dict(scope)
+    alt_scope['path'] = alt
+    alt_scope['raw_path'] = alt.encode('latin-1')
+    try:
+        alt_resp = asyncio.run(_call_asgi(app, alt_scope, req_body))
+    except Exception:
+        return resp
+    return alt_resp if alt_resp['statusCode'] != 404 else resp
