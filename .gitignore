@@ -47,4 +47,4 @@ dist/
 _cloud_deps/
 
 # 依赖检查用的临时工具
-tools_deps/
+_tools_deps/
