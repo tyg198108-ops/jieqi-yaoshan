@@ -6,11 +6,21 @@
 window.YS_CLOUD_CONFIG = {
   enabled: true,
   env: 'jieqi-yaoshan-d7gd6ypfscd10299f',
-  // 后端地址。本地开发不用填（留 null，走同源 /api）；
-  // 部署到云开发后，把「HTTP 访问服务」给的域名填进来，例如：
-  //   apiBase: 'https://jieqi-yaoshan-1a2b3c.service.tcloudbase.com'
-  // 填错会导致静态站连不上后端，页面降级成本地副本（表现为食材数从 207 掉回 195）。
-  apiBase: null,
+  // 这两处域名要分清，别填混：
+  //   webBase   = 静态网站托管的默认域名（页面自己所在的域名，不用手填）
+  //   apiBase   = 后端云函数的对外域名（HTTP 访问服务给的域名，必须手填）
+  // 本机跑 localhost 时这里可以留 null（走同源 /api），不影响本地开发。
+  // 可以写单个字符串，也可以写数组 —— 会按顺序逐个试 /api/health，用第一个通的。
+  // 不存在的域名解析会立刻失败，不会拖慢页面。
+  apiBase: [
+    // 静态网站托管的默认域名。只有当你在「HTTP 访问服务」里把 /api/* 路径
+    // 挂到这个域名下时才通；没挂会是 404。
+    'https://jieqi-yaoshan-d7gd6ypfscd10299f-1308818540.tcloudbaseapp.com',
+    // 「HTTP 访问服务」常见的两种默认域名写法，二选一，总有一个对。
+    // 开通后控制台显示哪个，就把另一条删掉。
+    'https://jieqi-yaoshan-d7gd6ypfscd10299f.service.tcloudbase.com',
+    'https://jieqi-yaoshan-d7gd6ypfscd10299f-1308818540.service.tcloudbase.com'
+  ],
   // 集合名，需与控制台里建的一致
   collection: {
     plans: 'user_plans',

@@ -39,14 +39,42 @@
     try { return global.localStorage && global.localStorage.getItem('YS_API_BASE'); } catch (e) { return null; }
   }
 
+  /* 本机（localhost / 127.0.0.1 / file://）打开时，判定为本地环境。 */
+  var LOCAL_HOST = { '': 1, localhost: 1, '127.0.0.1': 1, '0.0.0.0': 1, '[::1]': 1 };
+
+  function isLocalHost() {
+    try {
+      var h = global.location && global.location.hostname;
+      return !h || !!LOCAL_HOST[String(h).toLowerCase()];
+    } catch (e) { return true; }
+  }
+
   function candidates() {
     var ov = overrideBase();
     if (ov) return [String(ov).replace(/\/+$/, '')];
-    var list = [];
-    if (isFileProtocol()) list.push(DEFAULT_ORIGIN);
+    /* 支持写多个候选（数组形式），逐个探测第一个通的。
+       好处：CloudBase「HTTP 访问服务」给的域名和「静态网站托管」的默认域名
+       不是同一个，万一填错不必重新打包上传，改配置顺序即可。 */
+    var api = [];
     var cfg = global.YS_CLOUD_CONFIG || {};
-    if (cfg.apiBase) list.push(String(cfg.apiBase).replace(/\/+$/, ''));
-    list.push('');                       // 同源兜底
+    var raw = cfg.apiBase;
+    if (raw) {
+      var arr = Array.isArray(raw) ? raw : [raw];
+      for (var i = 0; i < arr.length; i++) {
+        var s = String(arr[i]).replace(/\/+$/, '');
+        if (s) api.push(s);
+      }
+    }
+
+    if (isLocalHost()) {
+      /* 本机开发：同源优先，绝不先探云端。
+         理由：填了 apiBase 后若本地也先探云端，离线开发会白等一次超时，
+               而且改了本地代码却读到线上数据，排查起来很坑。 */
+      return isFileProtocol() ? [DEFAULT_ORIGIN, ''] : [''];
+    }
+    /* 线上：候选域名排前面，同源兜底。 */
+    var list = api.slice();
+    list.push('');
     return list;
   }
 
