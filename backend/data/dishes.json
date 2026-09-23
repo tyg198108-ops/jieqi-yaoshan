@@ -1,0 +1,7022 @@
+[
+ {
+  "name": "凉拌马兰头",
+  "category": "时令凉菜",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "马兰头",
+    "amount": "200g"
+   },
+   {
+    "name": "香干",
+    "amount": "50g"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "香油",
+    "amount": "适量"
+   },
+   {
+    "name": "盐",
+    "amount": "适量"
+   },
+   {
+    "name": "糖",
+    "amount": "少许"
+   },
+   {
+    "name": "生抽",
+    "amount": "少许"
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "凉拌",
+  "cooking_steps": [
+   "马兰头洗净，沸水焯烫1分钟捞出过凉水",
+   "挤干水分切碎，香干切碎",
+   "加调料拌匀装盘即可"
+  ],
+  "skills": "马兰头焯水时间不宜过长，保持翠绿；挤干水分才香；糖少许提鲜不要吃出甜味。",
+  "efficacy_chinese": "清热解毒，凉血止血，清肝明目，春季时令野菜，疏肝降火。",
+  "nutrition_info": "马兰头富含维生素A、维生素C、胡萝卜素、钾钙铁等矿物质，高纤维低热量，春季食用可补充维生素，清热降火。",
+  "suitable_constitutions": [
+   "湿热质",
+   "阴虚质",
+   "平和质",
+   "气郁质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "立春",
+   "雨水",
+   "惊蛰",
+   "春分",
+   "清明",
+   "谷雨"
+  ],
+  "contraindication": "脾胃虚寒者不宜多食；女性经期少食。",
+  "appearance_standard": "色泽翠绿，清香爽口，摆盘整洁",
+  "flavor": "清淡鲜香",
+  "is_medicinal": 0,
+  "story": "马兰头是江南春季著名野菜，清明前后采食，有'春季第一野菜'之称，是立春至清明的时令珍馐。",
+  "id": 1
+ },
+ {
+  "name": "香椿拌豆腐",
+  "category": "时令凉菜",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "香椿芽",
+    "amount": "100g"
+   },
+   {
+    "name": "嫩豆腐",
+    "amount": "300g"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "盐",
+    "amount": "适量"
+   },
+   {
+    "name": "香油",
+    "amount": "适量"
+   },
+   {
+    "name": "生抽",
+    "amount": "少许"
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "凉拌",
+  "cooking_steps": [
+   "香椿洗净沸水焯烫30秒变绿捞出",
+   "过凉水后挤干水分切碎",
+   "豆腐切小块加盐腌10分钟滗去水",
+   "香椿碎撒在豆腐上，加调料拌匀"
+  ],
+  "skills": "香椿必须焯水去除亚硝酸盐；选嫩香椿芽最香；豆腐选南豆腐或内酯豆腐嫩滑。",
+  "efficacy_chinese": "健脾开胃，清热利湿，香椿生发阳气，春季助阳生发。",
+  "nutrition_info": "香椿富含维生素C、胡萝卜素、香椿素，芳香醒脾，促进食欲，豆腐补充植物蛋白，清淡爽口。",
+  "suitable_constitutions": [
+   "平和质",
+   "气虚质",
+   "阳虚质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "谷雨",
+   "立春"
+  ],
+  "contraindication": "香椿为发物，慢性疾病患者慎食；过敏性体质慎食。",
+  "appearance_standard": "白绿相间，香气浓郁，嫩滑爽口",
+  "flavor": "鲜香清淡",
+  "is_medicinal": 0,
+  "story": "雨前香椿嫩如丝，谷雨前后香椿最香，是春季独有的美味，香椿拌豆腐是经典时令凉菜。",
+  "id": 2
+ },
+ {
+  "name": "老醋蜇头",
+  "category": "开胃凉菜",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "海蜇头",
+    "amount": "200g"
+   },
+   {
+    "name": "黄瓜",
+    "amount": "1根"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "陈醋",
+    "amount": "3勺"
+   },
+   {
+    "name": "生抽",
+    "amount": "1勺"
+   },
+   {
+    "name": "糖",
+    "amount": "1勺"
+   },
+   {
+    "name": "香油",
+    "amount": "适量"
+   },
+   {
+    "name": "蒜末",
+    "amount": "适量"
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "凉拌",
+  "cooking_steps": [
+   "海蜇头提前泡发去盐分，切小块",
+   "沸水快速焯烫5秒捞出过冰水",
+   "黄瓜拍碎切块",
+   "加调料拌匀即可"
+  ],
+  "skills": "海蜇焯水时间要短，否则会缩老；陈醋提香开胃；冰镇后更爽脆。",
+  "efficacy_chinese": "清热化痰，消积润肠，开胃醒酒，适合宴席开胃。",
+  "nutrition_info": "海蜇富含胶原蛋白、矿物质，低脂肪低热量，清热滋阴，黄瓜清爽补水，开胃解腻。",
+  "suitable_constitutions": [
+   "平和质",
+   "湿热质",
+   "阴虚质",
+   "痰湿质"
+  ],
+  "suitable_seasons": [
+   "夏季",
+   "四季"
+  ],
+  "contraindication": "脾胃虚寒者少食。",
+  "appearance_standard": "蜇头爽脆，酸甜开胃，色泽红亮",
+  "flavor": "酸甜爽脆",
+  "is_medicinal": 0,
+  "story": "老醋蜇头是经典开胃凉菜，爽脆解腻，宴席开头上此菜可打开食客胃口。",
+  "id": 3
+ },
+ {
+  "name": "萝卜排骨汤",
+  "category": "节气例汤",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "白萝卜",
+    "amount": "500g"
+   },
+   {
+    "name": "猪排骨",
+    "amount": "400g"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "生姜",
+    "amount": "3片"
+   },
+   {
+    "name": "料酒",
+    "amount": "1勺"
+   },
+   {
+    "name": "盐",
+    "amount": "适量"
+   },
+   {
+    "name": "胡椒粉",
+    "amount": "少许"
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "排骨焯水去血沫捞出洗净",
+   "萝卜切滚刀块",
+   "砂锅加水放排骨姜片料酒大火烧开转小火炖1小时",
+   "加萝卜继续炖30分钟，加盐胡椒粉调味即可"
+  ],
+  "skills": "排骨冷水下锅焯水去血沫；萝卜后放才甜；小火慢炖汤才鲜。",
+  "efficacy_chinese": "下气消食，润肺生津，冬季食用顺气养胃，冬吃萝卜夏吃姜。",
+  "nutrition_info": "萝卜富含芥子油、膳食纤维、维生素C，顺气助消化，排骨提供优质蛋白和钙，汤清味鲜不油腻。",
+  "suitable_constitutions": [
+   "平和质",
+   "痰湿质",
+   "气郁质",
+   "冬季一般人群"
+  ],
+  "suitable_seasons": [
+   "冬季",
+   "立冬",
+   "小雪",
+   "大雪",
+   "冬至",
+   "小寒",
+   "大寒"
+  ],
+  "contraindication": "脾胃虚寒者可加生姜同炖；服用人参期间不宜吃萝卜。",
+  "appearance_standard": "汤色清亮，萝卜透明，肉烂汤鲜",
+  "flavor": "清鲜清甜",
+  "is_medicinal": 0,
+  "story": "冬吃萝卜夏吃姜，不劳医生开药方。立冬后的萝卜赛人参，冬季喝萝卜汤顺气消食最养人。",
+  "id": 4
+ },
+ {
+  "name": "银耳百合莲子汤",
+  "category": "滋阴润肺汤",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "银耳",
+    "amount": "1朵（干15g）"
+   },
+   {
+    "name": "百合",
+    "amount": "1个（干10g）"
+   },
+   {
+    "name": "莲子",
+    "amount": "30g"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "枸杞子",
+    "amount": "10粒"
+   },
+   {
+    "name": "冰糖",
+    "amount": "适量"
+   },
+   {
+    "name": "红枣",
+    "amount": "3颗"
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "煲",
+  "cooking_steps": [
+   "银耳提前泡发撕小朵",
+   "莲子去芯，百合掰开洗净",
+   "所有材料入砂锅加足量水大火烧开转小火煲1.5小时",
+   "加冰糖枸杞再煮10分钟即可"
+  ],
+  "skills": "银耳要选丑耳易出胶；小火慢炖才会出胶浓稠；莲子芯苦寒怕苦可去掉。",
+  "efficacy_chinese": "滋阴润肺，养心安神，养阴生津，秋燥季节最宜。",
+  "nutrition_info": "银耳植物胶质润肺养颜，百合苷安神止咳，莲子碱养心安神，低糖清甜，滋阴不滋腻。",
+  "suitable_constitutions": [
+   "阴虚质",
+   "气郁质",
+   "平和质",
+   "干燥者"
+  ],
+  "suitable_seasons": [
+   "秋季",
+   "立秋",
+   "处暑",
+   "白露",
+   "秋分",
+   "寒露"
+  ],
+  "contraindication": "风寒咳嗽、痰湿咳嗽者不宜。",
+  "appearance_standard": "汤色乳白浓稠，口感润滑清甜",
+  "flavor": "清甜润滑",
+  "is_medicinal": 1,
+  "story": "银耳百合莲子汤是秋季润燥经典甜汤，平民燕窝，滋阴润肺，女人常喝皮肤好，秋睡香。",
+  "id": 5
+ },
+ {
+  "name": "当归生姜羊肉汤",
+  "category": "温阳补血汤",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "羊肉",
+    "amount": "500g"
+   },
+   {
+    "name": "当归",
+    "amount": "20g"
+   },
+   {
+    "name": "生姜",
+    "amount": "30g"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "料酒",
+    "amount": "1勺"
+   },
+   {
+    "name": "盐",
+    "amount": "适量"
+   },
+   {
+    "name": "胡椒粉",
+    "amount": "少许"
+   }
+  ],
+  "medicinal_ingredients": [
+   {
+    "name": "当归",
+    "amount": "20g"
+   }
+  ],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "羊肉切块冷水下锅加料酒焯水去血沫捞出",
+   "生姜切片",
+   "砂锅加水放羊肉、当归、生姜大火烧开转小火炖2小时",
+   "加盐胡椒粉调味即可"
+  ],
+  "skills": "羊肉焯水加料酒去膻；当归用量不宜过大以免药味太重；小火炖至羊肉酥烂。",
+  "efficacy_chinese": "温中补虚，补血散寒，温补肾阳，冬至大寒大雪节气经典药膳。",
+  "nutrition_info": "羊肉优质蛋白、铁含量丰富，温补气血，当归促进造血，生姜温中散寒，是医圣张仲景《金匮要略》经典名方。",
+  "suitable_constitutions": [
+   "阳虚质",
+   "血虚质",
+   "气虚质"
+  ],
+  "suitable_seasons": [
+   "冬季",
+   "冬至",
+   "大雪",
+   "小寒",
+   "大寒"
+  ],
+  "contraindication": "阴虚火旺、湿热体质、感冒发烧、高血压、疮疡肿毒者忌服。",
+  "appearance_standard": "汤色奶白，羊肉酥烂，药香与肉香融合，无明显膻味",
+  "flavor": "浓郁鲜香",
+  "is_medicinal": 1,
+  "story": "当归生姜羊肉汤出自医圣张仲景《金匮要略》，是冬季温补第一方，冬至进补必喝，温阳补血散寒。",
+  "id": 6
+ },
+ {
+  "name": "荷叶山楂饮",
+  "category": "清热祛湿饮品",
+  "dish_type": "茶饮",
+  "main_ingredients": [
+   {
+    "name": "荷叶",
+    "amount": "10g"
+   },
+   {
+    "name": "山楂",
+    "amount": "15g"
+   },
+   {
+    "name": "陈皮",
+    "amount": "5g"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "冰糖",
+    "amount": "适量"
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮/泡",
+  "cooking_steps": [
+   "所有材料洗净放入养生壶",
+   "加水1000ml煮20分钟",
+   "加冰糖调味即可，可冰镇饮用"
+  ],
+  "skills": "荷叶选干品鲜品均可；山楂开胃消脂；陈皮理气；冰镇后更解暑但脾胃虚寒者温饮。",
+  "efficacy_chinese": "清热解暑，健脾祛湿，消脂化积，夏季长夏消暑减肥常用饮品。",
+  "nutrition_info": "荷叶碱消脂减肥，山楂酸解油腻助消化，陈皮挥发油理气健脾，零脂肪低热量。",
+  "suitable_constitutions": [
+   "痰湿质",
+   "湿热质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "夏季",
+   "长夏",
+   "立夏",
+   "小满",
+   "芒种",
+   "小暑",
+   "大暑"
+  ],
+  "contraindication": "脾胃虚寒、孕妇、胃酸过多者不宜。",
+  "appearance_standard": "汤色淡黄清澈，酸甜适口，荷香清幽",
+  "flavor": "酸甜清香",
+  "is_medicinal": 1,
+  "story": "荷叶山楂饮是夏季经典清暑饮品，民间传为减肥消脂茶，暑天喝一杯既解暑又消腻。",
+  "id": 7
+ },
+ {
+  "name": "绿豆汤",
+  "category": "清热解暑汤",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "绿豆",
+    "amount": "100g"
+   },
+   {
+    "name": "百合",
+    "amount": "20g"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "冰糖",
+    "amount": "适量"
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "绿豆百合洗净",
+   "加水大火烧开转小火煮40分钟至绿豆开花",
+   "加冰糖调味即可"
+  ],
+  "skills": "绿豆不要煮得太烂以保留清热功效；冰镇后饮用但不宜过冰；可加薏米增强祛湿。",
+  "efficacy_chinese": "清热解毒，消暑生津，夏季清暑第一饮品。",
+  "nutrition_info": "绿豆球蛋白清热解毒，百合养阴生津，夏季补充水分和矿物质，清热不伤胃（煮烂后）。",
+  "suitable_constitutions": [
+   "湿热质",
+   "平和质",
+   "暑热证者"
+  ],
+  "suitable_seasons": [
+   "夏季",
+   "夏至",
+   "小暑",
+   "大暑"
+  ],
+  "contraindication": "脾胃虚寒者、阳虚体质、经期女性不宜多饮冰绿豆汤。",
+  "appearance_standard": "绿豆开花，汤色碧绿，清甜解暑",
+  "flavor": "清甜",
+  "is_medicinal": 0,
+  "story": "绿豆汤是中国家庭夏季必备解暑饮品，夏至到三伏天几乎家家都煮，清热解暑老幼皆宜。",
+  "id": 8
+ },
+ {
+  "name": "枸杞菊花茶",
+  "category": "清肝明目茶饮",
+  "dish_type": "茶饮",
+  "main_ingredients": [
+   {
+    "name": "枸杞子",
+    "amount": "10g"
+   },
+   {
+    "name": "菊花",
+    "amount": "5g"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "冰糖",
+    "amount": "适量"
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "泡",
+  "cooking_steps": [
+   "枸杞菊花洗净放入杯中",
+   "沸水冲泡加盖焖5分钟",
+   "加冰糖调味即可"
+  ],
+  "skills": "菊花选杭白菊或贡菊，不宜久煮；枸杞后放营养更好。",
+  "efficacy_chinese": "清肝明目，滋补肝肾，春季养肝明目，适合肝火旺、用眼过度人群。",
+  "nutrition_info": "枸杞多糖护眼，菊花苷明目降压，富含维生素A，缓解视疲劳。",
+  "suitable_constitutions": [
+   "平和质",
+   "湿热质",
+   "阴虚质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "惊蛰",
+   "春分",
+   "清明"
+  ],
+  "contraindication": "脾胃虚寒者少饮；阳虚体质不宜长期饮用。",
+  "appearance_standard": "茶汤淡黄，菊花盛开，枸杞红润，清甜回甘",
+  "flavor": "清甜",
+  "is_medicinal": 0,
+  "story": "枸杞菊花茶是经典养肝明目茶饮，春季饮用疏肝清火，是电脑族必备养生茶。",
+  "id": 9
+ },
+ {
+  "name": "冰糖雪梨",
+  "category": "润肺止咳甜品",
+  "dish_type": "甜品",
+  "main_ingredients": [
+   {
+    "name": "梨",
+    "amount": "1个"
+   },
+   {
+    "name": "冰糖",
+    "amount": "30g"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "川贝母粉",
+    "amount": "2g（可选）"
+   },
+   {
+    "name": "枸杞子",
+    "amount": "5粒"
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "雪梨洗净从顶部切开做盖",
+   "挖去梨核放入冰糖川贝",
+   "盖上梨盖用牙签固定",
+   "放入碗中隔水蒸30分钟即可"
+  ],
+  "skills": "选雪梨或鸭梨，蒸的时间够梨才软糯；冰糖用量根据口味调整。",
+  "efficacy_chinese": "润肺止咳，生津润燥，清热化痰，秋季润燥经典甜品。",
+  "nutrition_info": "雪梨富含水分、苹果酸、维生素B族、C，润肺生津，冰糖补中益气，秋冬干燥季节最宜。",
+  "suitable_constitutions": [
+   "阴虚质",
+   "平和质",
+   "秋燥咳嗽者"
+  ],
+  "suitable_seasons": [
+   "秋季",
+   "白露",
+   "秋分",
+   "寒露",
+   "霜降"
+  ],
+  "contraindication": "风寒咳嗽、脾胃虚寒、糖尿病患者慎食。",
+  "appearance_standard": "梨肉软糯透明，汤汁清甜，梨形完整",
+  "flavor": "清甜滋润",
+  "is_medicinal": 0,
+  "story": "冰糖雪梨是民间传统润肺止咳食疗方，秋燥咳嗽时蒸一个，胜过吃药。",
+  "id": 10
+ },
+ {
+  "name": "山药大枣粥",
+  "category": "健脾养胃主食",
+  "dish_type": "主食",
+  "main_ingredients": [
+   {
+    "name": "粳米",
+    "amount": "100g"
+   },
+   {
+    "name": "山药",
+    "amount": "100g"
+   },
+   {
+    "name": "红枣",
+    "amount": "5颗"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "冰糖",
+    "amount": "适量"
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "粳米洗净浸泡30分钟",
+   "山药去皮切小块，红枣洗净",
+   "所有材料入锅加水大火烧开转小火熬40分钟至粥稠",
+   "加冰糖调味即可"
+  ],
+  "skills": "山药戴手套去皮防痒；粥要小火慢熬才稠；粳米选东北大米香糯。",
+  "efficacy_chinese": "健脾养胃，补中益气，四季皆宜，长夏健脾最佳。",
+  "nutrition_info": "山药淀粉酶帮助消化，红枣补血，粳米提供碳水化合物，温和易消化，老幼皆宜。",
+  "suitable_constitutions": [
+   "气虚质",
+   "平和质",
+   "阳虚质",
+   "痰湿质"
+  ],
+  "suitable_seasons": [
+   "四季",
+   "长夏",
+   "雨水",
+   "芒种"
+  ],
+  "contraindication": "湿盛胀满、积食者少食。",
+  "appearance_standard": "粥稠绵软，山药粉糯，枣香浓郁",
+  "flavor": "清甜香糯",
+  "is_medicinal": 0,
+  "story": "山药大枣粥是健脾养胃第一粥，老人小孩脾胃虚弱者最宜，长夏季节天天喝都不腻。",
+  "id": 11
+ },
+ {
+  "name": "荷叶粉蒸肉",
+  "category": "夏令名菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "带皮五花肉",
+    "amount": "500g"
+   },
+   {
+    "name": "荷叶",
+    "amount": "2张"
+   },
+   {
+    "name": "蒸肉米粉",
+    "amount": "100g"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "生抽",
+    "amount": "2勺"
+   },
+   {
+    "name": "老抽",
+    "amount": "1勺"
+   },
+   {
+    "name": "料酒",
+    "amount": "1勺"
+   },
+   {
+    "name": "生姜",
+    "amount": "3片"
+   },
+   {
+    "name": "糖",
+    "amount": "1勺"
+   }
+  ],
+  "medicinal_ingredients": [
+   {
+    "name": "荷叶",
+    "amount": "2张"
+   }
+  ],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "五花肉切厚片加调料腌制1小时",
+   "裹上蒸肉米粉",
+   "用荷叶包好上笼大火蒸1.5小时即可"
+  ],
+  "skills": "选五花肉三层分明；鲜荷叶清香最佳，干荷叶要泡软；米粉裹均匀。",
+  "efficacy_chinese": "清热解暑，升发清阳，荷叶解肉腻，夏季吃肉不油腻。",
+  "nutrition_info": "荷叶碱化湿解腻，五花肉提供能量，夏季食用清暑不碍胃，江南夏季名菜。",
+  "suitable_constitutions": [
+   "平和质",
+   "气虚质"
+  ],
+  "suitable_seasons": [
+   "夏季",
+   "立夏",
+   "芒种",
+   "夏至",
+   "小暑"
+  ],
+  "contraindication": "湿热、痰湿重、高血脂、肥胖者少食；阴虚火旺者不宜。",
+  "appearance_standard": "荷香浓郁，肉酥粉糯，肥而不腻，荷叶翠绿包裹",
+  "flavor": "荷香浓郁，咸鲜软糯",
+  "is_medicinal": 0,
+  "story": "荷叶粉蒸肉是江南夏令名菜，用新鲜荷叶包裹蒸制，荷香融入肉中，夏天吃肉也清爽不腻。",
+  "id": 12
+ },
+ {
+  "name": "清炒时令绿叶菜",
+  "category": "时令素菜",
+  "dish_type": "素菜",
+  "main_ingredients": [
+   {
+    "name": "时令绿叶菜",
+    "amount": "300g"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "蒜",
+    "amount": "3瓣"
+   },
+   {
+    "name": "盐",
+    "amount": "适量"
+   },
+   {
+    "name": "油",
+    "amount": "适量"
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "时蔬洗净切段",
+   "蒜切末爆香",
+   "大火快炒至断生加盐调味出锅"
+  ],
+  "skills": "大火快炒保持翠绿；盐最后放不出水；春选韭菜、夏选空心菜、秋选菠菜、冬选白菜。",
+  "efficacy_chinese": "补充维生素，膳食纤维，顺时而食，清淡爽口。",
+  "nutrition_info": "时令蔬菜最新鲜营养最丰富，富含维生素、膳食纤维、矿物质，低热量高纤维。",
+  "suitable_constitutions": [
+   "平和质",
+   "气虚质",
+   "阳虚质",
+   "阴虚质",
+   "痰湿质",
+   "湿热质"
+  ],
+  "suitable_seasons": [
+   "春",
+   "夏",
+   "秋",
+   "冬",
+   "四季"
+  ],
+  "contraindication": "无特殊禁忌。",
+  "appearance_standard": "色泽翠绿，爽脆可口，不出水",
+  "flavor": "清淡爽口",
+  "is_medicinal": 0,
+  "story": "清炒时蔬是每餐必备，不时不食，什么季节吃什么菜，是中华饮食养生的智慧。",
+  "id": 13
+ },
+ {
+  "name": "黄芪汽锅鸡",
+  "category": "补气药膳",
+  "dish_type": "主菜",
+  "main_ingredients": [
+   {
+    "name": "土鸡",
+    "amount": "500g"
+   },
+   {
+    "name": "黄芪",
+    "amount": "20g"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "生姜",
+    "amount": "3片"
+   },
+   {
+    "name": "红枣",
+    "amount": "3颗"
+   },
+   {
+    "name": "盐",
+    "amount": "适量"
+   },
+   {
+    "name": "料酒",
+    "amount": "1勺"
+   }
+  ],
+  "medicinal_ingredients": [
+   {
+    "name": "黄芪",
+    "amount": "20g"
+   }
+  ],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "土鸡切块焯水去血沫",
+   "放入汽锅加黄芪姜片红枣料酒",
+   "汽锅置于蒸锅上小火蒸3小时",
+   "加盐调味即可"
+  ],
+  "skills": "选土鸡味道鲜；汽锅不用加水，蒸汽凝成汤最鲜；小火慢蒸。",
+  "efficacy_chinese": "补中益气，补虚养血，增强免疫力，气虚体质经典药膳。",
+  "nutrition_info": "黄芪多糖增强免疫力，鸡肉优质蛋白易吸收，汤鲜味醇，补气效果显著，是经典相须配伍。",
+  "suitable_constitutions": [
+   "气虚质",
+   "阳虚质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "秋季",
+   "冬季",
+   "四季"
+  ],
+  "contraindication": "感冒发热、实热证、阴虚火旺者忌服。",
+  "appearance_standard": "汤色金黄清澈，鸡肉酥烂，原汁原味",
+  "flavor": "鲜香醇厚",
+  "is_medicinal": 1,
+  "story": "黄芪汽锅鸡是云南经典药膳，黄芪与鸡肉相须配伍，补气效果倍增，气虚乏力者最宜。",
+  "id": 14
+ },
+ {
+  "name": "四神汤",
+  "category": "健脾祛湿汤",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "茯苓",
+    "amount": "20g"
+   },
+   {
+    "name": "山药",
+    "amount": "20g"
+   },
+   {
+    "name": "莲子",
+    "amount": "20g"
+   },
+   {
+    "name": "薏米",
+    "amount": "20g"
+   },
+   {
+    "name": "排骨",
+    "amount": "300g"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "生姜",
+    "amount": "3片"
+   },
+   {
+    "name": "盐",
+    "amount": "适量"
+   },
+   {
+    "name": "料酒",
+    "amount": "1勺"
+   }
+  ],
+  "medicinal_ingredients": [
+   {
+    "name": "茯苓",
+    "amount": "20g"
+   },
+   {
+    "name": "山药",
+    "amount": "20g"
+   },
+   {
+    "name": "莲子",
+    "amount": "20g"
+   },
+   {
+    "name": "薏米",
+    "amount": "20g"
+   }
+  ],
+  "cooking_method": "煲",
+  "cooking_steps": [
+   "排骨焯水洗净",
+   "四神材料洗净浸泡30分钟",
+   "所有材料入砂锅加水大火烧开转小火煲2小时",
+   "加盐调味即可"
+  ],
+  "skills": "四神食材等量配比；薏米可炒用减少寒性。",
+  "efficacy_chinese": "健脾祛湿，养心安神，长夏健脾祛湿第一方，男女老少皆宜。",
+  "nutrition_info": "茯苓、山药、莲子、薏米四味配伍，健脾而不燥，祛湿而不伤正，是民间最经典的健脾祛湿方。",
+  "suitable_constitutions": [
+   "气虚质",
+   "痰湿质",
+   "平和质",
+   "湿热质"
+  ],
+  "suitable_seasons": [
+   "长夏",
+   "夏季",
+   "梅雨季节",
+   "芒种",
+   "大暑"
+  ],
+  "contraindication": "孕妇慎用（含薏米）；便秘腹胀者少食。",
+  "appearance_standard": "汤色奶白，食材酥烂，汤味清甜",
+  "flavor": "清甜醇厚",
+  "is_medicinal": 1,
+  "story": "四神汤是流传民间的健脾祛湿名方，四味药食同源食材配伍，性质平和，是长夏必备养生汤。",
+  "id": 15
+ },
+ {
+  "name": "韭菜炒核桃",
+  "category": "温补肾阳菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "韭菜",
+    "amount": "200g"
+   },
+   {
+    "name": "核桃",
+    "amount": "50g"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "盐",
+    "amount": "适量"
+   },
+   {
+    "name": "油",
+    "amount": "适量"
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "韭菜洗净切段",
+   "核桃仁小火炒香盛出",
+   "热油下韭菜大火快炒1分钟",
+   "加核桃仁盐翻炒均匀出锅"
+  ],
+  "skills": "韭菜要选春季嫩韭；大火快炒不出水；核桃先炒香。",
+  "efficacy_chinese": "温补肾阳，固精强腰，春季养阳冬季补肾都宜。",
+  "nutrition_info": "韭菜辛温补肾阳起阳草，核桃富含不饱和脂肪酸补肾健脑，简单易做效果好。",
+  "suitable_constitutions": [
+   "阳虚质",
+   "气虚质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "冬季",
+   "立春",
+   "立冬"
+  ],
+  "contraindication": "阴虚火旺、湿热体质、眼疾患者忌食。",
+  "appearance_standard": "韭菜翠绿，核桃酥脆，鲜香爽口",
+  "flavor": "鲜香",
+  "is_medicinal": 1,
+  "story": "韭菜炒核桃是简单有效的温补肾阳药膳，春韭最香，立春时节吃顺应春生阳气。",
+  "id": 16
+ },
+ {
+  "name": "石斛老鸭汤",
+  "category": "滋阴清热汤",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "鸭肉",
+    "amount": "半只"
+   },
+   {
+    "name": "石斛",
+    "amount": "15g"
+   },
+   {
+    "name": "山药",
+    "amount": "100g"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "生姜",
+    "amount": "3片"
+   },
+   {
+    "name": "盐",
+    "amount": "适量"
+   },
+   {
+    "name": "料酒",
+    "amount": "1勺"
+   }
+  ],
+  "medicinal_ingredients": [
+   {
+    "name": "石斛",
+    "amount": "15g"
+   }
+  ],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "老鸭切块焯水洗净",
+   "石斛洗净，山药切块",
+   "所有材料入砂锅加水大火烧开转小火炖2小时",
+   "加盐调味即可"
+  ],
+  "skills": "选老鸭（一年以上）滋阴效果好；石斛选铁皮石斛；小火慢炖。",
+  "efficacy_chinese": "滋阴清热，养胃生津，秋季养阴，阴虚体质经典药膳。",
+  "nutrition_info": "石斛滋阴养胃，鸭肉性凉滋阴清热，山药健脾，补而不燥，是清补靓汤。",
+  "suitable_constitutions": [
+   "阴虚质",
+   "湿热质"
+  ],
+  "suitable_seasons": [
+   "秋季",
+   "夏季",
+   "立秋",
+   "处暑"
+  ],
+  "contraindication": "脾胃虚寒、阳虚体质、感冒发热者不宜。",
+  "appearance_standard": "汤色清亮，鸭肉酥烂，滋阴不腻",
+  "flavor": "清鲜滋阴",
+  "is_medicinal": 1,
+  "story": "石斛老鸭汤是经典滋阴药膳，秋季贴秋膘清补而非大补，适合阴虚火旺者。",
+  "id": 17
+ },
+ {
+  "name": "凉拌黄瓜",
+  "category": "夏季开胃凉菜",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "黄瓜",
+    "amount": "2根"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "蒜",
+    "amount": "3瓣"
+   },
+   {
+    "name": "醋",
+    "amount": "2勺"
+   },
+   {
+    "name": "生抽",
+    "amount": "1勺"
+   },
+   {
+    "name": "香油",
+    "amount": "适量"
+   },
+   {
+    "name": "糖",
+    "amount": "少许"
+   },
+   {
+    "name": "盐",
+    "amount": "适量"
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "凉拌",
+  "cooking_steps": [
+   "黄瓜洗净拍碎切块",
+   "加盐腌10分钟滗去水",
+   "加蒜末调料拌匀，冰箱冷藏20分钟更爽"
+  ],
+  "skills": "黄瓜拍碎比切的更入味；先腌去水才脆；加少许糖提鲜不甜。",
+  "efficacy_chinese": "清热解渴，利水消肿，夏季开胃解腻。",
+  "nutrition_info": "黄瓜含水量96%以上，富含丙醇二酸抑制脂肪合成，低热量高纤维，消暑减肥。",
+  "suitable_constitutions": [
+   "湿热质",
+   "平和质",
+   "痰湿质"
+  ],
+  "suitable_seasons": [
+   "夏季",
+   "立夏",
+   "小满",
+   "芒种",
+   "夏至",
+   "小暑",
+   "大暑"
+  ],
+  "contraindication": "脾胃虚寒、腹痛腹泻者少食生冷。",
+  "appearance_standard": "黄瓜爽脆，酸辣开胃，色泽青绿",
+  "flavor": "酸辣爽脆",
+  "is_medicinal": 0,
+  "story": "凉拌黄瓜是夏季餐桌必备凉菜，简单爽口，大暑天吃一盘比什么都开胃。",
+  "id": 18
+ },
+ {
+  "name": "茯苓薏米粥",
+  "category": "健脾祛湿主食",
+  "dish_type": "主食",
+  "main_ingredients": [
+   {
+    "name": "粳米",
+    "amount": "80g"
+   },
+   {
+    "name": "茯苓粉",
+    "amount": "20g"
+   },
+   {
+    "name": "薏米",
+    "amount": "30g"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "冰糖",
+    "amount": "适量"
+   }
+  ],
+  "medicinal_ingredients": [
+   {
+    "name": "茯苓",
+    "amount": "20g"
+   }
+  ],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "薏米粳米洗净浸泡1小时",
+   "加水大火烧开转小火熬30分钟",
+   "加茯苓粉再煮10分钟成粥",
+   "加冰糖调味即可"
+  ],
+  "skills": "薏米提前浸泡易煮烂；茯苓用粉易吸收；炒薏米寒性减小。",
+  "efficacy_chinese": "健脾祛湿，利水消肿，长夏梅雨季节祛湿第一粥。",
+  "nutrition_info": "茯苓多糖健脾，薏苡仁酯祛湿利尿，粳米养胃，痰湿体质每日早餐最佳。",
+  "suitable_constitutions": [
+   "痰湿质",
+   "湿热质",
+   "气虚质"
+  ],
+  "suitable_seasons": [
+   "长夏",
+   "梅雨季节",
+   "小满",
+   "芒种"
+  ],
+  "contraindication": "孕妇禁用（薏米滑利）；津液不足、便秘者少食。",
+  "appearance_standard": "粥稠米烂，清香淡甜",
+  "flavor": "清淡",
+  "is_medicinal": 1,
+  "story": "茯苓薏米粥是祛湿经典方，江南梅雨季天天喝，脾健湿自去。",
+  "id": 19
+ },
+ {
+  "name": "清蒸鲈鱼",
+  "category": "河鲜海鲜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "鲈鱼",
+    "amount": "1条（约500g）"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "葱",
+    "amount": "2根"
+   },
+   {
+    "name": "生姜",
+    "amount": "3片"
+   },
+   {
+    "name": "蒸鱼豉油",
+    "amount": "2勺"
+   },
+   {
+    "name": "料酒",
+    "amount": "1勺"
+   },
+   {
+    "name": "油",
+    "amount": "适量"
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "鲈鱼处理干净划刀加料酒姜片腌10分钟",
+   "水开后上锅大火蒸8分钟",
+   "取出倒掉盘中水，放葱丝淋蒸鱼豉油",
+   "热油浇在葱丝上即可"
+  ],
+  "skills": "鱼要新鲜；蒸的时间根据鱼大小调整，8分钟左右刚好；最后浇油激出香味。",
+  "efficacy_chinese": "健脾益胃，滋补肝肾，鱼肉易消化，适合所有体质。",
+  "nutrition_info": "鲈鱼富含优质蛋白、DHA、钙锌，肉质细嫩易消化，老幼皆宜，低脂高蛋白。",
+  "suitable_constitutions": [
+   "平和质",
+   "所有体质"
+  ],
+  "suitable_seasons": [
+   "四季",
+   "秋季"
+  ],
+  "contraindication": "皮肤病疮疡者少食。",
+  "appearance_standard": "鱼肉洁白鲜嫩，葱香浓郁，原汁原味",
+  "flavor": "咸鲜清淡",
+  "is_medicinal": 0,
+  "story": "清蒸鲈鱼是经典宴席菜，江上往来人，但爱鲈鱼美，秋季鲈鱼最肥美。",
+  "id": 20
+ },
+ {
+  "name": "莲藕炒木耳",
+  "category": "时令素菜",
+  "dish_type": "素菜",
+  "main_ingredients": [
+   {
+    "name": "莲藕",
+    "amount": "200g"
+   },
+   {
+    "name": "黑木耳",
+    "amount": "10g（干）"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "青红椒",
+    "amount": "各半个"
+   },
+   {
+    "name": "醋",
+    "amount": "1勺"
+   },
+   {
+    "name": "盐",
+    "amount": "适量"
+   },
+   {
+    "name": "油",
+    "amount": "适量"
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "莲藕切片泡清水去淀粉，木耳泡发",
+   "热油下藕片翻炒2分钟",
+   "加木耳青红椒继续翻炒",
+   "加醋盐调味出锅"
+  ],
+  "skills": "藕片切后泡清水防变黑；加醋保持脆爽；大火快炒。",
+  "efficacy_chinese": "清热生津，凉血止血，滋阴润燥，秋季时令菜。",
+  "nutrition_info": "莲藕富含维生素C、膳食纤维、铁，木耳降脂清肠，爽脆开胃。",
+  "suitable_constitutions": [
+   "平和质",
+   "阴虚质",
+   "湿热质"
+  ],
+  "suitable_seasons": [
+   "秋季",
+   "立秋",
+   "秋分"
+  ],
+  "contraindication": "脾胃虚寒者少食生藕。",
+  "appearance_standard": "藕片洁白脆爽，木耳黑亮，清淡爽口",
+  "flavor": "爽脆清淡",
+  "is_medicinal": 0,
+  "story": "秋藕最养人，立秋后的莲藕鲜甜爽脆，莲藕炒木耳是秋季经典素菜。",
+  "id": 21
+ },
+ {
+  "name": "板栗烧鸡",
+  "category": "秋冬滋补热菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "鸡肉",
+    "amount": "半只"
+   },
+   {
+    "name": "板栗",
+    "amount": "200g"
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "生姜",
+    "amount": "3片"
+   },
+   {
+    "name": "葱",
+    "amount": "1根"
+   },
+   {
+    "name": "生抽",
+    "amount": "2勺"
+   },
+   {
+    "name": "老抽",
+    "amount": "1勺"
+   },
+   {
+    "name": "糖",
+    "amount": "1勺"
+   },
+   {
+    "name": "料酒",
+    "amount": "1勺"
+   },
+   {
+    "name": "盐",
+    "amount": "适量"
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "焖",
+  "cooking_steps": [
+   "鸡肉切块焯水，板栗去壳去皮",
+   "热油加糖炒糖色下鸡块翻炒上色",
+   "加调料开水没过鸡肉大火烧开转小火焖30分钟",
+   "加板栗继续焖15分钟大火收汁"
+  ],
+  "skills": "板栗选秋季新鲜板栗；生板栗用开水烫易去皮；小火焖入味。",
+  "efficacy_chinese": "健脾养胃，补肾强骨，秋冬滋补家常菜。",
+  "nutrition_info": "板栗补肾强筋被称为肾之果，鸡肉温中益气，秋季食用贴秋膘佳品。",
+  "suitable_constitutions": [
+   "平和质",
+   "气虚质",
+   "阳虚质"
+  ],
+  "suitable_seasons": [
+   "秋季",
+   "冬季",
+   "寒露",
+   "霜降",
+   "立冬"
+  ],
+  "contraindication": "痰湿重、糖尿病患者少食。",
+  "appearance_standard": "色泽红亮，鸡肉酥烂，板栗粉糯，咸甜适中",
+  "flavor": "咸甜浓郁",
+  "is_medicinal": 0,
+  "story": "八月的梨枣，九月的山楂，十月的板栗笑哈哈。秋季板栗烧鸡是贴秋膘经典家常菜。",
+  "id": 22
+ },
+ {
+  "name": "凉拌木耳",
+  "category": "时令凉菜",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "黑木耳",
+    "amount": "100g"
+   },
+   {
+    "name": "蒜末",
+    "amount": "适量"
+   },
+   {
+    "name": "香菜",
+    "amount": "少许"
+   }
+  ],
+  "cooking_method": "凉拌",
+  "cooking_steps": [
+   "木耳泡发焯水过凉",
+   "加蒜末、生抽、醋、香油、香菜拌匀"
+  ],
+  "skills": "木耳焯水1分钟即可，保持脆爽",
+  "efficacy_chinese": "润肺清肠、补气养血",
+  "nutrition_info": "富含胶质和膳食纤维，低卡爽口",
+  "suitable_constitutions": [
+   "平和质",
+   "痰湿质",
+   "湿热质",
+   "血瘀质"
+  ],
+  "suitable_seasons": [
+   "四季",
+   "夏季",
+   "秋季"
+  ],
+  "contraindication": "出血性疾病患者少食",
+  "appearance_standard": "黑亮爽脆、蒜香浓郁",
+  "flavor": "清淡爽口",
+  "is_medicinal": 0,
+  "story": "",
+  "id": 23,
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": []
+ },
+ {
+  "name": "卤味双拼",
+  "category": "迎宾凉菜",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "卤牛肉",
+    "amount": "100g"
+   },
+   {
+    "name": "卤藕片",
+    "amount": "100g"
+   }
+  ],
+  "cooking_method": "卤",
+  "cooking_steps": [
+   "牛肉焯水加卤料卤1小时",
+   "藕片卤20分钟",
+   "切片装盘"
+  ],
+  "skills": "卤料用八角、桂皮、香叶、生抽、冰糖",
+  "efficacy_chinese": "补气健脾、滋阴润燥",
+  "nutrition_info": "牛肉优质蛋白丰富，藕富含维生素C和膳食纤维",
+  "suitable_constitutions": [
+   "平和质",
+   "气虚质",
+   "阳虚质"
+  ],
+  "suitable_seasons": [
+   "四季",
+   "冬季"
+  ],
+  "contraindication": "痛风患者少食",
+  "appearance_standard": "色泽酱红、卤香浓郁",
+  "flavor": "咸香浓郁",
+  "is_medicinal": 0,
+  "story": "",
+  "id": 24,
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": []
+ },
+ {
+  "name": "糖醋萝卜",
+  "category": "开胃凉菜",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "白萝卜",
+    "amount": "300g"
+   },
+   {
+    "name": "白糖",
+    "amount": "2勺"
+   },
+   {
+    "name": "白醋",
+    "amount": "3勺"
+   }
+  ],
+  "cooking_method": "腌",
+  "cooking_steps": [
+   "萝卜切薄片加盐腌10分钟挤干水",
+   "加糖、白醋腌2小时即可"
+  ],
+  "skills": "萝卜切薄片更入味，冷藏后口感更佳",
+  "efficacy_chinese": "顺气消食、开胃生津",
+  "nutrition_info": "富含芥子油和膳食纤维，促进消化，低热量",
+  "suitable_constitutions": [
+   "平和质",
+   "痰湿质",
+   "气郁质"
+  ],
+  "suitable_seasons": [
+   "冬季",
+   "秋季"
+  ],
+  "contraindication": "气虚者少食",
+  "appearance_standard": "洁白爽脆、酸甜开胃",
+  "flavor": "酸甜清爽",
+  "is_medicinal": 0,
+  "story": "",
+  "id": 25,
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": []
+ },
+ {
+  "name": "冬瓜薏米老鸭汤",
+  "category": "清热祛湿汤",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "鸭肉",
+    "amount": "半只"
+   },
+   {
+    "name": "冬瓜",
+    "amount": "500g"
+   },
+   {
+    "name": "薏米",
+    "amount": "30g"
+   }
+  ],
+  "cooking_method": "煲",
+  "cooking_steps": [
+   "老鸭切块焯水",
+   "薏米提前泡1小时",
+   "所有材料入砂锅煲2小时加盐调味"
+  ],
+  "skills": "老鸭要选1年以上的，薏米炒过减寒性",
+  "efficacy_chinese": "清热祛湿、滋阴养胃",
+  "nutrition_info": "鸭肉性凉滋阴，薏米祛湿利尿，适合夏季湿热天气",
+  "suitable_constitutions": [
+   "湿热质",
+   "阴虚质",
+   "痰湿质"
+  ],
+  "suitable_seasons": [
+   "夏季",
+   "长夏",
+   "小满",
+   "芒种",
+   "大暑"
+  ],
+  "contraindication": "脾胃虚寒、阳虚体质者少食",
+  "appearance_standard": "汤色清亮、鸭肉酥烂",
+  "flavor": "清鲜滋阴",
+  "is_medicinal": 1,
+  "story": "岭南夏季经典祛湿汤，湿热天气最宜",
+  "id": 26,
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": []
+ },
+ {
+  "name": "清炒时蔬",
+  "category": "时令素菜",
+  "dish_type": "素菜",
+  "main_ingredients": [
+   {
+    "name": "时令绿叶菜",
+    "amount": "300g"
+   },
+   {
+    "name": "蒜",
+    "amount": "3瓣"
+   }
+  ],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "时蔬洗净切段",
+   "蒜末爆香",
+   "大火快炒至断生加盐调味"
+  ],
+  "skills": "大火快炒保持翠绿，盐最后放不出水",
+  "efficacy_chinese": "补充维生素、膳食纤维，顺时而食",
+  "nutrition_info": "富含维生素C、胡萝卜素和膳食纤维，低热量高营养",
+  "suitable_constitutions": [
+   "平和质",
+   "所有体质"
+  ],
+  "suitable_seasons": [
+   "四季"
+  ],
+  "contraindication": "无特殊禁忌",
+  "appearance_standard": "色泽翠绿、爽脆可口",
+  "flavor": "清淡爽口",
+  "is_medicinal": 0,
+  "story": "不时不食，什么季节吃什么菜是中餐智慧",
+  "id": 27,
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": []
+ },
+ {
+  "name": "香菇青菜",
+  "category": "家常素菜",
+  "dish_type": "素菜",
+  "main_ingredients": [
+   {
+    "name": "上海青",
+    "amount": "300g"
+   },
+   {
+    "name": "香菇",
+    "amount": "5朵"
+   }
+  ],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "青菜洗净切段，香菇泡发切片",
+   "蒜末爆香下香菇炒香",
+   "加青菜大火快炒加盐调味"
+  ],
+  "skills": "香菇泡发水不要丢，可加少许提鲜",
+  "efficacy_chinese": "健脾养胃、降脂降压",
+  "nutrition_info": "香菇多糖增强免疫力，青菜富含维生素和膳食纤维",
+  "suitable_constitutions": [
+   "平和质",
+   "气虚质",
+   "痰湿质"
+  ],
+  "suitable_seasons": [
+   "四季"
+  ],
+  "contraindication": "痛风患者少食香菇",
+  "appearance_standard": "青菜翠绿、香菇嫩滑",
+  "flavor": "清淡鲜香",
+  "is_medicinal": 0,
+  "story": "",
+  "id": 28,
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": []
+ },
+ {
+  "name": "荷塘月色",
+  "category": "时令素菜",
+  "dish_type": "素菜",
+  "main_ingredients": [
+   {
+    "name": "莲藕",
+    "amount": "200g"
+   },
+   {
+    "name": "黑木耳",
+    "amount": "10g"
+   },
+   {
+    "name": "荷兰豆",
+    "amount": "100g"
+   },
+   {
+    "name": "胡萝卜",
+    "amount": "半根"
+   }
+  ],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "所有食材切片焯水",
+   "热油下姜片爆香",
+   "所有食材快炒2分钟加盐调味"
+  ],
+  "skills": "食材焯水后快炒，保持脆爽",
+  "efficacy_chinese": "清热生津、健脾和胃",
+  "nutrition_info": "色彩丰富，富含多种维生素和膳食纤维，低脂健康",
+  "suitable_constitutions": [
+   "平和质",
+   "湿热质",
+   "阴虚质",
+   "痰湿质"
+  ],
+  "suitable_seasons": [
+   "秋季"
+  ],
+  "contraindication": "脾胃虚寒者少食生藕",
+  "appearance_standard": "色彩丰富、脆嫩爽口",
+  "flavor": "清淡爽口",
+  "is_medicinal": 0,
+  "story": "秋季荷塘三宝搭配，色香味俱全",
+  "id": 29,
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": []
+ },
+ {
+  "name": "山药杂粮饭",
+  "category": "养生主食",
+  "dish_type": "主食",
+  "main_ingredients": [
+   {
+    "name": "大米",
+    "amount": "200g"
+   },
+   {
+    "name": "山药",
+    "amount": "100g"
+   },
+   {
+    "name": "小米",
+    "amount": "50g"
+   }
+  ],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "大米杂粮淘洗干净",
+   "山药去皮切小块",
+   "一起放入电饭煲加水蒸熟"
+  ],
+  "skills": "杂粮提前泡30分钟口感更好",
+  "efficacy_chinese": "健脾养胃、补虚益气",
+  "nutrition_info": "粗细搭配，富含B族维生素和膳食纤维，升糖指数低",
+  "suitable_constitutions": [
+   "气虚质",
+   "平和质",
+   "痰湿质",
+   "糖尿病患者"
+  ],
+  "suitable_seasons": [
+   "四季",
+   "长夏"
+  ],
+  "contraindication": "无特殊禁忌",
+  "appearance_standard": "饭粒松软、山药粉糯",
+  "flavor": "清淡香糯",
+  "is_medicinal": 1,
+  "story": "健脾养胃养生饭，老幼皆宜",
+  "id": 30,
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": []
+ },
+ {
+  "name": "南瓜小米粥",
+  "category": "养生粥品",
+  "dish_type": "主食",
+  "main_ingredients": [
+   {
+    "name": "小米",
+    "amount": "100g"
+   },
+   {
+    "name": "南瓜",
+    "amount": "200g"
+   }
+  ],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "南瓜去皮切小块",
+   "小米洗净",
+   "加水大火烧开转小火熬30分钟至粥稠"
+  ],
+  "skills": "南瓜选老南瓜更甜，熬粥时勤搅拌防糊底",
+  "efficacy_chinese": "健脾养胃、温中止渴",
+  "nutrition_info": "小米富含B族维生素养胃，南瓜富含胡萝卜素和果胶，温和易消化",
+  "suitable_constitutions": [
+   "气虚质",
+   "阳虚质、平和质",
+   "老人儿童"
+  ],
+  "suitable_seasons": [
+   "四季",
+   "秋季",
+   "冬季"
+  ],
+  "contraindication": "糖尿病患者适量食用",
+  "appearance_standard": "粥稠金黄、香甜软糯",
+  "flavor": "清甜香糯",
+  "is_medicinal": 0,
+  "story": "秋冬暖身养胃粥，最适合脾胃虚弱者",
+  "id": 31,
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": []
+ },
+ {
+  "name": "冰糖银耳莲子羹",
+  "category": "滋阴甜品",
+  "dish_type": "甜品",
+  "main_ingredients": [
+   {
+    "name": "银耳",
+    "amount": "15g"
+   },
+   {
+    "name": "莲子",
+    "amount": "20g"
+   },
+   {
+    "name": "红枣",
+    "amount": "3颗"
+   },
+   {
+    "name": "冰糖",
+    "amount": "适量"
+   }
+  ],
+  "cooking_method": "煲",
+  "cooking_steps": [
+   "银耳泡发撕小朵，莲子去芯",
+   "所有材料入锅小火煲1.5小时至银耳出胶",
+   "加冰糖枸杞再煮5分钟"
+  ],
+  "skills": "选丑耳易出胶，小火慢炖才会浓稠",
+  "efficacy_chinese": "滋阴润肺、养胃生津、嫩肤养颜",
+  "nutrition_info": "银耳植物胶质润肤，莲子养心安神，秋季润燥佳品",
+  "suitable_constitutions": [
+   "阴虚质",
+   "平和质",
+   "气郁质"
+  ],
+  "suitable_seasons": [
+   "秋季",
+   "冬季"
+  ],
+  "contraindication": "风寒咳嗽、痰湿咳嗽者不宜",
+  "appearance_standard": "浓稠晶莹、润滑清甜",
+  "flavor": "清甜润滑",
+  "is_medicinal": 1,
+  "story": "平民燕窝，女性秋季润燥养颜必喝",
+  "id": 32,
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": []
+ },
+ {
+  "name": "桂花糖藕",
+  "category": "江南甜品",
+  "dish_type": "甜品",
+  "main_ingredients": [
+   {
+    "name": "莲藕",
+    "amount": "1节"
+   },
+   {
+    "name": "糯米",
+    "amount": "100g"
+   },
+   {
+    "name": "红糖",
+    "amount": "50g"
+   },
+   {
+    "name": "桂花",
+    "amount": "少许"
+   }
+  ],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "糯米提前泡2小时灌入藕孔用牙签固定",
+   "加红糖、红枣小火煮2小时",
+   "取出切片淋糖桂花即可"
+  ],
+  "skills": "选粗短的藕孔大适合灌米，煮够时间才粉糯",
+  "efficacy_chinese": "健脾开胃、养血益气",
+  "nutrition_info": "糯米健脾暖胃，藕生津清热，红糖补血，江南秋季经典甜品",
+  "suitable_constitutions": [
+   "平和质",
+   "气虚质",
+   "阳虚质"
+  ],
+  "suitable_seasons": [
+   "秋季"
+  ],
+  "contraindication": "糖尿病患者少食",
+  "appearance_standard": "藕片粉糯、桂香浓郁、色泽红亮",
+  "flavor": "香甜软糯",
+  "is_medicinal": 0,
+  "story": "江南秋季传统甜品，桂花飘香时正是吃糖藕的季节",
+  "id": 33,
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": []
+ },
+ {
+  "name": "陈皮普洱茶",
+  "category": "消食茶饮",
+  "dish_type": "茶饮",
+  "main_ingredients": [
+   {
+    "name": "陈皮",
+    "amount": "3g"
+   },
+   {
+    "name": "普洱茶",
+    "amount": "5g"
+   }
+  ],
+  "cooking_method": "泡",
+  "cooking_steps": [
+   "陈皮普洱茶一起放入壶中",
+   "沸水冲洗一遍",
+   "再沸水冲泡即可饮用"
+  ],
+  "skills": "陈皮选年份越久越好，可反复冲泡",
+  "efficacy_chinese": "理气健脾、消食化积、祛湿化痰",
+  "nutrition_info": "陈皮挥发油助消化，普洱茶降脂解腻，宴席后喝最佳",
+  "suitable_constitutions": [
+   "痰湿质",
+   "气郁质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "四季",
+   "长夏",
+   "饭后"
+  ],
+  "contraindication": "失眠者、空腹不宜饮用",
+  "appearance_standard": "茶汤红浓、陈香醇厚",
+  "flavor": "陈香醇和",
+  "is_medicinal": 1,
+  "story": "广东宴席标配，饭后喝解腻助消化",
+  "id": 34,
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": []
+ },
+ {
+  "name": "红枣姜茶",
+  "category": "温阳茶饮",
+  "dish_type": "茶饮",
+  "main_ingredients": [
+   {
+    "name": "红枣",
+    "amount": "3颗"
+   },
+   {
+    "name": "生姜",
+    "amount": "3片"
+   },
+   {
+    "name": "红糖",
+    "amount": "适量"
+   }
+  ],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "红枣去核切开，生姜切丝",
+   "加水煮10分钟",
+   "加红糖调味即可"
+  ],
+  "skills": "生姜带皮煮不易上火，趁热喝效果好",
+  "efficacy_chinese": "温中散寒、补血暖宫",
+  "nutrition_info": "姜辣素驱寒，红枣补血，冬季暖身或风寒感冒初期最佳",
+  "suitable_constitutions": [
+   "阳虚质",
+   "气虚质"
+  ],
+  "suitable_seasons": [
+   "冬季",
+   "春季"
+  ],
+  "contraindication": "阴虚火旺、湿热体质、上火时不宜",
+  "appearance_standard": "茶汤红润、姜香浓郁、甜辣适口",
+  "flavor": "香甜微辣",
+  "is_medicinal": 0,
+  "story": "冬季驱寒第一茶，女性经期暖宫也适用",
+  "id": 35,
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": []
+ },
+ {
+  "id": 36,
+  "name": "山药小米粥",
+  "category": "养生粥品",
+  "dish_type": "主食",
+  "main_ingredients": [
+   {
+    "name": "小米",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "山药",
+    "amount": null
+   }
+  ],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "小米洗净煮粥，山药切块后同煮至软"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "主食+薯类，口感温和",
+  "suitable_constitutions": [
+   "平和质",
+   "气虚质",
+   "阳虚质",
+   "阴虚质"
+  ],
+  "suitable_seasons": [
+   "冬季",
+   "夏季",
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 37,
+  "name": "南瓜燕麦粥",
+  "category": "养生粥品",
+  "dish_type": "主食",
+  "main_ingredients": [
+   {
+    "name": "南瓜",
+    "amount": null
+   },
+   {
+    "name": "燕麦",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "牛奶",
+    "amount": null
+   },
+   {
+    "name": "豆浆",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "南瓜蒸熟压泥，与燕麦煮至黏稠"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "全谷物与蔬菜搭配",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 38,
+  "name": "莲子百合粥",
+  "category": "养生粥品",
+  "dish_type": "主食",
+  "main_ingredients": [
+   {
+    "name": "大米",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "莲子",
+    "amount": null
+   },
+   {
+    "name": "百合",
+    "amount": null
+   }
+  ],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "莲子提前浸泡，与大米同煮，百合后放"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "谷物搭配植物性食材",
+  "suitable_constitutions": [
+   "气郁质"
+  ],
+  "suitable_seasons": [
+   "夏季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 39,
+  "name": "红豆薏米杂粮粥",
+  "category": "养生粥品",
+  "dish_type": "主食",
+  "main_ingredients": [
+   {
+    "name": "红豆",
+    "amount": null
+   },
+   {
+    "name": "燕麦",
+    "amount": null
+   },
+   {
+    "name": "大米",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "薏米",
+    "amount": null
+   }
+  ],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "豆类提前浸泡，全部煮熟"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "豆类+全谷物",
+  "suitable_constitutions": [
+   "痰湿质",
+   "湿热质"
+  ],
+  "suitable_seasons": [
+   "夏季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 40,
+  "name": "黑豆黑米粥",
+  "category": "养生粥品",
+  "dish_type": "主食",
+  "main_ingredients": [
+   {
+    "name": "黑豆",
+    "amount": null
+   },
+   {
+    "name": "黑米",
+    "amount": null
+   },
+   {
+    "name": "糙米",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "黑豆浸泡后与米同煮"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "谷豆搭配，增加膳食纤维",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 41,
+  "name": "玉米山药粥",
+  "category": "养生粥品",
+  "dish_type": "主食",
+  "main_ingredients": [
+   {
+    "name": "鲜玉米",
+    "amount": null
+   },
+   {
+    "name": "大米",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "山药",
+    "amount": null
+   }
+  ],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "玉米粒和山药与大米同煮"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "谷薯搭配",
+  "suitable_constitutions": [
+   "气虚质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 42,
+  "name": "百合银耳羹",
+  "category": "养生羹品",
+  "dish_type": "甜品",
+  "main_ingredients": [
+   {
+    "name": "银耳",
+    "amount": null
+   },
+   {
+    "name": "梨",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "百合",
+    "amount": null
+   }
+  ],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "银耳泡发炖软，加入百合和梨块"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "水果+菌类，清爽口感",
+  "suitable_constitutions": [
+   "阴虚质"
+  ],
+  "suitable_seasons": [
+   "夏季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 43,
+  "name": "莲子南瓜羹",
+  "category": "养生羹品",
+  "dish_type": "甜品",
+  "main_ingredients": [
+   {
+    "name": "南瓜",
+    "amount": null
+   },
+   {
+    "name": "小米",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "莲子",
+    "amount": null
+   }
+  ],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "莲子煮熟，南瓜蒸熟后与小米打羹"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "谷物+薯类",
+  "suitable_constitutions": [
+   "气虚质",
+   "气郁质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 44,
+  "name": "芝麻核桃糊",
+  "category": "养生羹品",
+  "dish_type": "甜品",
+  "main_ingredients": [
+   {
+    "name": "核桃",
+    "amount": null
+   },
+   {
+    "name": "燕麦",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "黑芝麻",
+    "amount": null
+   }
+  ],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "食材炒香后研磨，加热水或牛奶调成糊"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "坚果适量搭配",
+  "suitable_constitutions": [
+   "阳虚质",
+   "气虚质、老年人"
+  ],
+  "suitable_seasons": [
+   "冬季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 45,
+  "name": "紫薯小米粥",
+  "category": "养生粥品",
+  "dish_type": "主食",
+  "main_ingredients": [
+   {
+    "name": "紫薯",
+    "amount": null
+   },
+   {
+    "name": "小米",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "紫薯切块，与小米同煮"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "薯类替代部分精制主食",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 46,
+  "name": "山药鸡肉粥",
+  "category": "养生粥品",
+  "dish_type": "主食",
+  "main_ingredients": [
+   {
+    "name": "鸡胸肉",
+    "amount": null
+   },
+   {
+    "name": "大米",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "山药",
+    "amount": null
+   }
+  ],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "鸡肉切丁焯熟，大米煮粥后加入山药和鸡肉"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "主食+优质蛋白",
+  "suitable_constitutions": [
+   "气虚质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 47,
+  "name": "南瓜鸡蛋羹",
+  "category": "养生羹品",
+  "dish_type": "甜品",
+  "main_ingredients": [
+   {
+    "name": "南瓜",
+    "amount": null
+   },
+   {
+    "name": "鸡蛋",
+    "amount": null
+   },
+   {
+    "name": "温水",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "南瓜蒸熟，鸡蛋加水搅匀，合蒸"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "蛋白质+蔬菜",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 48,
+  "name": "菠菜鸡蛋汤",
+  "category": "家常汤品",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "菠菜",
+    "amount": null
+   },
+   {
+    "name": "鸡蛋",
+    "amount": null
+   },
+   {
+    "name": "豆腐",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "豆腐煮开，加入菠菜和蛋液"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "绿叶菜+蛋白质",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 49,
+  "name": "番茄豆腐汤",
+  "category": "家常汤品",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "番茄",
+    "amount": null
+   },
+   {
+    "name": "嫩豆腐",
+    "amount": null
+   },
+   {
+    "name": "鸡蛋",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "番茄煮出汤汁，加入豆腐和蛋液"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "蔬菜+蛋白质",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 50,
+  "name": "冬瓜虾皮汤",
+  "category": "家常汤品",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "冬瓜",
+    "amount": null
+   },
+   {
+    "name": "虾皮",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "香葱",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "冬瓜煮软，加入虾皮调味"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "低脂蔬菜汤",
+  "suitable_constitutions": [
+   "痰湿质",
+   "湿热质"
+  ],
+  "suitable_seasons": [
+   "夏季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 51,
+  "name": "萝卜鲫鱼汤",
+  "category": "家常汤品",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "白萝卜",
+    "amount": null
+   },
+   {
+    "name": "鲫鱼",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "姜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "鲫鱼煎香后加水炖汤，加入萝卜"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "鱼类+根茎蔬菜",
+  "suitable_constitutions": [
+   "阳虚质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 52,
+  "name": "莲藕排骨汤",
+  "category": "家常汤品",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "莲藕",
+    "amount": null
+   },
+   {
+    "name": "排骨",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "生姜",
+    "amount": null
+   }
+  ],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "排骨焯水，与莲藕炖至软烂"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "肉类+根茎",
+  "suitable_constitutions": [
+   "阳虚质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 53,
+  "name": "玉米鸡汤",
+  "category": "家常汤品",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "鸡腿",
+    "amount": null
+   },
+   {
+    "name": "玉米",
+    "amount": null
+   },
+   {
+    "name": "胡萝卜",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "食材焯水后加水炖煮"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "禽肉+谷物蔬菜",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 54,
+  "name": "菌菇鸡汤",
+  "category": "家常汤品",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "鸡腿",
+    "amount": null
+   },
+   {
+    "name": "香菇",
+    "amount": null
+   },
+   {
+    "name": "杏鲍菇",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "鸡肉与菌菇炖煮，少盐"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "优质蛋白+菌菇",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 55,
+  "name": "山药排骨汤",
+  "category": "家常汤品",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "排骨",
+    "amount": null
+   },
+   {
+    "name": "胡萝卜",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "山药",
+    "amount": null
+   }
+  ],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "排骨焯水炖熟，后加山药"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "肉类+薯类",
+  "suitable_constitutions": [
+   "气虚质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 56,
+  "name": "百合莲子瘦肉汤",
+  "category": "家常汤品",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "瘦肉",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "百合",
+    "amount": null
+   },
+   {
+    "name": "莲子",
+    "amount": null
+   }
+  ],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "莲子煮软，加入瘦肉与百合炖煮"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "汤品蛋白质来源",
+  "suitable_constitutions": [
+   "气郁质"
+  ],
+  "suitable_seasons": [
+   "夏季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 57,
+  "name": "冬瓜海带汤",
+  "category": "家常汤品",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "冬瓜",
+    "amount": null
+   },
+   {
+    "name": "豆腐",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "昆布",
+    "amount": null
+   }
+  ],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "海带泡发切片，与冬瓜豆腐同煮"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "蔬菜+豆制品",
+  "suitable_constitutions": [
+   "痰湿质",
+   "湿热质"
+  ],
+  "suitable_seasons": [
+   "夏季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 58,
+  "name": "番茄牛肉汤",
+  "category": "家常汤品",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "番茄",
+    "amount": null
+   },
+   {
+    "name": "牛肉",
+    "amount": null
+   },
+   {
+    "name": "洋葱",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "牛肉切片焯水，番茄煮汤后加入牛肉"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "优质蛋白+蔬菜",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 59,
+  "name": "萝卜羊肉汤",
+  "category": "家常汤品",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "白萝卜",
+    "amount": null
+   },
+   {
+    "name": "羊肉",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "生姜",
+    "amount": null
+   }
+  ],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "羊肉焯水后炖煮，加入萝卜"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "冬季家常炖汤",
+  "suitable_constitutions": [
+   "阳虚质"
+  ],
+  "suitable_seasons": [
+   "冬季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 60,
+  "name": "丝瓜蛋花汤",
+  "category": "家常汤品",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "丝瓜",
+    "amount": null
+   },
+   {
+    "name": "鸡蛋",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "香葱",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "丝瓜煮软，淋入蛋液"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "蔬菜+蛋白质",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 61,
+  "name": "紫菜豆腐汤",
+  "category": "家常汤品",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "紫菜",
+    "amount": null
+   },
+   {
+    "name": "豆腐",
+    "amount": null
+   },
+   {
+    "name": "鸡蛋",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "豆腐煮开，加紫菜和蛋液"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "简便家常汤",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 62,
+  "name": "鲫鱼豆腐汤",
+  "category": "家常汤品",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "鲫鱼",
+    "amount": null
+   },
+   {
+    "name": "豆腐",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "姜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "鱼煎香后加水炖汤，加入豆腐"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "鱼类+豆制品",
+  "suitable_constitutions": [
+   "阳虚质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 63,
+  "name": "鲈鱼萝卜汤",
+  "category": "家常汤品",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "鲈鱼",
+    "amount": null
+   },
+   {
+    "name": "白萝卜",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "姜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "鲈鱼煎香后炖汤，加入萝卜片"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "鱼类+蔬菜",
+  "suitable_constitutions": [
+   "阳虚质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 64,
+  "name": "鸭肉冬瓜汤",
+  "category": "家常汤品",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "鸭肉",
+    "amount": null
+   },
+   {
+    "name": "冬瓜",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "陈皮",
+    "amount": null
+   }
+  ],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "鸭肉焯水，与冬瓜炖煮",
+   "陈皮少量"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "禽肉+瓜类",
+  "suitable_constitutions": [
+   "痰湿质"
+  ],
+  "suitable_seasons": [
+   "夏季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 65,
+  "name": "莲藕花生排骨汤",
+  "category": "家常汤品",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "莲藕",
+    "amount": null
+   },
+   {
+    "name": "花生",
+    "amount": null
+   },
+   {
+    "name": "排骨",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "排骨焯水，与莲藕花生炖煮"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "肉类+豆类/坚果",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 66,
+  "name": "清蒸鳜鱼",
+  "category": "蒸制菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "鳜鱼",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "葱姜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "同法蒸熟，出锅淋少量生抽"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "鱼类优质蛋白",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 67,
+  "name": "姜葱蒸鸡",
+  "category": "蒸制菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "鸡腿",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "姜",
+    "amount": null
+   },
+   {
+    "name": "葱",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "鸡腿腌制后蒸熟，切片食用"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "禽肉+少油烹饪",
+  "suitable_constitutions": [
+   "阳虚质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 68,
+  "name": "枸杞蒸蛋",
+  "category": "蒸制菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "鸡蛋",
+    "amount": null
+   },
+   {
+    "name": "温水",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "枸杞子",
+    "amount": null
+   }
+  ],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "鸡蛋打散加水，蒸至凝固，少量枸杞点缀"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "蛋白质+点缀食材",
+  "suitable_constitutions": [
+   "阴虚质",
+   "气虚质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 69,
+  "name": "百合蒸南瓜",
+  "category": "蒸制菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "南瓜",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "百合",
+    "amount": null
+   }
+  ],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "南瓜切块，与百合同蒸"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "薯类+植物食材",
+  "suitable_constitutions": [
+   "气郁质",
+   "肺燥者",
+   "阴虚质"
+  ],
+  "suitable_seasons": [
+   "夏季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 70,
+  "name": "莲子蒸鸡",
+  "category": "蒸制菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "鸡腿",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "姜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [
+   {
+    "name": "莲子",
+    "amount": null
+   }
+  ],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "莲子提前煮软，与鸡肉同蒸"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "禽肉+豆类样植物蛋白",
+  "suitable_constitutions": [
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "冬季",
+   "夏季",
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 71,
+  "name": "山药蒸肉饼",
+  "category": "蒸制菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "瘦肉",
+    "amount": null
+   },
+   {
+    "name": "鸡蛋",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "山药",
+    "amount": null
+   }
+  ],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "肉末与山药泥拌匀，蒸熟"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "蛋白质+薯类",
+  "suitable_constitutions": [
+   "气虚质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 72,
+  "name": "香菇蒸鸡",
+  "category": "蒸制菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "鸡腿",
+    "amount": null
+   },
+   {
+    "name": "香菇",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "姜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "鸡肉与香菇腌后蒸熟"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "禽肉+菌菇",
+  "suitable_constitutions": [
+   "阳虚质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 73,
+  "name": "南瓜蒸排骨",
+  "category": "蒸制菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "南瓜",
+    "amount": null
+   },
+   {
+    "name": "排骨",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "排骨腌制后与南瓜同蒸"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "肉类+薯类",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 74,
+  "name": "豆豉蒸鱼",
+  "category": "蒸制菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "鱼片",
+    "amount": null
+   },
+   {
+    "name": "豆豉",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "葱",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "鱼片铺豆豉蒸熟，控制豆豉和盐量"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "少油鱼类菜",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 75,
+  "name": "山药炒木耳",
+  "category": "家常小炒",
+  "dish_type": "素菜",
+  "main_ingredients": [
+   {
+    "name": "木耳",
+    "amount": null
+   },
+   {
+    "name": "胡萝卜",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "山药",
+    "amount": null
+   }
+  ],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "山药焯水，快速翻炒"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "蔬菜多样化",
+  "suitable_constitutions": [
+   "气虚质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 76,
+  "name": "芹菜香干",
+  "category": "家常菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "芹菜",
+    "amount": null
+   },
+   {
+    "name": "豆干",
+    "amount": null
+   },
+   {
+    "name": "胡萝卜",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "切丝快速翻炒，少油"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "蔬菜+豆制品",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 77,
+  "name": "西兰花炒虾仁",
+  "category": "家常小炒",
+  "dish_type": "素菜",
+  "main_ingredients": [
+   {
+    "name": "西兰花",
+    "amount": null
+   },
+   {
+    "name": "虾仁",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "蒜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "虾仁焯熟，西兰花焯水后快速翻炒"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "蔬菜+海鲜蛋白",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 78,
+  "name": "彩椒炒鸡丁",
+  "category": "家常小炒",
+  "dish_type": "素菜",
+  "main_ingredients": [
+   {
+    "name": "彩椒",
+    "amount": null
+   },
+   {
+    "name": "鸡胸肉",
+    "amount": null
+   },
+   {
+    "name": "洋葱",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "鸡丁滑炒，加入彩椒"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "禽肉+多色蔬菜",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 79,
+  "name": "番茄炒鸡蛋",
+  "category": "家常小炒",
+  "dish_type": "素菜",
+  "main_ingredients": [
+   {
+    "name": "番茄",
+    "amount": null
+   },
+   {
+    "name": "鸡蛋",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "鸡蛋先炒熟，加入番茄翻炒"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "经典家常组合",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 80,
+  "name": "菠菜炒鸡蛋",
+  "category": "家常小炒",
+  "dish_type": "素菜",
+  "main_ingredients": [
+   {
+    "name": "菠菜",
+    "amount": null
+   },
+   {
+    "name": "鸡蛋",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "蒜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "菠菜焯水，鸡蛋炒熟后合炒"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "绿叶菜+蛋白质",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 81,
+  "name": "莲藕炒荷兰豆",
+  "category": "家常小炒",
+  "dish_type": "素菜",
+  "main_ingredients": [
+   {
+    "name": "莲藕",
+    "amount": null
+   },
+   {
+    "name": "荷兰豆",
+    "amount": null
+   },
+   {
+    "name": "胡萝卜",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "切片快速翻炒，保持脆嫩"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "根茎+豆荚",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 82,
+  "name": "芦笋炒虾仁",
+  "category": "家常小炒",
+  "dish_type": "素菜",
+  "main_ingredients": [
+   {
+    "name": "芦笋",
+    "amount": null
+   },
+   {
+    "name": "虾仁",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "蒜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "芦笋焯水，虾仁快速翻炒"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "高蛋白+蔬菜",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 83,
+  "name": "南瓜炒百合",
+  "category": "家常小炒",
+  "dish_type": "素菜",
+  "main_ingredients": [
+   {
+    "name": "南瓜",
+    "amount": null
+   },
+   {
+    "name": "鲜百合",
+    "amount": null
+   },
+   {
+    "name": "彩椒",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "南瓜蒸至半熟后快速翻炒"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "薯类+植物食材",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 84,
+  "name": "菌菇炒豆腐",
+  "category": "家常小炒",
+  "dish_type": "素菜",
+  "main_ingredients": [
+   {
+    "name": "香菇",
+    "amount": null
+   },
+   {
+    "name": "平菇",
+    "amount": null
+   },
+   {
+    "name": "豆腐",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "豆腐煎香，加入菌菇焖熟"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "豆制品+菌菇",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 85,
+  "name": "冬瓜虾仁",
+  "category": "家常菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "冬瓜",
+    "amount": null
+   },
+   {
+    "name": "虾仁",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "葱",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "冬瓜煮至半透明，加入虾仁"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "清淡高蛋白",
+  "suitable_constitutions": [
+   "痰湿质",
+   "湿热质"
+  ],
+  "suitable_seasons": [
+   "夏季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 86,
+  "name": "苦瓜炒蛋",
+  "category": "家常小炒",
+  "dish_type": "素菜",
+  "main_ingredients": [
+   {
+    "name": "苦瓜",
+    "amount": null
+   },
+   {
+    "name": "鸡蛋",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "苦瓜去籽切片，焯水后与鸡蛋炒"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "蔬菜+蛋白质",
+  "suitable_constitutions": [
+   "湿热质",
+   "糖尿病患者",
+   "阴虚质"
+  ],
+  "suitable_seasons": [
+   "夏季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 87,
+  "name": "丝瓜炒蛋",
+  "category": "家常小炒",
+  "dish_type": "素菜",
+  "main_ingredients": [
+   {
+    "name": "丝瓜",
+    "amount": null
+   },
+   {
+    "name": "鸡蛋",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "丝瓜切片快速翻炒后加蛋"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "清爽家常菜",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 88,
+  "name": "青豆玉米炒虾仁",
+  "category": "家常小炒",
+  "dish_type": "素菜",
+  "main_ingredients": [
+   {
+    "name": "青豆",
+    "amount": null
+   },
+   {
+    "name": "玉米",
+    "amount": null
+   },
+   {
+    "name": "虾仁",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "三者焯熟后快速翻炒"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "豆类+谷物+海鲜",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 89,
+  "name": "木耳炒山药",
+  "category": "家常小炒",
+  "dish_type": "素菜",
+  "main_ingredients": [
+   {
+    "name": "木耳",
+    "amount": null
+   },
+   {
+    "name": "胡萝卜",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "山药",
+    "amount": null
+   }
+  ],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "焯水后快速翻炒"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "菌菇+根茎",
+  "suitable_constitutions": [
+   "气虚质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 90,
+  "name": "西芹百合炒腰果",
+  "category": "家常小炒",
+  "dish_type": "素菜",
+  "main_ingredients": [
+   {
+    "name": "西芹",
+    "amount": null
+   },
+   {
+    "name": "鲜百合",
+    "amount": null
+   },
+   {
+    "name": "腰果",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "腰果少油烘香，食材快速翻炒"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "蔬菜+坚果",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 91,
+  "name": "蒜蓉油麦菜",
+  "category": "家常菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "油麦菜",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "蒜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "炒",
+  "cooking_steps": [
+   "蒜香后快速翻炒油麦菜"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "绿叶蔬菜",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 92,
+  "name": "番茄炖牛腩",
+  "category": "炖烧菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "牛腩",
+    "amount": null
+   },
+   {
+    "name": "番茄",
+    "amount": null
+   },
+   {
+    "name": "洋葱",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "牛腩焯水炖软，加入番茄"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "蛋白质+蔬菜",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 93,
+  "name": "萝卜炖牛肉",
+  "category": "炖烧菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "牛肉",
+    "amount": null
+   },
+   {
+    "name": "白萝卜",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "姜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "牛肉炖软后加入萝卜"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "肉类+根茎",
+  "suitable_constitutions": [
+   "阳虚质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 94,
+  "name": "山药炖鸡",
+  "category": "炖烧菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "鸡腿",
+    "amount": null
+   },
+   {
+    "name": "香菇",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "山药",
+    "amount": null
+   }
+  ],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "鸡肉炖至八成熟，加入山药和香菇"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "禽肉+薯类+菌菇",
+  "suitable_constitutions": [
+   "气虚质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 95,
+  "name": "栗子烧鸡",
+  "category": "炖烧菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "鸡腿",
+    "amount": null
+   },
+   {
+    "name": "栗子",
+    "amount": null
+   },
+   {
+    "name": "香菇",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "焖",
+  "cooking_steps": [
+   "鸡肉煎香，加水焖熟，加入栗子"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "禽肉+坚果",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 96,
+  "name": "莲藕炖鸭",
+  "category": "炖烧菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "鸭肉",
+    "amount": null
+   },
+   {
+    "name": "莲藕",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "姜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "鸭肉焯水后炖煮，加入莲藕"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "禽肉+根茎",
+  "suitable_constitutions": [
+   "阴虚质",
+   "湿热质、平和质"
+  ],
+  "suitable_seasons": [
+   "夏季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 97,
+  "name": "南瓜炖牛肉",
+  "category": "炖烧菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "南瓜",
+    "amount": null
+   },
+   {
+    "name": "牛肉",
+    "amount": null
+   },
+   {
+    "name": "洋葱",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "牛肉炖软后加入南瓜"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "肉类+薯类",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 98,
+  "name": "香菇焖鸡",
+  "category": "炖烧菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "鸡腿",
+    "amount": null
+   },
+   {
+    "name": "香菇",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "葱姜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "焖",
+  "cooking_steps": [
+   "鸡肉煎香后加香菇焖熟"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "家常低油焖菜",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 99,
+  "name": "豆腐炖鱼",
+  "category": "炖烧菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "鱼块",
+    "amount": null
+   },
+   {
+    "name": "豆腐",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "姜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "鱼块煎香，加水炖煮，加入豆腐"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "鱼类+豆制品",
+  "suitable_constitutions": [
+   "阳虚质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 100,
+  "name": "萝卜炖羊肉",
+  "category": "炖烧菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "羊肉",
+    "amount": null
+   },
+   {
+    "name": "白萝卜",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "姜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "羊肉焯水后炖，后加入萝卜"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "冬季家常菜",
+  "suitable_constitutions": [
+   "阳虚质"
+  ],
+  "suitable_seasons": [
+   "冬季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 101,
+  "name": "土豆炖牛肉",
+  "category": "炖烧菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "牛肉",
+    "amount": null
+   },
+   {
+    "name": "土豆",
+    "amount": null
+   },
+   {
+    "name": "胡萝卜",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "牛肉炖软，加入土豆胡萝卜"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "主食替代型薯类",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 102,
+  "name": "茄汁炖鱼",
+  "category": "炖烧菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "鱼块",
+    "amount": null
+   },
+   {
+    "name": "番茄",
+    "amount": null
+   },
+   {
+    "name": "洋葱",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "番茄炒出汁后加鱼块炖熟"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "鱼类+蔬菜",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 103,
+  "name": "冬瓜炖鸭",
+  "category": "炖烧菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "鸭肉",
+    "amount": null
+   },
+   {
+    "name": "冬瓜",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "姜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "鸭肉焯水炖煮，加入冬瓜"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "禽肉+瓜类",
+  "suitable_constitutions": [
+   "阴虚质",
+   "湿热质、平和质"
+  ],
+  "suitable_seasons": [
+   "夏季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 104,
+  "name": "黑豆排骨煲",
+  "category": "炖烧菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "黑豆",
+    "amount": null
+   },
+   {
+    "name": "排骨",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "姜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "黑豆浸泡，与排骨炖熟"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "豆类+肉类",
+  "suitable_constitutions": [
+   "阳虚质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 105,
+  "name": "花生莲藕煲",
+  "category": "炖烧菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "花生",
+    "amount": null
+   },
+   {
+    "name": "莲藕",
+    "amount": null
+   },
+   {
+    "name": "排骨",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "排骨焯水，与花生莲藕炖煮"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "豆类/坚果+根茎",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 106,
+  "name": "黄豆海带炖豆腐",
+  "category": "炖烧菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "黄豆",
+    "amount": null
+   },
+   {
+    "name": "豆腐",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "昆布",
+    "amount": null
+   }
+  ],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "黄豆泡发后炖熟，加入海带豆腐"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "植物蛋白组合",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 107,
+  "name": "玉米胡萝卜炖鸡",
+  "category": "炖烧菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "鸡腿",
+    "amount": null
+   },
+   {
+    "name": "玉米",
+    "amount": null
+   },
+   {
+    "name": "胡萝卜",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "食材加水炖熟"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "禽肉+谷物蔬菜",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 108,
+  "name": "菌菇豆腐煲",
+  "category": "炖烧菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "豆腐",
+    "amount": null
+   },
+   {
+    "name": "香菇",
+    "amount": null
+   },
+   {
+    "name": "金针菇",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "豆腐煎香，加菌菇和汤汁焖煮"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "植物蛋白+菌菇",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 109,
+  "name": "百合莲子炖瘦肉",
+  "category": "炖烧菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "瘦肉",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "百合",
+    "amount": null
+   },
+   {
+    "name": "莲子",
+    "amount": null
+   }
+  ],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "莲子煮软，与瘦肉百合炖煮"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "汤煲类",
+  "suitable_constitutions": [
+   "气郁质"
+  ],
+  "suitable_seasons": [
+   "夏季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 110,
+  "name": "冬瓜虾仁羹",
+  "category": "养生羹品",
+  "dish_type": "甜品",
+  "main_ingredients": [
+   {
+    "name": "冬瓜",
+    "amount": null
+   },
+   {
+    "name": "虾仁",
+    "amount": null
+   },
+   {
+    "name": "鸡蛋",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "冬瓜煮软打碎，加入虾仁和蛋液"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "蔬菜+蛋白质",
+  "suitable_constitutions": [
+   "痰湿质",
+   "湿热质"
+  ],
+  "suitable_seasons": [
+   "夏季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 111,
+  "name": "南瓜小米羹",
+  "category": "养生羹品",
+  "dish_type": "甜品",
+  "main_ingredients": [
+   {
+    "name": "南瓜",
+    "amount": null
+   },
+   {
+    "name": "小米",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "牛奶",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "小米煮熟，加入南瓜泥和牛奶"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "谷物+薯类",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 112,
+  "name": "银耳梨羹",
+  "category": "养生羹品",
+  "dish_type": "甜品",
+  "main_ingredients": [
+   {
+    "name": "银耳",
+    "amount": null
+   },
+   {
+    "name": "梨",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "枸杞子",
+    "amount": null
+   }
+  ],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "银耳炖软，加入梨块和少量枸杞"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "水果+菌类",
+  "suitable_constitutions": [
+   "平和质",
+   "阴虚质"
+  ],
+  "suitable_seasons": [
+   "冬季",
+   "夏季",
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 113,
+  "name": "苹果燕麦羹",
+  "category": "养生羹品",
+  "dish_type": "甜品",
+  "main_ingredients": [
+   {
+    "name": "苹果",
+    "amount": null
+   },
+   {
+    "name": "燕麦",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "牛奶",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "苹果煮软，加燕麦煮熟，最后加奶"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "水果+全谷物",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 114,
+  "name": "紫薯银耳羹",
+  "category": "养生羹品",
+  "dish_type": "甜品",
+  "main_ingredients": [
+   {
+    "name": "紫薯",
+    "amount": null
+   },
+   {
+    "name": "银耳",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "莲子",
+    "amount": null
+   }
+  ],
+  "cooking_method": "炖",
+  "cooking_steps": [
+   "银耳莲子炖软，加入紫薯块"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "薯类+菌类",
+  "suitable_constitutions": [
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "冬季",
+   "夏季",
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 115,
+  "name": "红枣小米粥",
+  "category": "养生粥品",
+  "dish_type": "主食",
+  "main_ingredients": [
+   {
+    "name": "小米",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "红枣",
+    "amount": null
+   }
+  ],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "小米煮粥，红枣去核同煮"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "主食型家常粥",
+  "suitable_constitutions": [
+   "平和质",
+   "气虚质",
+   "血虚质"
+  ],
+  "suitable_seasons": [
+   "冬季",
+   "夏季",
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 116,
+  "name": "桂圆莲子粥",
+  "category": "养生粥品",
+  "dish_type": "主食",
+  "main_ingredients": [
+   {
+    "name": "大米",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "桂圆",
+    "amount": null
+   },
+   {
+    "name": "莲子",
+    "amount": null
+   }
+  ],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "莲子煮软，与大米同煮，桂圆后放"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "谷物+果实",
+  "suitable_constitutions": [
+   "气虚质"
+  ],
+  "suitable_seasons": [
+   "冬季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 117,
+  "name": "核桃燕麦粥",
+  "category": "养生粥品",
+  "dish_type": "主食",
+  "main_ingredients": [
+   {
+    "name": "核桃",
+    "amount": null
+   },
+   {
+    "name": "燕麦",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "牛奶",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "燕麦煮熟，加入碎核桃"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "全谷物+坚果",
+  "suitable_constitutions": [
+   "阳虚质",
+   "气虚质、老年人"
+  ],
+  "suitable_seasons": [
+   "冬季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 118,
+  "name": "花生红豆粥",
+  "category": "养生粥品",
+  "dish_type": "主食",
+  "main_ingredients": [
+   {
+    "name": "花生",
+    "amount": null
+   },
+   {
+    "name": "红豆",
+    "amount": null
+   },
+   {
+    "name": "大米",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "豆类浸泡后与大米同煮"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "豆类+谷物",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 119,
+  "name": "栗子小米粥",
+  "category": "养生粥品",
+  "dish_type": "主食",
+  "main_ingredients": [
+   {
+    "name": "栗子",
+    "amount": null
+   },
+   {
+    "name": "小米",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "栗子煮熟切块，与小米同煮"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "薯类/坚果+谷物",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 120,
+  "name": "黑芝麻糊",
+  "category": "养生羹品",
+  "dish_type": "甜品",
+  "main_ingredients": [
+   {
+    "name": "燕麦",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "牛奶",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [
+   {
+    "name": "黑芝麻",
+    "amount": null
+   }
+  ],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "芝麻与燕麦研磨煮糊"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "全谷物+坚果",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 121,
+  "name": "莲藕糯米甜羹",
+  "category": "养生羹品",
+  "dish_type": "甜品",
+  "main_ingredients": [
+   {
+    "name": "莲藕",
+    "amount": null
+   },
+   {
+    "name": "糯米",
+    "amount": null
+   },
+   {
+    "name": "桂花",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "糯米煮熟，加入莲藕小丁，少量桂花"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "节气风味甜羹",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 122,
+  "name": "陈皮南瓜粥",
+  "category": "养生粥品",
+  "dish_type": "主食",
+  "main_ingredients": [
+   {
+    "name": "南瓜",
+    "amount": null
+   },
+   {
+    "name": "大米",
+    "amount": null
+   },
+   {
+    "name": "少量陈皮",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "南瓜与大米煮粥，陈皮少量煮香后取出"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "传统风味+主食",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 123,
+  "name": "百合燕麦奶糊",
+  "category": "养生羹品",
+  "dish_type": "甜品",
+  "main_ingredients": [
+   {
+    "name": "燕麦",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "牛奶",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [
+   {
+    "name": "百合",
+    "amount": null
+   }
+  ],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "百合煮软，与燕麦打成糊后加奶"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "谷物+植物食材",
+  "suitable_constitutions": [
+   "阴虚质",
+   "气郁质"
+  ],
+  "suitable_seasons": [
+   "秋季",
+   "夏季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 124,
+  "name": "荷叶蒸鸡",
+  "category": "蒸制菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "鸡腿",
+    "amount": null
+   },
+   {
+    "name": "香菇",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "荷叶",
+    "amount": null
+   }
+  ],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "鸡肉腌制后包荷叶蒸熟"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "蒸制少油",
+  "suitable_constitutions": [
+   "痰湿质",
+   "湿热质"
+  ],
+  "suitable_seasons": [
+   "夏季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 125,
+  "name": "陈皮蒸排骨",
+  "category": "蒸制菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "排骨",
+    "amount": null
+   },
+   {
+    "name": "少量陈皮",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "姜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "排骨腌制后蒸熟，陈皮只作风味"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "传统风味蒸菜",
+  "suitable_constitutions": [
+   "阳虚质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 126,
+  "name": "枸杞蒸鲈鱼",
+  "category": "蒸制菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "鲈鱼",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "葱姜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [
+   {
+    "name": "枸杞子",
+    "amount": null
+   }
+  ],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "鱼蒸熟后点缀少量枸杞"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "鱼类优质蛋白",
+  "suitable_constitutions": [
+   "阴虚质",
+   "气虚质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 127,
+  "name": "桂圆红枣蒸南瓜",
+  "category": "蒸制菜",
+  "dish_type": "热菜",
+  "main_ingredients": [
+   {
+    "name": "南瓜",
+    "amount": null
+   },
+   {
+    "name": "少量桂圆",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "红枣",
+    "amount": null
+   }
+  ],
+  "cooking_method": "蒸",
+  "cooking_steps": [
+   "南瓜切块与红枣蒸熟"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "薯类+果实",
+  "suitable_constitutions": [
+   "气虚质",
+   "血虚质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 128,
+  "name": "山药木耳凉拌",
+  "category": "家常凉菜",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "木耳",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "醋",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [
+   {
+    "name": "山药",
+    "amount": null
+   },
+   {
+    "name": "黑芝麻",
+    "amount": null
+   }
+  ],
+  "cooking_method": "拌",
+  "cooking_steps": [
+   "山药木耳焯熟过凉，少量调味拌匀"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "清爽蔬菜",
+  "suitable_constitutions": [
+   "气虚质",
+   "平和质"
+  ],
+  "suitable_seasons": [
+   "春季",
+   "秋季"
+  ],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 129,
+  "name": "凉拌菠菜花生",
+  "category": "家常凉菜",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "菠菜",
+    "amount": null
+   },
+   {
+    "name": "花生",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "黑芝麻",
+    "amount": null
+   }
+  ],
+  "cooking_method": "拌",
+  "cooking_steps": [
+   "菠菜焯熟，拌少量花生碎"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "绿叶菜+坚果",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 130,
+  "name": "凉拌木耳黄瓜",
+  "category": "家常凉菜",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "木耳",
+    "amount": null
+   },
+   {
+    "name": "黄瓜",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "香醋",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "拌",
+  "cooking_steps": [
+   "木耳焯熟，与黄瓜拌匀"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "菌菇+蔬菜",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 131,
+  "name": "番茄豆腐沙拉",
+  "category": "家常凉菜",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "番茄",
+    "amount": null
+   },
+   {
+    "name": "嫩豆腐",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "黑芝麻",
+    "amount": null
+   }
+  ],
+  "cooking_method": "凉拌",
+  "cooking_steps": [
+   "食材切块，少量酱油醋调味"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "蔬菜+豆制品",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 132,
+  "name": "莲藕荷兰豆拌菜",
+  "category": "家常凉菜",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "莲藕",
+    "amount": null
+   },
+   {
+    "name": "荷兰豆",
+    "amount": null
+   },
+   {
+    "name": "胡萝卜",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "拌",
+  "cooking_steps": [
+   "焯水后快速过凉，少量橄榄油和醋调味"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "多色蔬菜",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 133,
+  "name": "时蔬鱼片汤",
+  "category": "家常汤品",
+  "dish_type": "汤品",
+  "main_ingredients": [
+   {
+    "name": "鱼片",
+    "amount": null
+   },
+   {
+    "name": "青菜",
+    "amount": null
+   },
+   {
+    "name": "番茄",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [
+   "番茄煮汤，加入鱼片和青菜煮熟"
+  ],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": "鱼类+多色蔬菜",
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "资料包《100 道家庭药膳食谱》家庭食养菜谱，非疾病食疗方案。",
+  "source_lesson": null,
+  "source": "引流资料包 V1.0 第四部分",
+  "derived_fields": [
+   "suitable_constitutions",
+   "suitable_seasons"
+  ],
+  "derived_from": "由主要食材在库数据聚合推导，非课件原文",
+  "flavor": null
+ },
+ {
+  "id": 134,
+  "name": "石斛牛肉",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "牛肉",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [
+   {
+    "name": "石斛",
+    "amount": null
+   }
+  ],
+  "cooking_method": "卤",
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ },
+ {
+  "id": 135,
+  "name": "盐水鹅",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "鹅肉",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "卤",
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ },
+ {
+  "id": 136,
+  "name": "金陵盐水鸭",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "鸭肉",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "卤",
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ },
+ {
+  "id": 137,
+  "name": "白斩鸡",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "鸡肉",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "姜",
+    "amount": null
+   },
+   {
+    "name": "葱",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "煮",
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ },
+ {
+  "id": 138,
+  "name": "柠檬凤爪",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "鸡爪",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "柠檬",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "腌",
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ },
+ {
+  "id": 139,
+  "name": "水晶肴肉",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "猪肉",
+    "amount": null
+   },
+   {
+    "name": "猪肉皮",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "姜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "冻",
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ },
+ {
+  "id": 140,
+  "name": "盐水鸭胗",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "鸭胗",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "卤",
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ },
+ {
+  "id": 141,
+  "name": "五香牛肉",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "牛肉",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "卤",
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ },
+ {
+  "id": 142,
+  "name": "六合猪头肉",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "猪头肉",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "卤",
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ },
+ {
+  "id": 143,
+  "name": "卤水口条",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "猪口条",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "卤",
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ },
+ {
+  "id": 144,
+  "name": "层层脆",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "牛肉",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "卤",
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ },
+ {
+  "id": 145,
+  "name": "麻辣鸭肫",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "鸭胗",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "辣椒",
+    "amount": null
+   },
+   {
+    "name": "花椒",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "卤",
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ },
+ {
+  "id": 146,
+  "name": "麻辣鸭头",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "鸭头",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "辣椒",
+    "amount": null
+   },
+   {
+    "name": "花椒",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "卤",
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ },
+ {
+  "id": 147,
+  "name": "养生菊苣",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "菊苣",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "拌",
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ },
+ {
+  "id": 148,
+  "name": "山丹黄参",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "黄参",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": null,
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ },
+ {
+  "id": 149,
+  "name": "老南京酱黄瓜",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "黄瓜",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "腌",
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ },
+ {
+  "id": 150,
+  "name": "桂花蜜汁天麻",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "天麻",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "桂花",
+    "amount": null
+   },
+   {
+    "name": "蜂蜜",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "蒸",
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ },
+ {
+  "id": 151,
+  "name": "椒盐花生米",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "花生",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "炸",
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ },
+ {
+  "id": 152,
+  "name": "剁椒皮蛋",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "皮蛋",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "辣椒",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "拌",
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ },
+ {
+  "id": 153,
+  "name": "橘汁萝卜皮",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "白萝卜",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [
+   {
+    "name": "橙汁",
+    "amount": null
+   },
+   {
+    "name": "白糖",
+    "amount": null
+   },
+   {
+    "name": "白醋",
+    "amount": null
+   }
+  ],
+  "medicinal_ingredients": [],
+  "cooking_method": "腌",
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ },
+ {
+  "id": 154,
+  "name": "紫气东来",
+  "category": "金陵老味道冷碟",
+  "dish_type": "冷碟",
+  "main_ingredients": [
+   {
+    "name": "皮蛋",
+    "amount": null
+   },
+   {
+    "name": "嫩豆腐",
+    "amount": null
+   }
+  ],
+  "auxiliary_ingredients": [],
+  "medicinal_ingredients": [],
+  "cooking_method": "蒸",
+  "cooking_steps": [],
+  "skills": null,
+  "efficacy_chinese": null,
+  "nutrition_info": null,
+  "suitable_constitutions": [],
+  "suitable_seasons": [],
+  "contraindication": null,
+  "description": "金陵老味道菜单冷碟，菜单菜品；功效禁忌菜单未载，待补。",
+  "source_lesson": null,
+  "source": "金陵老味道菜单（胡老师 2026-09-23 提供）",
+  "derived_fields": [],
+  "derived_from": null,
+  "flavor": null,
+  "pending_fields": [
+   "efficacy_chinese",
+   "flavor"
+  ]
+ }
+]

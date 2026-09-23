@@ -1,0 +1,13 @@
+# 节气药膳师 · 后端依赖
+# 说明：不锁死具体版本（下限约束即可），避免老版本在 Python 3.13 上装不上。
+fastapi>=0.104
+uvicorn[standard]>=0.24
+sqlalchemy>=2.0
+pydantic>=2.5
+python-multipart>=0.0.6
+jinja2>=3.1
+
+# 说明：weasyprint 已从必需依赖中移除。
+# 原因：1) 代码中未使用，PDF 导出由前端 window.print() 实现；
+#       2) Windows 安装需 GTK 运行库，极易失败，会卡住 pip install -r。
+# 若后续要做服务端 PDF 导出，再单独安装：pip install weasyprint

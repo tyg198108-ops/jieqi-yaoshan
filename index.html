@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>节气药膳师 · 专业版</title>
+<link rel="stylesheet" href="css/app.css?v=2026.09.23f">
+<link rel="stylesheet" href="vendor/element-plus.css" onerror="if(!document.getElementById('epcssfb')){var l=document.createElement('link');l.id='epcssfb';l.rel='stylesheet';l.href='https://unpkg.com/element-plus/dist/index.css';document.head.appendChild(l);}">
+</head>
+<body>
+<!-- 双击 index.html（file://）打开时，fetch 相对路径会被解析成 file:///api/...，必然 Failed to fetch。
+     这条提示不依赖 Vue，先于应用挂载显示。 -->
+<div id="proto-warn" class="proto-warn" style="display:none">
+  ⚠️ 当前是<b>双击 index.html</b> 打开的（地址栏以 file:// 开头），生成菜单会失败。
+  请双击项目根目录的 <b>启动节气药膳师.bat</b>，然后访问 <b>http://127.0.0.1:8000</b>。
+</div>
+<script>if (location.protocol === 'file:') { document.getElementById('proto-warn').style.display = 'block'; }</script>
+
+<div id="app">
+  <div class="header">
+    🍲 节气药膳师 · 专业版
+    <span class="ver-tag" title="前端版本号。刷新后若仍是旧版本号，说明浏览器还在使用缓存文件">v2026.09.23f</span>
+    <span class="role-tag" @click="s.showRolePicker=true">{{roleInfo.icon}} {{roleInfo.name}} · 切换</span>
+  </div>
+  <div class="container">
+    <component :is="currentComp" :s="s"/>
+  </div>
+  <el-dialog v-model="s.showRolePicker" title="先用哪个身份？" width="560px" :close-on-click-modal="false" :show-close="!!s.roleKey">
+    <p style="color:#666;font-size:13px;margin-bottom:15px">三种身份共用同一套规则引擎，差别只在看什么、看多细。随时可切换。</p>
+    <div class="btn-grid">
+      <div v-for="r in roles" :key="r.key" class="btn-card" @click="pickRole(r.key)">
+        <div class="btn-icon">{{r.icon}}</div>
+        <div class="btn-title">{{r.name}}</div>
+        <div class="btn-desc">{{r.desc}}</div>
+        <div class="sub-note" style="text-align:left;margin-top:10px">{{r.who}}</div>
+      </div>
+    </div>
+  </el-dialog>
+</div>
+
+<script src="vendor/vue.global.js"></script>
+<script>if(typeof Vue==='undefined'){document.write('<scr'+'ipt src="https://unpkg.com/vue@3/dist/vue.global.js"><\/scr'+'ipt>');}</script>
+<script src="vendor/element-plus.js"></script>
+<script>if(typeof ElementPlus==='undefined'){document.write('<scr'+'ipt src="https://unpkg.com/element-plus"><\/scr'+'ipt>');}</script>
+<script src="./app-data.js?v=2026.09.23f"></script>
+<script src="js/api.js?v=2026.09.23f"></script>
+<script src="js/role.js?v=2026.09.23f"></script>
+<script src="js/pages.js?v=2026.09.23f"></script>
+<script src="js/app.js?v=2026.09.23f"></script>
+</body>
+</html>

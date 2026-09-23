@@ -1,0 +1,303 @@
+[
+  {
+    "id": 1,
+    "name": "平和质",
+    "code": "pinghe",
+    "overall_feature": "阴阳气血调和，体态适中，面色红润，精力充沛",
+    "common_symptoms": [
+      "常见症状请以实际表现为准"
+    ],
+    "tongue_feature": "见课程描述",
+    "disease_tendency": "见课程描述",
+    "diet_principle": "饮食均衡，顺应四时，保持状态",
+    "recommended_ingredients": [
+      "五谷杂粮",
+      "当季蔬果",
+      "肉蛋奶",
+      "平性食材"
+    ],
+    "avoid_ingredients": [
+      "无特殊禁忌，饮食有节不偏嗜即可"
+    ],
+    "recommended_dishes": [
+      "根据体质选择对应药膳"
+    ],
+    "description": "平和质是理想健康状态，均衡饮食顺应节气即可。"
+  },
+  {
+    "id": 2,
+    "name": "气虚质",
+    "code": "qixu",
+    "overall_feature": "元气不足，疲乏气短自汗，易感冒",
+    "common_symptoms": [
+      "常见症状请以实际表现为准"
+    ],
+    "tongue_feature": "见课程描述",
+    "disease_tendency": "见课程描述",
+    "diet_principle": "益气健脾，培补元气，补中益气",
+    "recommended_ingredients": [
+      "黄芪",
+      "党参",
+      "山药",
+      "大枣",
+      "鸡肉",
+      "牛肉",
+      "蜂蜜"
+    ],
+    "avoid_ingredients": [
+      "生萝卜",
+      "山楂",
+      "胡椒",
+      "薄荷",
+      "荷叶",
+      "荞麦",
+      "菊花",
+      "茶叶"
+    ],
+    "recommended_dishes": [
+      "根据体质选择对应药膳"
+    ],
+    "description": "气虚质是现代人最常见体质，久坐熬夜压力大耗气，重点健脾益气。"
+  },
+  {
+    "id": 3,
+    "name": "阳虚质",
+    "code": "yangxu",
+    "overall_feature": "阳气不足，畏寒怕冷，手足不温",
+    "common_symptoms": [
+      "常见症状请以实际表现为准"
+    ],
+    "tongue_feature": "见课程描述",
+    "disease_tendency": "见课程描述",
+    "diet_principle": "温阳补气，温补脾肾，散寒通阳",
+    "recommended_ingredients": [
+      "羊肉",
+      "牛肉",
+      "韭菜",
+      "核桃",
+      "桂圆",
+      "生姜",
+      "肉桂",
+      "当归"
+    ],
+    "avoid_ingredients": [
+      "鸭肉",
+      "螃蟹",
+      "西瓜",
+      "苦瓜",
+      "冬瓜",
+      "绿茶",
+      "金银花"
+    ],
+    "recommended_dishes": [
+      "根据体质选择对应药膳"
+    ],
+    "description": "阳虚质夏天也怕空调，忌生冷，多吃温热食物，温补脾肾。"
+  },
+  {
+    "id": 4,
+    "name": "阴虚质",
+    "code": "yinxu",
+    "overall_feature": "阴液亏少，口燥咽干，手足心热，虚火",
+    "common_symptoms": [
+      "常见症状请以实际表现为准"
+    ],
+    "tongue_feature": "见课程描述",
+    "disease_tendency": "见课程描述",
+    "diet_principle": "滋阴润燥，养阴生津，滋补肝肾",
+    "recommended_ingredients": [
+      "银耳",
+      "百合",
+      "枸杞",
+      "鸭肉",
+      "梨",
+      "蜂蜜",
+      "玉竹",
+      "莲藕"
+    ],
+    "avoid_ingredients": [
+      "羊肉",
+      "狗肉",
+      "荔枝",
+      "龙眼",
+      "韭菜",
+      "辣椒",
+      "白酒",
+      "红参"
+    ],
+    "recommended_dishes": [
+      "根据体质选择对应药膳"
+    ],
+    "description": "阴虚易上虚火，不能用寒凉猛攻，要滋阴降火。"
+  },
+  {
+    "id": 5,
+    "name": "痰湿质",
+    "code": "tanshi",
+    "overall_feature": "痰湿凝聚，形体肥胖，腹部肥满黏滞",
+    "common_symptoms": [
+      "常见症状请以实际表现为准"
+    ],
+    "tongue_feature": "见课程描述",
+    "disease_tendency": "见课程描述",
+    "diet_principle": "健脾利湿，化痰祛浊，理气健脾",
+    "recommended_ingredients": [
+      "茯苓",
+      "薏米",
+      "赤小豆",
+      "冬瓜",
+      "陈皮",
+      "白萝卜",
+      "荷叶",
+      "山药"
+    ],
+    "avoid_ingredients": [
+      "肥甘厚味",
+      "甜食",
+      "油腻",
+      "肥肉",
+      "动物内脏",
+      "啤酒"
+    ],
+    "recommended_dishes": [
+      "根据体质选择对应药膳"
+    ],
+    "description": "痰湿多是吃出来的，忌甜腻油，重点健脾祛湿。"
+  },
+  {
+    "id": 6,
+    "name": "湿热质",
+    "code": "shire",
+    "overall_feature": "湿热内蕴，面垢油光，口苦苔黄腻易长痘",
+    "common_symptoms": [
+      "常见症状请以实际表现为准"
+    ],
+    "tongue_feature": "见课程描述",
+    "disease_tendency": "见课程描述",
+    "diet_principle": "清热利湿，清热解毒，疏肝利胆",
+    "recommended_ingredients": [
+      "绿豆",
+      "苦瓜",
+      "冬瓜",
+      "薏米",
+      "芹菜",
+      "菊花",
+      "金银花",
+      "鸭肉"
+    ],
+    "avoid_ingredients": [
+      "辛辣",
+      "羊肉",
+      "韭菜",
+      "辣椒",
+      "酒",
+      "荔枝",
+      "龙眼",
+      "油炸食品"
+    ],
+    "recommended_dishes": [
+      "根据体质选择对应药膳"
+    ],
+    "description": "湿热即上火体质，清热祛湿同时进行，忌辛辣温补。"
+  },
+  {
+    "id": 7,
+    "name": "血瘀质",
+    "code": "xueyu",
+    "overall_feature": "血行不畅，肤色晦暗，舌质紫暗易疼痛",
+    "common_symptoms": [
+      "常见症状请以实际表现为准"
+    ],
+    "tongue_feature": "见课程描述",
+    "disease_tendency": "见课程描述",
+    "diet_principle": "活血化瘀，行气活血，疏通经络",
+    "recommended_ingredients": [
+      "山楂",
+      "当归",
+      "玫瑰花",
+      "陈皮",
+      "黑豆",
+      "油菜",
+      "茄子",
+      "醋"
+    ],
+    "avoid_ingredients": [
+      "寒凉收涩",
+      "肥肉",
+      "动物内脏",
+      "柿子",
+      "冰饮",
+      "高胆固醇"
+    ],
+    "recommended_dishes": [
+      "根据体质选择对应药膳"
+    ],
+    "description": "血瘀则痛，重点活血化瘀，气行则血行，孕妇忌活血。"
+  },
+  {
+    "id": 8,
+    "name": "气郁质",
+    "code": "qiyu",
+    "overall_feature": "气机郁滞，神情抑郁，烦闷不乐",
+    "common_symptoms": [
+      "常见症状请以实际表现为准"
+    ],
+    "tongue_feature": "见课程描述",
+    "disease_tendency": "见课程描述",
+    "diet_principle": "疏肝理气，解郁安神，调理气机",
+    "recommended_ingredients": [
+      "玫瑰花",
+      "佛手",
+      "陈皮",
+      "大枣",
+      "黄花菜",
+      "萝卜",
+      "柑橘"
+    ],
+    "avoid_ingredients": [
+      "收敛酸涩",
+      "柿子",
+      "石榴",
+      "青梅",
+      "柠檬",
+      "冰冷食物"
+    ],
+    "recommended_dishes": [
+      "根据体质选择对应药膳"
+    ],
+    "description": "气郁多与情绪有关，疏肝理气，多户外活动，调节情志。"
+  },
+  {
+    "id": 9,
+    "name": "特禀质",
+    "code": "teibing",
+    "overall_feature": "先天禀赋不足，过敏体质",
+    "common_symptoms": [
+      "常见症状请以实际表现为准"
+    ],
+    "tongue_feature": "见课程描述",
+    "disease_tendency": "见课程描述",
+    "diet_principle": "益气固表，养血祛风，避开过敏原",
+    "recommended_ingredients": [
+      "黄芪",
+      "白术",
+      "防风",
+      "乌梅",
+      "蜂蜜",
+      "大枣",
+      "灵芝",
+      "山药"
+    ],
+    "avoid_ingredients": [
+      "已知过敏食物",
+      "海鲜发物",
+      "虾蟹",
+      "辛辣刺激",
+      "酒"
+    ],
+    "recommended_dishes": [
+      "根据体质选择对应药膳"
+    ],
+    "description": "特禀质重点避过敏原，益气固表增强体质。"
+  }
+]

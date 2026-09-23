@@ -1,0 +1,881 @@
+{
+  "_meta": {
+    "version": "2.1",
+    "updated": "2026-09-23",
+    "source": "《中医药膳营养师》16课知识点台账（_知识台账/中医药膳营养师_知识点台账.md）",
+    "levels": {
+      "block": "禁止：必须剔除或强制红线警示",
+      "warn": "警示：需人工确认，默认提示但不剔除",
+      "tip": "提示：正向信息（增效/减毒），用于适配理由"
+    },
+    "principle": "裁决优先级：法律目录红线 > 人群禁忌 > 相反/相恶 > 体质宜忌 > 节气适配 > 口味成本",
+    "note": "所有条目均标注 source_lesson。凡课件未直接表述、由通例推断的，标 confirmed=false 并在 reason 注明，不得冒充课件原文。",
+    "copyright": "课件内容为胡老师原创，授权本产品商用（2026-09-23 确认）",
+    "copyright_confirmed": true,
+    "decisions": {
+      "Q1_catalog": "全部药用食材（30 味）均计入药食同源目录：黄芪/当归/人参（2026-09-23 首批确认）+ 其余 27 味（同日批量确认）",
+      "Q3_course": "7 天为一疗程（2026-09-23 胡老师核定）",
+      "Q4_priority": "裁决优先级确认（2026-09-23 胡老师核定）",
+      "Q18_copyright": "课件原创，可商用（2026-09-23 胡老师确认）",
+      "Q13_target_users": "A 从业者 + B 餐饮门店 + C 家庭用户，三类全做，落地顺序 B → A → C（2026-09-23 确认）",
+      "Q14_form_factor": "先做 Web（响应式），小程序延后（2026-09-23 确认）",
+      "Q15_llm": "引入 LLM，仅限表达层（只做表达不生成事实），排期 P3.5（2026-09-23 确认）",
+      "P1_rules_expanded": "2026-09-23 补入慢性（慢病）饮食指导 4 条（第14课 P14）+ 引擎新增协同增效 good 级提示",
+      "Q_catalog_106": "食材库按卫健委食药物质目录（累计 106 种）校准，2024 年新增 4 种按官方提示加人群红线（2026-09-23）"
+    },
+    "catalog_scope": {
+      "confirmed_at": "2026-09-23",
+      "confirmed_by": "胡老师",
+      "note": "食材库 30 味药用食材全部按药食同源处理；53 味普通食材不适用该目录（in_catalog=null）",
+      "pending": [
+        "药食同源目录的官方版本号 / 批次仍未导入（台账 Q1 剩余部分）"
+      ]
+    },
+    "product_profile": "backend/data/product_profile.json（角色矩阵 + LLM 策略）",
+    "catalog": {
+      "total": 106,
+      "batches": {
+        "2002": 87,
+        "2019": 6,
+        "2023": 9,
+        "2024": 4
+      },
+      "source": "国家卫健委 2024 年第 4 号公告解读；资料包 V1.0 第六部分",
+      "note": "性味归经只在课件/资料包有记载时填写，其余留空并标 pending_fields，不作补写"
+    }
+  },
+  "special_group_contraindications": {
+    "pregnant": {
+      "name": "孕妇",
+      "forbidden_ingredients": [
+        "当归",
+        "桃仁",
+        "红花",
+        "薏米",
+        "山楂",
+        "螃蟹",
+        "甲鱼",
+        "地黄",
+        "麦冬",
+        "天冬",
+        "化橘红"
+      ],
+      "warning": "孕妇禁用活血、破气、滑利类食材（当归·桃仁·红花·薏米等），饮食需格外谨慎；2024 年新增的地黄、麦冬、天冬、化橘红，官方解读提示孕妇、哺乳期妇女及婴幼儿不推荐食用",
+      "source_lesson": "第15课 P6、P7",
+      "catalog_source": "国家卫健委 2024 年第 4 号公告解读；资料包 V1.0 第六部分"
+    },
+    "lactating": {
+      "name": "哺乳期女性",
+      "forbidden_ingredients": [
+        "地黄",
+        "麦冬",
+        "天冬",
+        "化橘红"
+      ],
+      "warning": "药材成分可能经乳汁影响婴儿，用药膳前请咨询医师；2024 年新增的地黄、麦冬、天冬、化橘红，官方解读提示孕妇、哺乳期妇女及婴幼儿不推荐食用",
+      "source_lesson": "第15课 P6",
+      "catalog_source": "国家卫健委 2024 年第 4 号公告解读；资料包 V1.0 第六部分"
+    },
+    "children": {
+      "name": "儿童",
+      "forbidden_ingredients": [
+        "人参",
+        "鹿茸",
+        "阿胶",
+        "地黄",
+        "麦冬",
+        "天冬",
+        "化橘红"
+      ],
+      "warning": "儿童脏腑娇嫩，不宜峻补，避免大补与滋腻药材，以健脾为主；2024 年新增的地黄、麦冬、天冬、化橘红，官方解读提示孕妇、哺乳期妇女及婴幼儿不推荐食用",
+      "source_lesson": "第15课 P6",
+      "catalog_source": "国家卫健委 2024 年第 4 号公告解读；资料包 V1.0 第六部分"
+    },
+    "elderly": {
+      "name": "老年人",
+      "forbidden_ingredients": [],
+      "warning": "老年人消化弱、慢病多，忌过于滋腻、过寒、过燥，以平补为主",
+      "source_lesson": "第15课 P6"
+    },
+    "allergy": {
+      "name": "过敏体质",
+      "forbidden_ingredients": [],
+      "warning": "须先采集食物过敏史（海鲜·坚果·花粉类等），再制定方案",
+      "source_lesson": "第15课 P6"
+    },
+    "chronic": {
+      "name": "慢性病患者",
+      "forbidden_ingredients": [],
+      "warning": "药物-食物可能存在相互作用，须在医生或营养师指导下使用",
+      "source_lesson": "第15课 P6"
+    },
+    "surgery": {
+      "name": "手术前后",
+      "forbidden_ingredients": [
+        "当归",
+        "三七",
+        "红花",
+        "桃仁"
+      ],
+      "warning": "活血类可能影响凝血与麻醉恢复，围手术期须遵医嘱",
+      "source_lesson": "第15课 P6；活血类慎用通例（第06课 P15）"
+    },
+    "none": {
+      "name": "普通人群",
+      "forbidden_ingredients": [],
+      "warning": "",
+      "source_lesson": ""
+    }
+  },
+  "ingredient_contraindications": {
+    "_comment": "保留原 dict 结构以向后兼容 validator.check_ingredient_conflict；完整规则见 pair_rules",
+    "人参": [
+      "萝卜"
+    ],
+    "黄芪": [
+      "萝卜"
+    ],
+    "萝卜": [
+      "人参",
+      "黄芪"
+    ],
+    "羊肉": [
+      "西瓜",
+      "梨"
+    ],
+    "螃蟹": [
+      "柿子"
+    ],
+    "蜂蜜": [
+      "葱"
+    ],
+    "乌头": [
+      "半夏",
+      "瓜蒌",
+      "贝母"
+    ],
+    "半夏": [
+      "乌头"
+    ],
+    "瓜蒌": [
+      "乌头"
+    ],
+    "贝母": [
+      "乌头"
+    ],
+    "硫黄": [
+      "朴硝"
+    ],
+    "朴硝": [
+      "硫黄"
+    ],
+    "水银": [
+      "砒霜"
+    ],
+    "砒霜": [
+      "水银"
+    ]
+  },
+  "pair_rules": [
+    {
+      "a": "人参",
+      "b": "萝卜",
+      "type": "相恶",
+      "level": "warn",
+      "reason": "萝卜（莱菔子）破气，削弱人参补气之功，1+1<2",
+      "source_lesson": "第07课 P10；第15课 P7",
+      "confirmed": true
+    },
+    {
+      "a": "黄芪",
+      "b": "萝卜",
+      "type": "相恶（推断）",
+      "level": "warn",
+      "reason": "由『补气类 × 破气』通例推断：萝卜破气，可能削弱补气类功效。课件仅明确『人参恶萝卜』",
+      "source_lesson": "推断（依据第07课 P10 相恶定义）",
+      "confirmed": false
+    },
+    {
+      "a": "螃蟹",
+      "b": "柿子",
+      "type": "传统禁忌",
+      "level": "warn",
+      "reason": "两者皆寒，同食易伤脾胃",
+      "source_lesson": "第07课 P16",
+      "confirmed": true
+    },
+    {
+      "a": "蜂蜜",
+      "b": "葱",
+      "type": "传统禁忌",
+      "level": "warn",
+      "reason": "传统经验认为同食致泻；现代证据等级低，作提示处理",
+      "source_lesson": "第07课 P16",
+      "confirmed": true,
+      "evidence_level": "传统经验"
+    },
+    {
+      "a": "羊肉",
+      "b": "西瓜",
+      "type": "性味冲突（推断）",
+      "level": "warn",
+      "reason": "羊肉性热、西瓜性寒，寒热相激。课件未直接表述，属性味通例推断",
+      "source_lesson": "推断（四气理论）",
+      "confirmed": false
+    },
+    {
+      "a": "羊肉",
+      "b": "梨",
+      "type": "性味冲突（推断）",
+      "level": "warn",
+      "reason": "羊肉性热、梨性凉，寒热相激。课件未直接表述，属性味通例推断",
+      "source_lesson": "推断（四气理论）",
+      "confirmed": false
+    },
+    {
+      "a": "乌头",
+      "b": "半夏",
+      "type": "相反（十八反）",
+      "level": "block",
+      "reason": "十八反配伍禁忌，合用可能产生毒性",
+      "source_lesson": "第07课 P11",
+      "confirmed": true
+    },
+    {
+      "a": "乌头",
+      "b": "瓜蒌",
+      "type": "相反（十八反）",
+      "level": "block",
+      "reason": "十八反配伍禁忌，合用可能产生毒性",
+      "source_lesson": "第07课 P11",
+      "confirmed": true
+    },
+    {
+      "a": "乌头",
+      "b": "贝母",
+      "type": "相反（十八反）",
+      "level": "block",
+      "reason": "十八反配伍禁忌，合用可能产生毒性",
+      "source_lesson": "第07课 P11",
+      "confirmed": true
+    },
+    {
+      "a": "硫黄",
+      "b": "朴硝",
+      "type": "相畏（十九畏）",
+      "level": "block",
+      "reason": "十九畏配伍禁忌",
+      "source_lesson": "第07课 P11",
+      "confirmed": true
+    },
+    {
+      "a": "水银",
+      "b": "砒霜",
+      "type": "相畏（十九畏）",
+      "level": "block",
+      "reason": "十九畏配伍禁忌",
+      "source_lesson": "第07课 P11",
+      "confirmed": true
+    },
+    {
+      "a": "半夏",
+      "b": "生姜",
+      "type": "相畏/相杀（减毒）",
+      "level": "tip",
+      "reason": "半夏畏生姜、生姜杀半夏——生姜可减轻半夏毒性，属正向减毒配伍",
+      "source_lesson": "第07课 P9",
+      "confirmed": true
+    },
+    {
+      "a": "螃蟹",
+      "b": "生姜",
+      "type": "相杀（减毒）",
+      "level": "tip",
+      "reason": "姜解蟹寒，生姜可制螃蟹寒性并解毒，属正向配伍",
+      "source_lesson": "第07课 P9",
+      "confirmed": true
+    }
+  ],
+  "synergy_pairs": [
+    {
+      "a": "黄芪",
+      "b": "鸡",
+      "type": "相须",
+      "effect": "补气效增",
+      "source_lesson": "第07课 P7"
+    },
+    {
+      "a": "黄芪",
+      "b": "党参",
+      "type": "相须",
+      "effect": "补气效增",
+      "source_lesson": "第07课 P7"
+    },
+    {
+      "a": "百合",
+      "b": "麦冬",
+      "type": "相须",
+      "effect": "滋阴润肺效增",
+      "source_lesson": "第07课 P7"
+    },
+    {
+      "a": "韭菜",
+      "b": "核桃",
+      "type": "相须",
+      "effect": "温阳补肾效增",
+      "source_lesson": "第07课 P7"
+    },
+    {
+      "a": "黄芪",
+      "b": "茯苓",
+      "type": "相使",
+      "effect": "健脾利湿增效",
+      "source_lesson": "第07课 P8"
+    },
+    {
+      "a": "当归",
+      "b": "生姜",
+      "type": "相使",
+      "effect": "温中补血散寒",
+      "source_lesson": "第07课 P8"
+    },
+    {
+      "a": "人参",
+      "b": "猪肚",
+      "type": "相使",
+      "effect": "补虚健脾",
+      "source_lesson": "第07课 P8"
+    },
+    {
+      "a": "枸杞子",
+      "b": "菊花",
+      "type": "相使",
+      "effect": "养肝明目",
+      "source_lesson": "第07课 P8"
+    }
+  ],
+  "category_cautions": [
+    {
+      "category_key": "活血",
+      "caution_groups": [
+        "孕妇",
+        "经期量多者",
+        "出血性疾病患者",
+        "手术前后"
+      ],
+      "reason": "活血类可能引发出血",
+      "level": "block",
+      "source_lesson": "第06课 P15"
+    },
+    {
+      "category_key": "清热",
+      "caution_groups": [
+        "脾胃虚寒者",
+        "阳虚怕冷者"
+      ],
+      "reason": "寒凉加重虚寒",
+      "level": "warn",
+      "source_lesson": "第06课 P15"
+    },
+    {
+      "category_key": "祛湿",
+      "caution_groups": [
+        "津液不足者",
+        "阴虚明显者"
+      ],
+      "reason": "利湿进一步伤津",
+      "level": "warn",
+      "source_lesson": "第06课 P15"
+    },
+    {
+      "category_key": "理气",
+      "caution_groups": [
+        "气虚严重者"
+      ],
+      "reason": "理气过度耗气",
+      "level": "warn",
+      "source_lesson": "第06课 P15"
+    }
+  ],
+  "ingredient_cautions": [
+    {
+      "ingredient": "人参",
+      "caution_groups": [
+        "实证",
+        "热证",
+        "高血压",
+        "严重失眠",
+        "感冒发热"
+      ],
+      "reason": "补气过盛可能上火",
+      "level": "warn",
+      "source_lesson": "第15课 P7；第05课 P11"
+    },
+    {
+      "ingredient": "黄芪",
+      "caution_groups": [
+        "感冒发热",
+        "实热证",
+        "阴虚火旺"
+      ],
+      "reason": "易助火",
+      "level": "warn",
+      "source_lesson": "第15课 P7"
+    },
+    {
+      "ingredient": "当归",
+      "caution_groups": [
+        "孕妇（尤早期）",
+        "月经过多",
+        "腹泻"
+      ],
+      "reason": "活血滑肠",
+      "level": "warn",
+      "source_lesson": "第15课 P7"
+    },
+    {
+      "ingredient": "阿胶",
+      "caution_groups": [
+        "脾胃虚弱",
+        "痰湿重",
+        "感冒发热"
+      ],
+      "reason": "滋腻碍胃",
+      "level": "warn",
+      "source_lesson": "第15课 P7"
+    },
+    {
+      "ingredient": "燕窝",
+      "caution_groups": [
+        "感冒发热",
+        "痰湿重"
+      ],
+      "reason": "滋腻敛邪",
+      "level": "warn",
+      "source_lesson": "第15课 P7"
+    },
+    {
+      "ingredient": "薏米",
+      "caution_groups": [
+        "孕妇",
+        "津液不足者"
+      ],
+      "reason": "滑利伤胎、伤津",
+      "level": "warn",
+      "source_lesson": "第15课 P7"
+    },
+    {
+      "ingredient": "山楂",
+      "caution_groups": [
+        "孕妇",
+        "胃酸过多者"
+      ],
+      "reason": "活血破气、刺激胃酸",
+      "level": "warn",
+      "source_lesson": "第15课 P7"
+    },
+    {
+      "ingredient": "萝卜",
+      "caution_groups": [
+        "气虚严重者",
+        "服用人参期间",
+        "脾胃虚弱便溏者"
+      ],
+      "reason": "破气削弱补气",
+      "level": "warn",
+      "source_lesson": "第15课 P7；第14课 P20"
+    },
+    {
+      "ingredient": "石斛",
+      "caution_groups": [
+        "阳虚怕冷者"
+      ],
+      "reason": "性微寒，阳虚者不宜",
+      "level": "warn",
+      "source_lesson": "第05课 P13"
+    },
+    {
+      "ingredient": "羊肉",
+      "caution_groups": [
+        "湿热体质",
+        "实热证"
+      ],
+      "reason": "性热，湿热实热者慎用",
+      "level": "warn",
+      "source_lesson": "第05课 P14"
+    },
+    {
+      "ingredient": "鹿茸",
+      "caution_groups": [
+        "阴虚火旺者"
+      ],
+      "reason": "力猛，阴虚火旺不宜",
+      "level": "warn",
+      "source_lesson": "第05课 P14"
+    },
+    {
+      "ingredient": "蜂蜜",
+      "caution_groups": [
+        "1岁以内婴儿"
+      ],
+      "reason": "婴儿不宜",
+      "level": "block",
+      "source_lesson": "第05课 P11"
+    },
+    {
+      "ingredient": "枸杞子",
+      "caution_groups": [
+        "感冒发热期间",
+        "腹泻期间"
+      ],
+      "reason": "外感与腹泻期间暂停",
+      "level": "warn",
+      "source_lesson": "第05课 P13"
+    },
+    {
+      "ingredient": "地黄",
+      "caution_groups": [
+        "孕妇",
+        "哺乳期妇女",
+        "婴幼儿"
+      ],
+      "reason": "2024 年第 4 号公告解读明确：孕妇、哺乳期妇女及婴幼儿等特殊人群不推荐食用",
+      "level": "block",
+      "source_lesson": "国家卫健委 2024 年第 4 号公告解读；资料包 V1.0 第六部分"
+    },
+    {
+      "ingredient": "麦冬",
+      "caution_groups": [
+        "孕妇",
+        "哺乳期妇女",
+        "婴幼儿"
+      ],
+      "reason": "2024 年第 4 号公告解读明确：孕妇、哺乳期妇女及婴幼儿等特殊人群不推荐食用",
+      "level": "block",
+      "source_lesson": "国家卫健委 2024 年第 4 号公告解读；资料包 V1.0 第六部分"
+    },
+    {
+      "ingredient": "天冬",
+      "caution_groups": [
+        "孕妇",
+        "哺乳期妇女",
+        "婴幼儿"
+      ],
+      "reason": "2024 年第 4 号公告解读明确：孕妇、哺乳期妇女及婴幼儿等特殊人群不推荐食用",
+      "level": "block",
+      "source_lesson": "国家卫健委 2024 年第 4 号公告解读；资料包 V1.0 第六部分"
+    },
+    {
+      "ingredient": "化橘红",
+      "caution_groups": [
+        "孕妇",
+        "哺乳期妇女",
+        "婴幼儿"
+      ],
+      "reason": "2024 年第 4 号公告解读明确：孕妇、哺乳期妇女及婴幼儿等特殊人群不推荐食用",
+      "level": "block",
+      "source_lesson": "国家卫健委 2024 年第 4 号公告解读；资料包 V1.0 第六部分"
+    }
+  ],
+  "dosage_limits": {
+    "_comment": "单次参考量（课件原文）。疗程标准见 treatment_course：7 天为一疗程（胡老师 2026-09-23 核定）",
+    "人参": {
+      "amount": "3-5 g/次",
+      "source_lesson": "第15课 P8；第08课 P6"
+    },
+    "黄芪": {
+      "amount": "10-30 g/次（汽锅鸡用 15-30 g）",
+      "source_lesson": "第15课 P8；第08课 P7"
+    },
+    "当归": {
+      "amount": "6-15 g/次（羊肉汤用 10-15 g）",
+      "source_lesson": "第15课 P8；第08课 P10"
+    },
+    "枸杞子": {
+      "amount": "6-12 g/次",
+      "source_lesson": "第15课 P8"
+    },
+    "菊花": {
+      "amount": "3-10 g/次",
+      "source_lesson": "第15课 P8"
+    },
+    "桂圆": {
+      "amount": "5-8 颗/次",
+      "source_lesson": "第08课 P12"
+    },
+    "红枣": {
+      "amount": "3-5 枚/次",
+      "source_lesson": "第08课 P12"
+    },
+    "山楂": {
+      "amount": "10-15 g/次",
+      "source_lesson": "第09课 P15"
+    },
+    "冬虫夏草": {
+      "amount": "3-5 根/次",
+      "source_lesson": "第09课 P9"
+    },
+    "阿胶糕": {
+      "amount": "每天 1-2 片",
+      "source_lesson": "第08课 P11"
+    }
+  },
+  "dosage_principles": [
+    "药材量应小于方剂量",
+    "间歇调理，不宜天天大量",
+    "警惕累积效应",
+    "个体差异，须因人调整"
+  ],
+  "compliance_phrases": {
+    "banned_words": [
+      "治疗",
+      "治愈",
+      "根治",
+      "疗效",
+      "消炎",
+      "抗菌",
+      "抗病毒",
+      "降血压",
+      "降血糖",
+      "降血脂",
+      "抗癌",
+      "防癌",
+      "抗肿瘤",
+      "包治百病",
+      "药到病除",
+      "100%有效",
+      "立竿见影",
+      "万能",
+      "不用吃药",
+      "替代药物治疗",
+      "停药就靠它"
+    ],
+    "banned_words_by_type": {
+      "医疗用语": [
+        "治疗",
+        "治愈",
+        "根治",
+        "疗效",
+        "消炎",
+        "抗菌",
+        "抗病毒",
+        "降血压",
+        "降血糖",
+        "降血脂",
+        "抗癌",
+        "防癌",
+        "抗肿瘤"
+      ],
+      "绝对化": [
+        "包治百病",
+        "药到病除",
+        "100%有效",
+        "立竿见影",
+        "最好",
+        "第一",
+        "万能"
+      ],
+      "替代医疗": [
+        "不用吃药",
+        "替代药物治疗",
+        "停药就靠它"
+      ]
+    },
+    "allowed_words": [
+      "调理体质",
+      "养生保健",
+      "辅助健康",
+      "按节气设计饮食方案",
+      "按体质设计饮食方案",
+      "传统食疗经验",
+      "食材营养价值",
+      "适合特定人群食用"
+    ],
+    "disclaimer": "本菜单为饮食养生调理建议，不能替代药物治疗，如有疾病请遵医嘱。",
+    "laws": [
+      "《广告法》",
+      "《食品安全法》",
+      "《药品管理法》"
+    ],
+    "source_lesson": "第15课 P9-P11"
+  },
+  "professional_boundary": {
+    "three_cannot": [
+      "不能诊断",
+      "不能开方",
+      "不能替代医疗"
+    ],
+    "referral_alarms": [
+      "不明原因体重明显下降",
+      "持续发热不退",
+      "便血或黑便",
+      "吞咽困难",
+      "胸痛胸闷",
+      "黄疸",
+      "症状持续加重或超过两周无缓解"
+    ],
+    "source_lesson": "第14课；第15课"
+  },
+  "treatment_course": {
+    "_comment": "胡老师 2026-09-23 核定：7 天为一疗程。间隔天数、长期服用上限课件未涉及，一律留空，禁止臆造。",
+    "default_days": 7,
+    "confirmed": true,
+    "confirmed_by": "胡老师核定",
+    "confirmed_at": "2026-09-23",
+    "items": [
+      {
+        "scope": "medicated",
+        "scope_label": "药用膳方（含药材的汤/羹/茶/酒/膏）",
+        "days": 7,
+        "advice": "连续服用 7 天为一疗程；一疗程结束后观察身体反应再决定是否继续",
+        "level": "tip",
+        "source": "胡老师核定 2026-09-23"
+      },
+      {
+        "scope": "daily",
+        "scope_label": "日常食养（不含药材的普通膳食）",
+        "days": null,
+        "advice": "可作日常饮食长期食用，不设疗程限制",
+        "level": "tip",
+        "source": "按 Q3 推论，待确认"
+      }
+    ],
+    "pending": [
+      "疗程间隔天数（吃满 7 天后停几天再进入下一疗程）—— 课件未涉及",
+      "是否按体质 / 膳方类别差异化疗程 —— 课件未涉及",
+      "长期连续服用的总时长上限 —— 课件未涉及"
+    ]
+  },
+  "adjudication_priority": {
+    "_comment": "冲突裁决优先级（胡老师 2026-09-23 确认）。数字越小优先级越高，高优先级直接压过低优先级。",
+    "confirmed": true,
+    "confirmed_by": "胡老师核定",
+    "confirmed_at": "2026-09-23",
+    "order": [
+      {
+        "rank": 1,
+        "key": "legal_catalog",
+        "label": "法律目录红线",
+        "action": "block",
+        "desc": "非药食同源、禁用品种，一票否决"
+      },
+      {
+        "rank": 2,
+        "key": "group_taboo",
+        "label": "人群禁忌",
+        "action": "block",
+        "desc": "孕妇/哺乳期/儿童/过敏/慢病/术前等禁用食材"
+      },
+      {
+        "rank": 3,
+        "key": "pair_conflict",
+        "label": "配伍相反相恶",
+        "action": "block/warn",
+        "desc": "十八反十九畏、相恶相畏"
+      },
+      {
+        "rank": 4,
+        "key": "constitution_taboo",
+        "label": "体质宜忌",
+        "action": "warn",
+        "desc": "体质少吃 / 通类伤正"
+      },
+      {
+        "rank": 5,
+        "key": "term_fit",
+        "label": "节气适配",
+        "action": "score",
+        "desc": "当季当地当体质"
+      },
+      {
+        "rank": 6,
+        "key": "taste_cost",
+        "label": "口味与成本",
+        "action": "score",
+        "desc": "同分时的兜底排序"
+      }
+    ],
+    "score_delta": {
+      "_comment": "与前端 scoreDish / 后端 matcher 保持一致，改这里需同步改代码",
+      "block": -300,
+      "warn": -80,
+      "tip": -5,
+      "synergy": 15
+    }
+  },
+  "chronic_diet_guidance": {
+    "_comment": "常见慢病饮食指导，课件原文摘录。仅作「宜食推荐 + 忌口原则」提示（tip 级），不构成治疗建议",
+    "_source_lesson": "第14课 P14",
+    "高血压": {
+      "name": "高血压",
+      "principle": "低盐·低脂·多吃钾丰富的食物",
+      "recommended": [
+        "芹菜",
+        "木耳",
+        "海带",
+        "山楂",
+        "菊花茶"
+      ],
+      "avoid": [
+        "高盐腌制食品",
+        "动物内脏",
+        "浓肉汤"
+      ],
+      "note": "钾有助于钠的排出，对控压有帮助",
+      "source_lesson": "第14课 P14"
+    },
+    "糖尿病": {
+      "name": "糖尿病",
+      "principle": "控制总能量·选低 GI 食物·定时定量",
+      "recommended": [
+        "苦瓜",
+        "燕麦",
+        "山药",
+        "葛根"
+      ],
+      "avoid": [
+        "精制糖",
+        "蜂蜜",
+        "含糖饮料",
+        "精制主食过量"
+      ],
+      "note": "低 GI 就是吃了血糖升得慢",
+      "source_lesson": "第14课 P14"
+    },
+    "高血脂": {
+      "name": "高血脂",
+      "principle": "低脂·高膳食纤维",
+      "recommended": [
+        "山楂",
+        "黑木耳",
+        "燕麦",
+        "海带",
+        "洋葱"
+      ],
+      "avoid": [
+        "动物油脂",
+        "油炸食品",
+        "肥肉"
+      ],
+      "note": "膳食纤维有助于脂质代谢",
+      "source_lesson": "第14课 P14"
+    },
+    "肥胖": {
+      "name": "肥胖",
+      "principle": "控制能量·增加饱腹感",
+      "recommended": [
+        "冬瓜",
+        "薏米",
+        "荷叶",
+        "白萝卜"
+      ],
+      "avoid": [
+        "高糖高脂",
+        "夜宵",
+        "含糖饮料"
+      ],
+      "note": "利水消脂的思路",
+      "source_lesson": "第14课 P14"
+    }
+  }
+}

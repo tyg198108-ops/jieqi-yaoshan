@@ -1,0 +1,113 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: "Microsoft YaHei", sans-serif; background: #f5f0e6; }
+
+.header { background: linear-gradient(135deg, #8B0000, #A52A2A); color: white; padding: 15px; text-align: center; font-size: 22px; font-weight: bold; position: relative; }
+.header .ver-tag { display: inline-block; margin-left: 8px; font-size: 11px; font-weight: normal; background: rgba(255,255,255,0.15); padding: 2px 8px; border-radius: 10px; vertical-align: middle; }
+.header .role-tag { position: absolute; right: 16px; top: 14px; font-size: 13px; font-weight: normal; background: rgba(255,255,255,0.18); padding: 5px 12px; border-radius: 20px; cursor: pointer; }
+.container { max-width: 1200px; margin: 20px auto; padding: 0 20px; }
+.card { background: white; border-radius: 12px; padding: 25px; margin-bottom: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+
+.hero { background: linear-gradient(135deg, #fff8e1, #ffecb3); border-radius: 12px; padding: 25px; margin-bottom: 20px; border-left: 5px solid #f59e0b; }
+.hero h1 { color: #92400e; margin-bottom: 10px; }
+.hero .sub { color: #b45309; margin-bottom: 10px; }
+.hero .note { color: #78350f; line-height: 1.8; }
+.hero .en { color: #a16207; font-size: 13px; letter-spacing: 0.5px; }
+
+.btn-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 20px 0; }
+.btn-card { background: white; padding: 25px; border-radius: 10px; text-align: center; cursor: pointer; border: 2px solid #eee; transition: 0.3s; }
+.btn-card:hover { border-color: #8B0000; transform: translateY(-2px); }
+.btn-icon { font-size: 45px; margin-bottom: 10px; }
+.btn-title { font-weight: bold; font-size: 17px; margin-bottom: 5px; }
+.btn-desc { color: #666; font-size: 13px; }
+
+.term-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 10px; margin-top: 15px; }
+.term-item { background: #fef3c7; padding: 12px; border-radius: 8px; text-align: center; cursor: pointer; }
+.term-item:hover { background: #fde68a; }
+.term-item.active { background: #f59e0b; color: white; font-weight: bold; }
+
+.dish-item { border: 1px solid #eee; border-radius: 8px; padding: 15px; margin-bottom: 10px; background: #fafaf9; }
+.dish-name { font-size: 17px; font-weight: bold; color: #8B0000; margin-bottom: 8px; }
+/* 席位标签：荤/素要求、食材类别、出品技法，一眼看出「五类必覆」是否落实 */
+.seat-tag { display: inline-block; font-size: 12px; font-weight: normal; color: #fff;
+  background: #8B0000; padding: 1px 8px; border-radius: 10px; margin-left: 6px; vertical-align: middle; }
+.seat-tag.gray { background: #6b7280; }
+.pairing-line { background: #f0fdf4; border-left: 3px solid #10b981; padding: 8px 12px;
+  margin: 8px 0; font-size: 13px; color: #065f46; line-height: 1.7; border-radius: 0 6px 6px 0; }
+.dish-meta { color: #555; font-size: 14px; margin: 5px 0; line-height: 1.7; }
+.dish-effect { color: #059669; margin: 8px 0; font-size: 14px; line-height: 1.7; }
+.dish-reason { background: #fffbeb; border-left: 3px solid #f59e0b; padding: 8px 12px; margin: 8px 0; font-size: 13px; }
+.dish-warn { color: #dc2626; font-size: 13px; margin-top: 5px; }
+
+.alert { border-radius: 6px; padding: 7px 11px; margin: 5px 0; font-size: 13px; line-height: 1.6; display: flex; gap: 8px; align-items: flex-start; }
+.alert-block { background: #fef2f2; border-left: 3px solid #dc2626; color: #991b1b; }
+.alert-warn  { background: #fffbeb; border-left: 3px solid #f59e0b; color: #92400e; }
+.alert-tip   { background: #eff6ff; border-left: 3px solid #3b82f6; color: #1e40af; }
+.alert-good  { background: #f0fdf4; border-left: 3px solid #10b981; color: #065f46; }
+.alert-src { color: #9ca3af; font-size: 12px; flex-shrink: 0; }
+.alert-flag { font-size: 11px; background: #f3f4f6; color: #6b7280; padding: 1px 5px; border-radius: 3px; margin-left: 4px; }
+
+.safe-summary { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 8px; padding: 15px; margin: 15px 0; }
+.safe-num { display: inline-block; min-width: 46px; padding: 3px 10px; border-radius: 20px; font-size: 13px; font-weight: bold; margin-right: 10px; }
+.safe-block { background: #dc2626; color: white; }
+.safe-warn { background: #f59e0b; color: white; }
+.safe-tip { background: #3b82f6; color: white; }
+
+.concept-box { background: #f0fdf4; border-radius: 8px; padding: 15px; margin: 15px 0; line-height: 1.8; }
+.warn-box { background: #fef2f2; border-radius: 8px; padding: 15px; color: #dc2626; margin: 15px 0; line-height: 1.6; }
+.nav-btn { margin-bottom: 15px; }
+
+/* 结果页导航条：吸顶，长菜单下滑时返回入口始终可见 */
+.result-bar {
+  position: sticky; top: 0; z-index: 20;
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  margin: -25px -25px 15px; padding: 12px 25px;
+  background: #fffdf8; border-bottom: 1px solid #f0e0c0;
+  border-radius: 12px 12px 0 0;
+}
+.result-bar-bottom {
+  position: static; margin: 25px -25px -25px;
+  border-bottom: none; border-top: 1px solid #f0e0c0; border-radius: 0 0 12px 12px;
+}
+.back-link {
+  display: inline-flex; align-items: center; height: 32px; padding: 0 14px;
+  font-size: 14px; font-family: inherit; color: #8B0000;
+  background: #fff; border: 1px solid #d9b38c; border-radius: 6px; cursor: pointer;
+  transition: background .15s, color .15s;
+}
+.back-link:hover { background: #8B0000; color: #fff; border-color: #8B0000; }
+.crumb { color: #92400e; font-size: 13px; }
+
+.ing-filter { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 15px 0 10px; }
+.ing-count { font-size: 13px; color: #6b7280; margin-bottom: 10px; min-height: 22px; }
+.ing-count b { color: #8B0000; }
+.ing-empty { color: #dc2626; margin-left: 10px; }
+
+.chronic-card { background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 8px; padding: 12px 15px; margin: 10px 0; font-size: 13px; line-height: 1.8; color: #075985; }
+.chronic-card b { color: #0369a1; }
+
+.role-mask { position: absolute; inset: 0; background: rgba(255,255,255,0.55); display: flex; align-items: center; justify-content: center; }
+.sub-note { color: #9ca3af; font-size: 12px; margin-top: 4px; }
+
+/* 生成失败：给可照做的步骤，而不是一句 "Failed to fetch" */
+.err-box { background: #fef2f2; border: 1px solid #fecaca; border-left: 4px solid #dc2626; border-radius: 8px; padding: 14px 16px; margin-top: 14px; font-size: 13px; }
+.err-title { font-weight: 700; color: #b91c1c; font-size: 14px; margin-bottom: 6px; }
+.err-why { color: #7f1d1d; line-height: 1.7; }
+.err-steps { margin: 8px 0 0 20px; padding: 0; color: #7f1d1d; line-height: 1.9; }
+.err-steps b { color: #b91c1c; }
+.err-detail { margin-top: 8px; padding: 6px 10px; background: #fff; border: 1px dashed #fca5a5; border-radius: 4px; color: #991b1b; font-size: 12px; word-break: break-all; }
+.err-actions { margin-top: 12px; display: flex; gap: 8px; }
+.cat-yes { color: #047857; background: #ecfdf5; border: 1px solid #a7f3d0; border-radius: 4px; padding: 2px 6px; font-size: 12px; white-space: nowrap; }
+.warn-bar { background: #fffbeb; border: 1px solid #fcd34d; border-left: 4px solid #d97706; border-radius: 8px; padding: 12px 15px; margin: 12px 0; font-size: 13px; line-height: 1.8; color: #92400e; }
+.warn-bar b { color: #b45309; }
+.proto-warn { background: #dc2626; color: #fff; padding: 10px 16px; font-size: 13px; line-height: 1.7; }
+.proto-warn b { background: #fff; color: #dc2626; padding: 1px 6px; border-radius: 3px; }
+
+@media print { .header, .nav-btn, .result-bar, .role-tag { display: none; } body { background: white; } }
+@media (max-width: 640px) {
+  .container { padding: 0 10px; }
+  .card { padding: 16px; }
+  .header { font-size: 18px; }
+  .header .role-tag { position: static; display: inline-block; margin-top: 8px; }
+  .result-bar { margin: -16px -16px 15px; padding: 10px 16px; }
+  .result-bar-bottom { margin: 20px -16px -16px; }
+}

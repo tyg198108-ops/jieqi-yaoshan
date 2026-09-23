@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# 数据库与运行产物
+*.db
+*.sqlite3
+*.log
+
+# 备份与中间产物
+*.bak
+*.bak.*
+_docx_pack.json
+*.orig
+
+# 前端依赖与缓存
+node_modules/
+.cache/
+.DS_Store
+Thumbs.db
+
+# 菜单原图与截图（仓库只留代码，图片过大）
+微信图片_*
+ScreenShot_*
+*.png
+*.jpg
+*.jpeg
+
+# 环境变量 / 密钥
+.env
+*.token

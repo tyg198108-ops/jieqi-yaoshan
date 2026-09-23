@@ -1,0 +1,149 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "updated": "2026-09-23",
+    "confirmed_by": "胡老师",
+    "note": "产品形态与用户分层配置。引擎只有一套，差异在外壳（入口、文案语气、字段可见性、导出物）。"
+  },
+
+  "decisions": {
+    "Q13_target_users": "A 从业者 + B 餐饮门店 + C 家庭用户，三类全做，按 B → A → C 顺序落地（2026-09-23 确认）",
+    "Q14_form_factor": "先做 Web（响应式），小程序延后到 P6（2026-09-23 确认）",
+    "Q15_llm": "引入 LLM，仅限表达层，事实必须来自知识库 + 规则引擎（2026-09-23 确认）"
+  },
+
+  "form_factor": {
+    "primary": "web",
+    "mobile_web": "responsive",
+    "miniprogram": "deferred",
+    "miniprogram_note": "P6 再做。Web 与小程序共用同一套后端 API，前端是两套外壳"
+  },
+
+  "build_order": ["B_store", "A_professional", "C_family"],
+  "build_order_reason": "B 付费意愿与客单价最高且胡老师餐饮资源可直接转化；A 与课件同源、可做培训与执业工具；C 盘子最大但变现最慢",
+
+  "target_users": {
+    "A_professional": {
+      "code": "A",
+      "name": "从业者",
+      "who": "药膳师、营养师、中医馆/养生馆技师、培训讲师、学员",
+      "core_job": "给客户出方案，并且能解释为什么",
+      "must_have": [
+        "规则命中明细（block/warn/tip 逐条 + 出处课节）",
+        "性味归经、剂量区间、疗程天数可见",
+        "方案可编辑、可保存、可导出给客户",
+        "知识问答（带出处）"
+      ],
+      "must_not": [
+        "不出现'诊断/开方/替代医疗'表述",
+        "不给超出知识库的建议"
+      ],
+      "tone": "专业、有出处、可复核",
+      "export": ["PDF 方案书", "客户版通俗文案"]
+    },
+    "B_store": {
+      "code": "B",
+      "name": "餐饮门店",
+      "who": "药膳餐厅、养生火锅、私房菜、社区食堂、酒店餐饮部",
+      "core_job": "把药膳做成能卖、能复制、能控成本的菜单",
+      "must_have": [
+        "按节气自动生成四季/月度菜单",
+        "成本核算 + 按人数换算采购量",
+        "出品 SOP（投料顺序、火候、克重）",
+        "服务员话术（合规版，不吹疗效）",
+        "多门店、多菜单模板"
+      ],
+      "must_not": [
+        "菜单文案不得出现疗效承诺与 21 个禁用词",
+        "不得声称治疗作用"
+      ],
+      "tone": "商用、可执行、算得清账",
+      "export": ["菜单卡", "采购单", "成本表", "服务员话术卡"]
+    },
+    "C_family": {
+      "code": "C",
+      "name": "家庭用户",
+      "who": "关注养生的普通家庭，尤其是主厨者、给老人孩子做饭的人",
+      "core_job": "今天吃什么，怎么买，怎么做",
+      "must_have": [
+        "一句话输入（节气/体质/家里有谁）出三菜一汤",
+        "买菜清单（克重 + 可替换）",
+        "傻瓜化步骤（不出现专业术语优先）",
+        "家里有孕妇/老人/小孩时的安全提示"
+      ],
+      "must_not": [
+        "不做体质诊断结论，只做倾向性建议",
+        "不给药材剂量自主调整空间（超量必须拦）"
+      ],
+      "tone": "说人话、短句、接地气",
+      "export": ["买菜清单", "步骤卡", "分享图"]
+    }
+  },
+
+  "feature_matrix": {
+    "_legend": "on=核心能力 / opt=可选 / hide=该角色下隐藏或折叠 / future=后续版本",
+    "engine_rules":            { "A": "on",   "B": "on",   "C": "on"   },
+    "rule_detail_with_source": { "A": "on",   "B": "opt",  "C": "hide" },
+    "constitution_test":       { "A": "on",   "B": "opt",  "C": "on"   },
+    "banquet_by_scene":        { "A": "on",   "B": "on",   "C": "on"   },
+    "family_4_1_1":            { "A": "opt",  "B": "opt",  "C": "on"   },
+    "menu_template_by_term":   { "A": "opt",  "B": "on",   "C": "opt"  },
+    "cost_calculation":        { "A": "hide", "B": "on",   "C": "opt"  },
+    "purchase_list":           { "A": "opt",  "B": "on",   "C": "on"   },
+    "cooking_sop":             { "A": "opt",  "B": "on",   "C": "on"   },
+    "waiter_script":           { "A": "opt",  "B": "on",   "C": "hide" },
+    "client_profile":          { "A": "on",   "B": "opt",  "C": "opt"  },
+    "multi_store":             { "A": "hide", "B": "on",   "C": "hide" },
+    "ai_explain":              { "A": "on",   "B": "on",   "C": "on"   },
+    "ai_menu_copy":            { "A": "opt",  "B": "on",   "C": "hide" },
+    "ai_qa":                   { "A": "on",   "B": "opt",  "C": "on"   }
+  },
+
+  "llm": {
+    "enabled": true,
+    "mode": "expression_only",
+    "mode_note": "只做表达与组织，不做事实生成。所有数字、禁忌、剂量、性味必须来自知识库或规则引擎输出",
+    "capabilities": [
+      {
+        "id": "ai_explain",
+        "name": "方案解读",
+        "desc": "把规则引擎输出改写成该角色看得懂的话",
+        "input": ["dish_id", "role", "constitution", "solar_term", "special_group", "engine_facts"],
+        "output": ["text", "sources", "disclaimer"]
+      },
+      {
+        "id": "ai_menu_copy",
+        "name": "菜单文案 / 服务员话术",
+        "desc": "生成合规的菜品描述与对客话术",
+        "input": ["dish_id", "store_name", "engine_facts"],
+        "output": ["text", "sources", "compliance_checked"]
+      },
+      {
+        "id": "ai_qa",
+        "name": "知识问答",
+        "desc": "基于课件与台账检索作答，答案必带出处；知识库未收录则明确拒答",
+        "input": ["question", "role"],
+        "output": ["text", "sources", "refused"]
+      }
+    ],
+    "hard_constraints": [
+      "禁止生成剂量、禁忌、性味、配伍结论",
+      "禁止输出诊断、开方、疗效承诺",
+      "输出必须过禁用词表（rules.json 21 词）后再返回",
+      "每个回答必须附免责声明",
+      "知识库未收录的问题，返回'知识库未收录，建议咨询执业医师'，不得硬答"
+    ],
+    "pipeline": "检索/组装事实 → LLM 改写 → 禁用词过滤 → 免责声明注入 → 返回",
+    "fallback": "无 API Key / 超时 / 报错时，回落到模板化文案（引擎事实直接拼接），功能不中断",
+    "provider": {
+      "default": "deepseek",
+      "switchable": true,
+      "note": "通过环境变量配置 base_url / model / api_key，不写死在代码里"
+    },
+    "params": {
+      "temperature": 0.2,
+      "max_tokens": 800,
+      "cache": true
+    }
+  }
+}

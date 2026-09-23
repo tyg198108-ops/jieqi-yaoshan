@@ -1,0 +1,686 @@
+[
+  {
+    "constitution_id": 1,
+    "question_text": "精力充沛吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 1
+  },
+  {
+    "constitution_id": 1,
+    "question_text": "睡眠好吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 2
+  },
+  {
+    "constitution_id": 1,
+    "question_text": "面色红润吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 3
+  },
+  {
+    "constitution_id": 1,
+    "question_text": "很少感冒吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 4
+  },
+  {
+    "constitution_id": 2,
+    "question_text": "容易疲劳吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 5
+  },
+  {
+    "constitution_id": 2,
+    "question_text": "说话声音低弱吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 6
+  },
+  {
+    "constitution_id": 2,
+    "question_text": "活动后易出汗吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 7
+  },
+  {
+    "constitution_id": 2,
+    "question_text": "容易感冒吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 8
+  },
+  {
+    "constitution_id": 3,
+    "question_text": "手脚发凉怕冷吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 9
+  },
+  {
+    "constitution_id": 3,
+    "question_text": "喜热饮热食吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 10
+  },
+  {
+    "constitution_id": 3,
+    "question_text": "大便稀溏吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 11
+  },
+  {
+    "constitution_id": 3,
+    "question_text": "比一般人怕冷吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 12
+  },
+  {
+    "constitution_id": 4,
+    "question_text": "手脚心发热口干吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 13
+  },
+  {
+    "constitution_id": 4,
+    "question_text": "容易盗汗吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 14
+  },
+  {
+    "constitution_id": 4,
+    "question_text": "大便干燥吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 15
+  },
+  {
+    "constitution_id": 4,
+    "question_text": "皮肤干燥吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 16
+  },
+  {
+    "constitution_id": 5,
+    "question_text": "身体困重腹部肥满吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 17
+  },
+  {
+    "constitution_id": 5,
+    "question_text": "面部油脂多吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 18
+  },
+  {
+    "constitution_id": 5,
+    "question_text": "胸闷痰多口黏吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 19
+  },
+  {
+    "constitution_id": 5,
+    "question_text": "大便黏马桶吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 20
+  },
+  {
+    "constitution_id": 6,
+    "question_text": "面部油亮易长痘吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 21
+  },
+  {
+    "constitution_id": 6,
+    "question_text": "口苦口干有口气吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 22
+  },
+  {
+    "constitution_id": 6,
+    "question_text": "大便黏滞小便黄吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 23
+  },
+  {
+    "constitution_id": 6,
+    "question_text": "容易烦躁不耐热吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 24
+  },
+  {
+    "constitution_id": 7,
+    "question_text": "面色晦暗有色斑吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 25
+  },
+  {
+    "constitution_id": 7,
+    "question_text": "身体有固定刺痛吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 26
+  },
+  {
+    "constitution_id": 7,
+    "question_text": "皮肤干燥粗糙吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 27
+  },
+  {
+    "constitution_id": 7,
+    "question_text": "痛经有血块吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 28
+  },
+  {
+    "constitution_id": 8,
+    "question_text": "情绪低落吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 29
+  },
+  {
+    "constitution_id": 8,
+    "question_text": "胸闷喜叹气吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 30
+  },
+  {
+    "constitution_id": 8,
+    "question_text": "容易焦虑多愁吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 31
+  },
+  {
+    "constitution_id": 8,
+    "question_text": "咽喉异物感吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 32
+  },
+  {
+    "constitution_id": 9,
+    "question_text": "容易过敏吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 33
+  },
+  {
+    "constitution_id": 9,
+    "question_text": "没感冒也打喷嚏吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 34
+  },
+  {
+    "constitution_id": 9,
+    "question_text": "皮肤易起荨麻疹吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 35
+  },
+  {
+    "constitution_id": 9,
+    "question_text": "皮肤一抓就红吗？",
+    "options": [
+      {
+        "text": "是",
+        "score": 2
+      },
+      {
+        "text": "偶尔",
+        "score": 1
+      },
+      {
+        "text": "否",
+        "score": 0
+      }
+    ],
+    "id": 36
+  }
+]

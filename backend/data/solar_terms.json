@@ -1,0 +1,940 @@
+[
+  {
+    "id": 1,
+    "name": "立春",
+    "english_name": "Start of Spring",
+    "season": "春",
+    "order": 1,
+    "date_range": "2月3-5日",
+    "climate_features": "阳气始生，风气当令",
+    "corresponding_organ": "肝",
+    "health_principle": "助阳生发，养肝疏肝",
+    "suitable_foods": [
+      "辛温发散食物",
+      "绿色蔬菜",
+      "芽菜",
+      "甘味养脾"
+    ],
+    "avoid_foods": [
+      "酸涩收敛",
+      "过于寒凉",
+      "油腻厚味"
+    ],
+    "recommended_ingredients": [
+      "韭菜",
+      "葱",
+      "姜",
+      "春笋",
+      "荠菜",
+      "枸杞"
+    ],
+    "seasonal_ingredients": [
+      "韭菜",
+      "春笋",
+      "荠菜",
+      "香椿",
+      "豆芽",
+      "菠菜"
+    ],
+    "culture_story": "立春咬春吃春饼，助阳生发",
+    "diet_notes": "少酸多甘助阳升发，忌生冷",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 2,
+    "name": "雨水",
+    "english_name": "Rain Water",
+    "season": "春",
+    "order": 2,
+    "date_range": "2月18-20日",
+    "climate_features": "湿气渐重，忽冷忽热",
+    "corresponding_organ": "肝脾",
+    "health_principle": "健脾祛湿，疏肝养脾",
+    "suitable_foods": [
+      "健脾祛湿",
+      "甘淡食物",
+      "养脾胃"
+    ],
+    "avoid_foods": [
+      "生冷寒凉",
+      "甜腻黏滞",
+      "辛辣燥烈"
+    ],
+    "recommended_ingredients": [
+      "山药",
+      "薏米",
+      "白扁豆",
+      "茯苓",
+      "大枣"
+    ],
+    "seasonal_ingredients": [
+      "山药",
+      "韭菜",
+      "豆苗",
+      "茼蒿",
+      "草莓",
+      "蜂蜜"
+    ],
+    "culture_story": "雨水东风解冻，养护脾胃防湿邪",
+    "diet_notes": "粥类养脾胃，山药薏米最佳",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 3,
+    "name": "惊蛰",
+    "english_name": "Awakening of Insects",
+    "season": "春",
+    "order": 3,
+    "date_range": "3月5-7日",
+    "climate_features": "春雷始鸣，肝气旺盛",
+    "corresponding_organ": "肝",
+    "health_principle": "清肝明目，疏肝理气",
+    "suitable_foods": [
+      "清肝明目",
+      "清淡甘润",
+      "蔬果"
+    ],
+    "avoid_foods": [
+      "大热大补",
+      "过于酸涩",
+      "油腻发物"
+    ],
+    "recommended_ingredients": [
+      "菊花",
+      "枸杞",
+      "菠菜",
+      "芹菜",
+      "梨",
+      "银耳"
+    ],
+    "seasonal_ingredients": [
+      "菠菜",
+      "芹菜",
+      "荠菜",
+      "马兰头",
+      "梨",
+      "枇杷"
+    ],
+    "culture_story": "惊蛰春雷响，肝火易旺宜清肝",
+    "diet_notes": "清淡清肝，少吃羊肉温补",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 4,
+    "name": "春分",
+    "english_name": "Spring Equinox",
+    "season": "春",
+    "order": 4,
+    "date_range": "3月20-22日",
+    "climate_features": "昼夜平分，气候温和",
+    "corresponding_organ": "肝脾",
+    "health_principle": "阴阳平衡，调和气血",
+    "suitable_foods": [
+      "平性食物",
+      "时令蔬菜",
+      "均衡搭配"
+    ],
+    "avoid_foods": [
+      "偏寒偏热",
+      "大寒大热"
+    ],
+    "recommended_ingredients": [
+      "春笋",
+      "荠菜",
+      "鸡蛋",
+      "香椿",
+      "山药"
+    ],
+    "seasonal_ingredients": [
+      "春笋",
+      "香椿",
+      "荠菜",
+      "螺蛳",
+      "马兰头",
+      "鸡蛋"
+    ],
+    "culture_story": "春分阴阳平衡，饮食寒热均衡",
+    "diet_notes": "寒热均衡不偏倚，春笋荠菜正当时",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 5,
+    "name": "清明",
+    "english_name": "Pure Brightness",
+    "season": "春",
+    "order": 5,
+    "date_range": "4月4-6日",
+    "climate_features": "气候清爽温暖",
+    "corresponding_organ": "肝肺",
+    "health_principle": "清肝降火，润肺止咳",
+    "suitable_foods": [
+      "清肝降火",
+      "润肺生津",
+      "野菜",
+      "蔬果"
+    ],
+    "avoid_foods": [
+      "发物",
+      "大热食物",
+      "辛辣刺激",
+      "海腥发物"
+    ],
+    "recommended_ingredients": [
+      "芹菜",
+      "苦菊",
+      "绿茶",
+      "艾草",
+      "马兰头"
+    ],
+    "seasonal_ingredients": [
+      "艾草",
+      "马兰头",
+      "螺蛳",
+      "竹笋",
+      "樱桃"
+    ],
+    "culture_story": "清明踏青吃青团，清肝降火",
+    "diet_notes": "清淡清肝，青团勿多食",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 6,
+    "name": "谷雨",
+    "english_name": "Grain Rain",
+    "season": "春",
+    "order": 6,
+    "date_range": "4月19-21日",
+    "climate_features": "雨水增多湿气重",
+    "corresponding_organ": "脾肝",
+    "health_principle": "健脾祛湿，养血柔肝",
+    "suitable_foods": [
+      "健脾祛湿",
+      "养血明目",
+      "甘淡养脾"
+    ],
+    "avoid_foods": [
+      "生冷瓜果",
+      "甜腻黏滑",
+      "辛辣燥热"
+    ],
+    "recommended_ingredients": [
+      "赤小豆",
+      "冬瓜",
+      "茯苓",
+      "薏米",
+      "枸杞"
+    ],
+    "seasonal_ingredients": [
+      "香椿",
+      "菠菜",
+      "春笋",
+      "桑葚",
+      "樱桃",
+      "枇杷"
+    ],
+    "culture_story": "谷雨雨生百谷，喝谷雨茶祛湿",
+    "diet_notes": "红豆薏米祛湿，薏米炒用减寒",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 7,
+    "name": "立夏",
+    "english_name": "Start of Summer",
+    "season": "夏",
+    "order": 7,
+    "date_range": "5月5-7日",
+    "climate_features": "气温升高心火旺",
+    "corresponding_organ": "心",
+    "health_principle": "养心清热，健脾养胃",
+    "suitable_foods": [
+      "养心安神",
+      "清热解暑",
+      "酸味生津"
+    ],
+    "avoid_foods": [
+      "过于温补",
+      "油腻厚味",
+      "辛辣燥热"
+    ],
+    "recommended_ingredients": [
+      "莲子",
+      "百合",
+      "小麦",
+      "苦瓜",
+      "绿豆",
+      "荷叶"
+    ],
+    "seasonal_ingredients": [
+      "蚕豆",
+      "苋菜",
+      "樱桃",
+      "青梅",
+      "黄瓜",
+      "丝瓜"
+    ],
+    "culture_story": "立夏称人吃立夏蛋，养心为先",
+    "diet_notes": "莲子百合养心，忌过食生冷",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 8,
+    "name": "小满",
+    "english_name": "Grain Buds",
+    "season": "夏",
+    "order": 8,
+    "date_range": "5月20-22日",
+    "climate_features": "湿热加重降雨多",
+    "corresponding_organ": "心脾",
+    "health_principle": "清热利湿，健脾和胃",
+    "suitable_foods": [
+      "清热利湿",
+      "苦味食物",
+      "清淡素食"
+    ],
+    "avoid_foods": [
+      "甘肥滋腻",
+      "生湿助湿",
+      "温热助火"
+    ],
+    "recommended_ingredients": [
+      "薏米",
+      "赤小豆",
+      "冬瓜",
+      "绿豆",
+      "苦瓜"
+    ],
+    "seasonal_ingredients": [
+      "苦菜",
+      "莴笋",
+      "枇杷",
+      "杨梅",
+      "黄瓜",
+      "冬瓜"
+    ],
+    "culture_story": "小满湿热渐盛，饮食清爽清淡",
+    "diet_notes": "冬瓜薏米清热利湿，苦菜当令",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 9,
+    "name": "芒种",
+    "english_name": "Grain in Ear",
+    "season": "夏",
+    "order": 9,
+    "date_range": "6月5-7日",
+    "climate_features": "梅雨季节湿气重",
+    "corresponding_organ": "脾心",
+    "health_principle": "健脾祛湿，清暑益气",
+    "suitable_foods": [
+      "健脾祛湿",
+      "清暑化湿",
+      "芳香化湿",
+      "酸味敛汗"
+    ],
+    "avoid_foods": [
+      "生冷冰饮",
+      "甜腻黏滞食物"
+    ],
+    "recommended_ingredients": [
+      "茯苓",
+      "白扁豆",
+      "山药",
+      "莲子",
+      "荷叶"
+    ],
+    "seasonal_ingredients": [
+      "杨梅",
+      "青梅",
+      "荔枝",
+      "桑葚",
+      "西瓜",
+      "空心菜"
+    ],
+    "culture_story": "芒种梅雨纷纷，健脾化湿为要",
+    "diet_notes": "藿香佩兰化湿，四神汤最宜",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 10,
+    "name": "夏至",
+    "english_name": "Summer Solstice",
+    "season": "夏",
+    "order": 10,
+    "date_range": "6月21-22日",
+    "climate_features": "阳气最盛阳极阴生",
+    "corresponding_organ": "心肾",
+    "health_principle": "养阴清心，生津止渴",
+    "suitable_foods": [
+      "养阴清热",
+      "生津止渴",
+      "酸味苦味食物"
+    ],
+    "avoid_foods": [
+      "过度贪凉",
+      "冰饮过量"
+    ],
+    "recommended_ingredients": [
+      "绿豆",
+      "苦瓜",
+      "鸭肉",
+      "西瓜",
+      "莲子",
+      "百合"
+    ],
+    "seasonal_ingredients": [
+      "西瓜",
+      "苦瓜",
+      "冬瓜",
+      "桃子",
+      "莲藕"
+    ],
+    "culture_story": "夏至一阴生，吃过水面解暑",
+    "diet_notes": "绿豆解暑但勿过冰，顾护阳气",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 11,
+    "name": "小暑",
+    "english_name": "Minor Heat",
+    "season": "夏",
+    "order": 11,
+    "date_range": "7月6-8日",
+    "climate_features": "炎热渐盛暑气重",
+    "corresponding_organ": "心脾",
+    "health_principle": "清热解暑，健脾养心",
+    "suitable_foods": [
+      "清热解暑",
+      "补气养阴",
+      "清淡饮食"
+    ],
+    "avoid_foods": [
+      "辛辣燥热",
+      "温补食物",
+      "暴饮暴食"
+    ],
+    "recommended_ingredients": [
+      "西瓜",
+      "荷叶",
+      "绿豆",
+      "冬瓜",
+      "莲子"
+    ],
+    "seasonal_ingredients": [
+      "西瓜",
+      "甜瓜",
+      "绿豆芽",
+      "茄子",
+      "黄鳝",
+      "茭白"
+    ],
+    "culture_story": "小暑入伏，黄鳝进补",
+    "diet_notes": "清淡饮食，西瓜绿豆解暑",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 12,
+    "name": "大暑",
+    "english_name": "Major Heat",
+    "season": "夏",
+    "order": 12,
+    "date_range": "7月22-24日",
+    "climate_features": "酷热难耐暑湿蒸",
+    "corresponding_organ": "心脾",
+    "health_principle": "清暑益气，养阴生津",
+    "suitable_foods": [
+      "清暑益气",
+      "气阴双补",
+      "生津止渴"
+    ],
+    "avoid_foods": [
+      "大热大补",
+      "辛辣烧烤",
+      "冰饮过量"
+    ],
+    "recommended_ingredients": [
+      "绿豆",
+      "冬瓜",
+      "西瓜",
+      "荷叶",
+      "莲子"
+    ],
+    "seasonal_ingredients": [
+      "西瓜",
+      "苦瓜",
+      "荔枝",
+      "龙眼",
+      "莲子",
+      "仙草"
+    ],
+    "culture_story": "大暑酷热，喝伏茶吃仙草",
+    "diet_notes": "西洋参补气阴，忌贪凉伤阳",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 13,
+    "name": "立秋",
+    "english_name": "Start of Autumn",
+    "season": "秋",
+    "order": 13,
+    "date_range": "8月7-9日",
+    "climate_features": "暑热未消秋燥起",
+    "corresponding_organ": "肺",
+    "health_principle": "清热润燥，养阴生津",
+    "suitable_foods": [
+      "滋阴润燥",
+      "养肺生津",
+      "少辛增酸",
+      "清补"
+    ],
+    "avoid_foods": [
+      "辛辣燥烈",
+      "温热大补",
+      "过早滋补"
+    ],
+    "recommended_ingredients": [
+      "百合",
+      "梨",
+      "莲藕",
+      "鸭肉",
+      "银耳"
+    ],
+    "seasonal_ingredients": [
+      "莲藕",
+      "菱角",
+      "芡实",
+      "梨",
+      "葡萄",
+      "秋葵"
+    ],
+    "culture_story": "立秋贴秋膘，清补不燥",
+    "diet_notes": "清补润燥，银耳百合梨汤",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 14,
+    "name": "处暑",
+    "english_name": "End of Heat",
+    "season": "秋",
+    "order": 14,
+    "date_range": "8月22-24日",
+    "climate_features": "暑气渐止秋老虎",
+    "corresponding_organ": "肺脾",
+    "health_principle": "滋阴润燥，健脾祛湿",
+    "suitable_foods": [
+      "滋阴润燥",
+      "安神助眠",
+      "健脾养胃"
+    ],
+    "avoid_foods": [
+      "过早温补",
+      "辛辣燥热",
+      "油腻厚味"
+    ],
+    "recommended_ingredients": [
+      "银耳",
+      "百合",
+      "莲子",
+      "蜂蜜",
+      "山药"
+    ],
+    "seasonal_ingredients": [
+      "菱角",
+      "莲藕",
+      "莲子",
+      "核桃",
+      "葡萄",
+      "龙眼"
+    ],
+    "culture_story": "处暑秋老虎，安神助眠",
+    "diet_notes": "莲子百合安神助眠",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 15,
+    "name": "白露",
+    "english_name": "White Dew",
+    "season": "秋",
+    "order": 15,
+    "date_range": "9月7-9日",
+    "climate_features": "天气转凉秋燥显",
+    "corresponding_organ": "肺",
+    "health_principle": "润肺生津，滋阴防燥",
+    "suitable_foods": [
+      "润肺生津",
+      "滋阴润燥",
+      "平补气血",
+      "酸甜"
+    ],
+    "avoid_foods": [
+      "辛辣燥烈",
+      "寒凉伤阳",
+      "生冷"
+    ],
+    "recommended_ingredients": [
+      "银耳",
+      "百合",
+      "梨",
+      "蜂蜜",
+      "杏仁"
+    ],
+    "seasonal_ingredients": [
+      "核桃",
+      "栗子",
+      "梨",
+      "葡萄",
+      "芋头",
+      "茭白"
+    ],
+    "culture_story": "白露一夜凉一夜，喝白露茶",
+    "diet_notes": "润肺防燥，核桃芝麻宜，忌寒凉",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 16,
+    "name": "秋分",
+    "english_name": "Autumn Equinox",
+    "season": "秋",
+    "order": 16,
+    "date_range": "9月22-24日",
+    "climate_features": "昼夜平分秋高气爽",
+    "corresponding_organ": "肺",
+    "health_principle": "阴阳平衡，滋阴润肺",
+    "suitable_foods": [
+      "平补滋阴",
+      "润肺生津",
+      "寒热均衡",
+      "酸味收敛"
+    ],
+    "avoid_foods": [
+      "大寒大热",
+      "辛辣刺激",
+      "过于发散"
+    ],
+    "recommended_ingredients": [
+      "百合",
+      "银耳",
+      "梨",
+      "蜂蜜",
+      "核桃"
+    ],
+    "seasonal_ingredients": [
+      "螃蟹",
+      "芋头",
+      "莲藕",
+      "栗子",
+      "梨",
+      "石榴",
+      "柿子"
+    ],
+    "culture_story": "秋分蟹肥，平补阴阳",
+    "diet_notes": "螃蟹性寒配姜醋，平补润燥",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 17,
+    "name": "寒露",
+    "english_name": "Cold Dew",
+    "season": "秋",
+    "order": 17,
+    "date_range": "10月8-9日",
+    "climate_features": "气温下降秋寒起",
+    "corresponding_organ": "肺脾",
+    "health_principle": "滋阴润肺，健脾养胃",
+    "suitable_foods": [
+      "温润食物",
+      "健脾养胃",
+      "温补气血",
+      "润燥"
+    ],
+    "avoid_foods": [
+      "寒凉生冷",
+      "辛辣香燥"
+    ],
+    "recommended_ingredients": [
+      "芝麻",
+      "核桃",
+      "银耳",
+      "红枣",
+      "板栗"
+    ],
+    "seasonal_ingredients": [
+      "山楂",
+      "柿子",
+      "栗子",
+      "菊花",
+      "萝卜",
+      "冬枣"
+    ],
+    "culture_story": "寒露菊花开，温润健脾",
+    "diet_notes": "板栗山药健脾，适当温补",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 18,
+    "name": "霜降",
+    "english_name": "Frost's Descent",
+    "season": "秋",
+    "order": 18,
+    "date_range": "10月23-24日",
+    "climate_features": "天气渐寒始霜降",
+    "corresponding_organ": "肺脾",
+    "health_principle": "润肺健脾，养阴润燥",
+    "suitable_foods": [
+      "养胃健脾",
+      "补肾强骨",
+      "润燥化痰",
+      "平补"
+    ],
+    "avoid_foods": [
+      "过于寒凉",
+      "辛辣燥烈",
+      "滋腻碍胃"
+    ],
+    "recommended_ingredients": [
+      "萝卜",
+      "板栗",
+      "山药",
+      "牛肉",
+      "梨"
+    ],
+    "seasonal_ingredients": [
+      "柿子",
+      "萝卜",
+      "板栗",
+      "山药",
+      "牛肉",
+      "橘子"
+    ],
+    "culture_story": "霜降吃柿子，进补好时机",
+    "diet_notes": "萝卜顺气，牛肉温补，柿子勿空腹",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 19,
+    "name": "立冬",
+    "english_name": "Start of Winter",
+    "season": "冬",
+    "order": 19,
+    "date_range": "11月7-8日",
+    "climate_features": "气温骤降阳潜藏",
+    "corresponding_organ": "肾",
+    "health_principle": "温补阳气，补肾养肾",
+    "suitable_foods": [
+      "温补食物",
+      "补肾食物",
+      "高热量食物",
+      "黑色食物"
+    ],
+    "avoid_foods": [
+      "生冷寒凉",
+      "寒凉瓜果"
+    ],
+    "recommended_ingredients": [
+      "羊肉",
+      "牛肉",
+      "核桃",
+      "黑芝麻",
+      "桂圆"
+    ],
+    "seasonal_ingredients": [
+      "羊肉",
+      "牛肉",
+      "萝卜",
+      "白菜",
+      "栗子",
+      "山楂"
+    ],
+    "culture_story": "立冬补冬，开始进补",
+    "diet_notes": "循序渐进进补，羊肉牛肉温阳",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 20,
+    "name": "小雪",
+    "english_name": "Minor Snow",
+    "season": "冬",
+    "order": 20,
+    "date_range": "11月22-23日",
+    "climate_features": "气温下降始降雪",
+    "corresponding_organ": "肾",
+    "health_principle": "温补肾阳，滋补肾阴",
+    "suitable_foods": [
+      "温阳补肾",
+      "健脾暖胃",
+      "黑色入肾",
+      "温热食物"
+    ],
+    "avoid_foods": [
+      "生冷寒凉",
+      "冰凉食物",
+      "苦寒"
+    ],
+    "recommended_ingredients": [
+      "羊肉",
+      "牛肉",
+      "核桃",
+      "桂圆",
+      "生姜"
+    ],
+    "seasonal_ingredients": [
+      "羊肉",
+      "牛肉",
+      "白萝卜",
+      "大白菜",
+      "橙子",
+      "山楂"
+    ],
+    "culture_story": "小雪腌菜，温肾益阳",
+    "diet_notes": "羊肉配萝卜，温而不燥",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 21,
+    "name": "大雪",
+    "english_name": "Major Snow",
+    "season": "冬",
+    "order": 21,
+    "date_range": "12月6-8日",
+    "climate_features": "大雪纷飞天寒地冻",
+    "corresponding_organ": "肾",
+    "health_principle": "温补肾阳，填精补髓",
+    "suitable_foods": [
+      "温阳散寒",
+      "补肾填精",
+      "高热量肉类"
+    ],
+    "avoid_foods": [
+      "生冷寒凉",
+      "冰镇冷饮"
+    ],
+    "recommended_ingredients": [
+      "羊肉",
+      "核桃",
+      "桂圆",
+      "当归"
+    ],
+    "seasonal_ingredients": [
+      "羊肉",
+      "牛肉",
+      "萝卜",
+      "白菜",
+      "冬枣",
+      "橙子"
+    ],
+    "culture_story": "大雪腌肉，温阳进补",
+    "diet_notes": "当归生姜羊肉汤温阳补血",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 22,
+    "name": "冬至",
+    "english_name": "Winter Solstice",
+    "season": "冬",
+    "order": 22,
+    "date_range": "12月21-23日",
+    "climate_features": "白昼最短阴极阳生",
+    "corresponding_organ": "肾",
+    "health_principle": "补肾温阳，阴阳双补",
+    "suitable_foods": [
+      "温阳补肾",
+      "阴阳双补",
+      "温热填精"
+    ],
+    "avoid_foods": [
+      "生冷寒凉",
+      "冰镇食物"
+    ],
+    "recommended_ingredients": [
+      "羊肉",
+      "黄芪",
+      "核桃",
+      "当归"
+    ],
+    "seasonal_ingredients": [
+      "羊肉",
+      "白萝卜",
+      "白菜",
+      "桂圆",
+      "年糕"
+    ],
+    "culture_story": "冬至大如年，进补关键节点",
+    "diet_notes": "人参黄芪补气，补而不燥",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 23,
+    "name": "小寒",
+    "english_name": "Minor Cold",
+    "season": "冬",
+    "order": 23,
+    "date_range": "1月5-7日",
+    "climate_features": "天气寒冷进三九",
+    "corresponding_organ": "肾脾",
+    "health_principle": "温阳散寒，补肾健脾",
+    "suitable_foods": [
+      "温阳散寒",
+      "温补脾肾",
+      "补气养血"
+    ],
+    "avoid_foods": [
+      "生冷寒凉",
+      "冰饮",
+      "寒性瓜果"
+    ],
+    "recommended_ingredients": [
+      "羊肉",
+      "牛肉",
+      "核桃",
+      "桂圆",
+      "黄芪"
+    ],
+    "seasonal_ingredients": [
+      "羊肉",
+      "牛肉",
+      "萝卜",
+      "腊味",
+      "糖炒栗子"
+    ],
+    "culture_story": "小寒进三九，喝腊八粥",
+    "diet_notes": "杜仲猪腰补肾，腊八粥暖胃",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  },
+  {
+    "id": 24,
+    "name": "大寒",
+    "english_name": "Major Cold",
+    "season": "冬",
+    "order": 24,
+    "date_range": "1月20-21日",
+    "climate_features": "严寒未消将迎春",
+    "corresponding_organ": "肾脾",
+    "health_principle": "温补脾肾，养精蓄锐",
+    "suitable_foods": [
+      "温补脾肾",
+      "固肾益精",
+      "清淡补益"
+    ],
+    "avoid_foods": [
+      "生冷寒凉",
+      "燥热大补过量"
+    ],
+    "recommended_ingredients": [
+      "羊肉",
+      "鸡肉",
+      "核桃",
+      "山药",
+      "莲子"
+    ],
+    "seasonal_ingredients": [
+      "羊肉",
+      "鸡肉",
+      "萝卜",
+      "柑橘",
+      "荸荠",
+      "年糕"
+    ],
+    "culture_story": "大寒迎年，准备过年",
+    "diet_notes": "清淡补益不宜燥热，准备迎新",
+    "english_name_source": "通用官方译名（UNESCO 二十四节气英译）"
+  }
+]
