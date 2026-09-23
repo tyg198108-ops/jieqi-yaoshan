@@ -1,0 +1,9 @@
+# 节气药膳师 · 云端依赖（云函数运行时安装，只有 requirements.txt 会被识别）
+# 与 requirements.txt 的差异：去掉 uvicorn。
+# 云端由云函数网关调 index.main 直接跑 ASGI，不启本地服务器；
+# uvicorn 体积不小，省掉能明显加快冷启动安装。
+fastapi>=0.104
+sqlalchemy>=2.0
+pydantic>=2.5
+python-multipart>=0.0.6
+jinja2>=3.1

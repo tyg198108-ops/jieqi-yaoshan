@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>节气药膳师 · 专业版</title>
-<link rel="stylesheet" href="css/app.css?v=2026.09.23f">
+<meta name="description" content="按节气、体质与场景生成经过规则引擎安全校验的药膳席单，供餐饮门店、从业者与家庭参考。">
+<link rel="stylesheet" href="css/app.css?v=2026.09.23g">
 <link rel="stylesheet" href="vendor/element-plus.css" onerror="if(!document.getElementById('epcssfb')){var l=document.createElement('link');l.id='epcssfb';l.rel='stylesheet';l.href='https://unpkg.com/element-plus/dist/index.css';document.head.appendChild(l);}">
 </head>
 <body>
@@ -19,11 +20,21 @@
 <div id="app">
   <div class="header">
     🍲 节气药膳师 · 专业版
-    <span class="ver-tag" title="前端版本号。刷新后若仍是旧版本号，说明浏览器还在使用缓存文件">v2026.09.23f</span>
+    <span class="ver-tag" title="前端版本号。刷新后若仍是旧版本号，说明浏览器还在使用缓存文件">v2026.09.23g</span>
     <span class="role-tag" @click="s.showRolePicker=true">{{roleInfo.icon}} {{roleInfo.name}} · 切换</span>
+    <span class="role-tag" @click="YSC.open()" title="保存过的席单都存在这里">👤 我的方案</span>
   </div>
   <div class="container">
     <component :is="currentComp" :s="s"/>
+  </div>
+  <!-- 合规：健康类内容的兜底声明，放在底部但不参与拦截逻辑 -->
+  <div class="foot-disclaimer">
+    本工具依据中医食养理论与公开资料给出<b>饮食参考建议</b>，不构成医疗诊断、治疗或用药建议，不能替代医师诊疗。
+    孕妇、哺乳期、儿童、老年人及慢性病患者请在专业医师指导下使用；
+    出现不适请立即停用并及时就医。
+    <span class="foot-links">
+      <a href="javascript:void(0)" @click="YSC.open('account')">隐私说明</a>
+    </span>
   </div>
   <el-dialog v-model="s.showRolePicker" title="先用哪个身份？" width="560px" :close-on-click-modal="false" :show-close="!!s.roleKey">
     <p style="color:#666;font-size:13px;margin-bottom:15px">三种身份共用同一套规则引擎，差别只在看什么、看多细。随时可切换。</p>
@@ -36,16 +47,22 @@
       </div>
     </div>
   </el-dialog>
+  <cloud-panel :s="s"/>
 </div>
 
 <script src="vendor/vue.global.js"></script>
 <script>if(typeof Vue==='undefined'){document.write('<scr'+'ipt src="https://unpkg.com/vue@3/dist/vue.global.js"><\/scr'+'ipt>');}</script>
 <script src="vendor/element-plus.js"></script>
 <script>if(typeof ElementPlus==='undefined'){document.write('<scr'+'ipt src="https://unpkg.com/element-plus"><\/scr'+'ipt>');}</script>
-<script src="./app-data.js?v=2026.09.23f"></script>
-<script src="js/api.js?v=2026.09.23f"></script>
-<script src="js/role.js?v=2026.09.23f"></script>
-<script src="js/pages.js?v=2026.09.23f"></script>
-<script src="js/app.js?v=2026.09.23f"></script>
+<!-- 云开发 JS SDK 改为 cloud.js 里动态注入：同步 <script> 会让首屏等 CDN，
+     CDN 慢或不可达时整页卡住白屏，违背「云服务不可用时网站照常能用」这条原则。 -->
+<script src="./app-data.js?v=2026.09.23g"></script>
+<script src="js/api.js?v=2026.09.23g"></script>
+<script src="js/role.js?v=2026.09.23g"></script>
+<script src="js/cloud-config.js?v=2026.09.23g"></script>
+<script src="js/cloud.js?v=2026.09.23g"></script>
+<script src="js/cloud-panel.js?v=2026.09.23g"></script>
+<script src="js/pages.js?v=2026.09.23g"></script>
+<script src="js/app.js?v=2026.09.23g"></script>
 </body>
 </html>

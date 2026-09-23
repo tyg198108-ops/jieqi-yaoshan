@@ -19,22 +19,67 @@
 
   var DEFAULT_ORIGIN = 'http://127.0.0.1:8000';
 
-  /* ---- 请求基址 ----
-     用 file:// 双击打开时，'/api/xxx' 会被解析成 file:///api/xxx，fetch 必然失败。
-     这里自动补成后端地址；正常经 http://127.0.0.1:8000 打开时基址为空，行为不变。
-     需要连别的机器上的后端，可在控制台执行 localStorage.setItem('YS_API_BASE','http://192.168.x.x:8000') */
+  /* ---- 后端基址：多候选自动探测 ----
+     三种运行环境下，后端地址不一样：
+       本地双击 bat   → 同源 '/api'（BASE 为空）
+       file:// 打开    → 必须补 http://127.0.0.1:8000
+       静态托管上线    → 前端在 xxx.tcloudbaseapp.com，后端在 xxx.service.tcloudbase.com，
+                         跨域、不同域名，基址必须从 cloud-config 里取
+     做法：按顺序探测每个候选的 /api/health，第一个通的就用它。
+     上线时只需改 js/cloud-config.js 的 apiBase，不用动这里。
+     手动覆盖优先级最高：localStorage.setItem('YS_API_BASE','http://...') */
   var BASE = '';
-  try {
-    if (global.location && global.location.protocol === 'file:') BASE = DEFAULT_ORIGIN;
-    var ov = global.localStorage && global.localStorage.getItem('YS_API_BASE');
-    if (ov) BASE = ov;
-  } catch (e) { /* 隐私模式下 localStorage 不可用，忽略 */ }
-
-  function url(path) { return path.charAt(0) === '/' ? BASE + path : path; }
+  var probing = null;
 
   function isFileProtocol() {
     try { return !!global.location && global.location.protocol === 'file:'; } catch (e) { return false; }
   }
+
+  function overrideBase() {
+    try { return global.localStorage && global.localStorage.getItem('YS_API_BASE'); } catch (e) { return null; }
+  }
+
+  function candidates() {
+    var ov = overrideBase();
+    if (ov) return [String(ov).replace(/\/+$/, '')];
+    var list = [];
+    if (isFileProtocol()) list.push(DEFAULT_ORIGIN);
+    var cfg = global.YS_CLOUD_CONFIG || {};
+    if (cfg.apiBase) list.push(String(cfg.apiBase).replace(/\/+$/, ''));
+    list.push('');                       // 同源兜底
+    return list;
+  }
+
+  function ensureBase(force) {
+    if (probing && !force) return probing;
+    probing = null;
+    var list = candidates();
+    if (list.length === 1) {
+      BASE = list[0];
+      probing = Promise.resolve(BASE);
+      return probing;
+    }
+    function go(i) {
+      if (i >= list.length) {            // 全都没通：落回同源，错误信息里能看到是哪次失败
+        BASE = list[list.length - 1];
+        return Promise.resolve(BASE);
+      }
+      BASE = list[i];
+      return request(EP.health, { headers: { Accept: 'application/json' } }, 4000)
+        .then(function () { return BASE; }, function () { return go(i + 1); });
+    }
+    probing = go(0);
+    return probing;
+  }
+
+  /* 同步预设基址：file:// 双击的场景下不能等到探测结束才拼 URL，
+     否则首屏那几个请求的路径会是相对的（/api/health 被解析成 file:///api/health）。 */
+  (function presetBase() {
+    var list = candidates();
+    BASE = list[0] || '';
+  })();
+
+  function url(path) { return path.charAt(0) === '/' ? BASE + path : path; }
 
   /* 统一错误类型：上层靠 kind 决定给用户看什么，而不是靠解析 message 文本 */
   function ApiError(kind, message, extra) {
@@ -130,7 +175,9 @@
   /* 首屏加载：先花 5 秒探一次 /api/health，探不通就直接走本地副本，
      不用等 9 个接口逐个超时。探通了再并发取全部数据。 */
   function loadAll() {
-    return get(EP.health, 5000).then(function () {
+    return ensureBase().then(function () {
+      return get(EP.health, 5000);
+    }).then(function () {
       return Promise.all([
         get(EP.terms), get(EP.constits), get(EP.questions), get(EP.ingredients),
         get(EP.dishes), get(EP.profile), get(EP.groups), get(EP.rules), get(EP.chronic)
@@ -150,7 +197,9 @@
 
   /* 探后端是否活着：{ up, kind, detail } */
   function diagnose() {
-    return get(EP.health, 4000).then(function (r) {
+    return ensureBase().then(function () {
+      return get(EP.health, 4000);
+    }).then(function (r) {
       return { up: true, detail: r || {} };
     }).catch(function (e) {
       return { up: false, kind: (e && e.kind) || 'unknown', detail: (e && e.detail) || (e && e.message) || '' };
@@ -164,6 +213,9 @@
     loadAll: loadAll,
     diagnose: diagnose,
     isFileProtocol: isFileProtocol,
+    /* 后端地址变了（比如刚启动起来）时用 force=true 重新探测 */
+    resetBase: function () { return ensureBase(true); },
+    ensureBase: ensureBase,
     apiOrigin: function () { return BASE || (isFileProtocol() ? '（file:// 已自动补为 ' + BASE + '）' : location.origin); },
     defaultOrigin: DEFAULT_ORIGIN,
     generateBanquet: function (payload) { return post(EP.generate, payload); }

@@ -111,3 +111,24 @@ body { font-family: "Microsoft YaHei", sans-serif; background: #f5f0e6; }
   .result-bar { margin: -16px -16px 15px; padding: 10px 16px; }
   .result-bar-bottom { margin: 20px -16px -16px; }
 }
+
+/* ---------- 云端「我的方案」---------- */
+.plan-list { max-height: 46vh; overflow-y: auto; }
+.plan-item { display: flex; align-items: center; gap: 10px; padding: 11px 12px;
+  border: 1px solid #e5e7eb; border-radius: 8px; margin-bottom: 8px; background: #fff; }
+.plan-item:hover { border-color: #d1d5db; background: #f9fafb; }
+.plan-main { flex: 1; min-width: 0; }
+.plan-title { font-size: 14px; color: #111827; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.plan-meta { font-size: 12px; color: #6b7280; margin-top: 4px; }
+.plan-ops { display: flex; gap: 6px; flex-shrink: 0; }
+
+/* ---------- 页脚合规声明 ---------- */
+.foot-disclaimer { max-width: 900px; margin: 24px auto 40px; padding: 14px 18px;
+  font-size: 12px; line-height: 1.9; color: #6b7280; background: #f9fafb;
+  border: 1px solid #e5e7eb; border-radius: 8px; }
+.foot-disclaimer b { color: #374151; }
+.foot-links { margin-left: 6px; }
+.foot-links a { color: #8B0000; text-decoration: none; margin: 0 6px; }
+.foot-links a:hover { text-decoration: underline; }
+
+@media print { .foot-disclaimer { display: none; } }

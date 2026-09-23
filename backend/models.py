@@ -56,7 +56,7 @@ class Ingredient(Base):
     four_natures = Column(String(10), comment="四气:寒/凉/平/温/热")
     five_flavors = Column(JSON, comment="五味:辛/甘/酸/苦/咸/淡/涩")
     meridian_tropism = Column(JSON, comment="归经")
-    efficacy_chinese = Column(Text, comment="中医功效主治")
+    efficacy_chinese = Column(Text, comment="中医功效概要（食养层面，不作医疗宣称）")
     nutrition_info = Column(Text, comment="现代营养特点")
     suitable_seasons = Column(JSON, comment="适用季节/节气")
     suitable_constitutions = Column(JSON, comment="适用体质")

@@ -138,6 +138,8 @@
             curTerm: curTerm,
             roleInfo: roleInfo,
             currentComp: currentComp,
+            /* 模板里用 YSC.open() 打开「我的方案」浮层 */
+            YSC: global.YSC,
             seasonName: function (x) { return SEASON_OF[x] || x; },
             pickRole: function (key) {
               state.role.set(key);
@@ -157,9 +159,16 @@
       app.component('page-test', global.PAGES.test);
       app.component('page-banquet', global.PAGES.banquet);
       app.component('page-ingredient', global.PAGES.ingredient);
+      if (global.CLOUD_PANEL) app.component('cloud-panel', global.CLOUD_PANEL);
 
       app.use(global.ElementPlus);
       app.mount('#app');
+
+      /* 云服务异步初始化：成功与否都不影响主流程。
+         放 mount 之后，避免它卡住首屏渲染。 */
+      if (global.YSCloud) {
+        global.YSCloud.init().catch(function () { /* 已在 state.error 里记下原因 */ });
+      }
 
       global.__state = state;
     }).catch(function (e) {

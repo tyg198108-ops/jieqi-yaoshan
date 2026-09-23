@@ -88,9 +88,11 @@ function fetchPage(path) {
   const tC = textOf();
   console.log('\n--- C 家庭角色 ---');
   [
-    /* 席单结构由后端场景决定，前端不再按角色裁剪；C 端看到的是完整的分组席单 */
-    ['按上菜分组显示', /迎宾冷菜（3道）/.test(tC)],
+    /* 席单结构由后端场景决定，前端不再按角色裁剪；C 端看到的是完整的分组席单。
+       断言随养生宴 17 道结构（冷菜6+热菜8+汤1+点心/主食1+茶饮1）同步更新过。 */
+    ['按场景出完整席单', tC.indexOf('养生宴') >= 0 && /17道/.test(tC)],
     ['显示席面构成', tC.indexOf('席面构成') >= 0],
+    ['云端「保存方案」可用', tC.indexOf('保存方案') >= 0],
     ['C 端隐藏规则出处', tC.indexOf('出处：') < 0],
     ['C 端仍显示安全汇总', tC.indexOf('安全校验汇总') >= 0],
     ['C 端仍显示疗程建议', tC.indexOf('疗程建议') >= 0],
@@ -102,9 +104,9 @@ function fetchPage(path) {
   const tA = textOf();
   console.log('\n--- A 从业者角色 ---');
   [
-    ['显示分组席单', /迎宾冷菜（3道）/.test(tA)],
+    ['显示完整分组席单', /迎宾冷菜|冷菜/.test(tA)],
     ['A 端显示规则出处', tA.indexOf('出处：') >= 0],
-    ['A 端显示席面名', tA.indexOf('养生正席') >= 0],
+    ['A 端显示席面名', tA.indexOf('节气养生宴') >= 0],
   ].forEach(([n, ok]) => console.log((ok ? '[OK]   ' : '[FAIL] ') + n));
   console.log('片段：' + tA.slice(0, 160));
 

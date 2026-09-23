@@ -201,6 +201,7 @@
       '    <span class="crumb">生成席单 › <b>膳食结果</b></span>',
       '    <span style="flex:1"></span>',
       '    <el-button size="small" @click="s.page=\'home\'">首页</el-button>',
+      '    <el-button size="small" type="success" @click="savePlan" :loading="savingPlan">💾 保存方案</el-button>',
       '    <el-button size="small" @click="discard">✕ 放弃结果</el-button>',
       '    <el-button size="small" @click="print">🖨️ 打印/PDF</el-button>',
       '  </div>',
@@ -335,6 +336,8 @@
       '      <span class="crumb">{{s.banquet.solar_term.name}} · {{s.banquet.main_constitution.name}} · {{shown.length}} 道</span>',
       '      <span style="flex:1"></span>',
       '      <el-button type="primary" @click="generate" :loading="s.loading">🔄 重新生成</el-button>',
+      '      <el-button type="success" @click="savePlan" :loading="savingPlan">💾 保存方案</el-button>',
+      '      <el-button @click="YSC.open()">👤 我的方案</el-button>',
       '    </div>',
       '  </div>',
       '</div>'
@@ -423,6 +426,13 @@
           return p.disclaimer || '本菜单为饮食养生调理建议，不能替代药物治疗，如有疾病请遵医嘱。';
         }),
         typeName: function (t) { return TYPE_NAME[t] || t; },
+        /* 保存方案到云开发。云服务不可用时 YSC.save 内部会给出明确提示，
+           不会静默失败——用户点完必须知道自己到底存没存上。 */
+        savePlan: function () { return global.YSC.save(s); },
+        savingPlan: Vue.computed(function () {
+          return !!(global.YSC && global.YSC.ui && global.YSC.ui.saving);
+        }),
+        YSC: global.YSC,
         print: function () { global.print(); },
         generate: doGenerate,
         recheck: recheck

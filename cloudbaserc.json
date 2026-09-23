@@ -1,0 +1,36 @@
+{
+  "version": "2.0",
+  "envId": "jieqi-yaoshan-d7gd6ypfscd10299f",
+  "region": "ap-shanghai",
+  "framework": {
+    "name": "jieqi-yaoshan",
+    "plugins": {}
+  },
+  "functions": [
+    {
+      "name": "yaoshan-api",
+      "params": {
+        "path": "dist/cloudfunction"
+      },
+      "inputs": {
+        "path": "dist/cloudfunction"
+      },
+      "config": {
+        "handler": "index.main",
+        "runtime": "Python3.10",
+        "timeout": 60,
+        "memorySize": 512,
+        "installDependency": true,
+        "envVariables": {
+          "YS_API_ONLY": "1",
+          "YS_DB_PATH": "/tmp/yaoshan.db",
+          "YS_VERSION": "2026.09.23g"
+        }
+      }
+    }
+  ],
+  "hosting": {
+    "path": "dist/web",
+    "deployType": "hosting"
+  }
+}
